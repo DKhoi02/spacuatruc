@@ -27,7 +27,7 @@
   <rect x="34" y="24" width="232" height="472" rx="28" fill="#fbf6f0" stroke="#e8d2b8" stroke-width="2"/>
   <rect x="115" y="32" width="70" height="14" rx="7" fill="#3d2c25"/>
   <rect x="48" y="56" width="204" height="28" rx="10" fill="#efe6dc"/>
-  <text x="150" y="75" font-size="12" fill="#8a5f4b" text-anchor="middle">dkhoi02.github.io/spa_web_game</text>
+  <text x="150" y="75" font-size="12" fill="#8a5f4b" text-anchor="middle">dkhoi02.github.io/spacuatruc</text>
   <g>
     <rect x="58" y="96" width="184" height="110" rx="14" fill="#f4e6d6"/>
     <use href="#ins-app-icon" x="122" y="110" width="56" height="56"/>
@@ -44,7 +44,7 @@
   <rect x="130" y="174" width="40" height="5" rx="2.5" fill="#d8c8b8"/>
   <use href="#ins-app-icon" x="50" y="190" width="34" height="34"/>
   <text x="94" y="204" font-size="13" font-weight="700" fill="#3d2c25">Spa của Trúc</text>
-  <text x="94" y="219" font-size="11" fill="#8a5f4b">dkhoi02.github.io/spa_web_game</text>
+  <text x="94" y="219" font-size="11" fill="#8a5f4b">dkhoi02.github.io/spacuatruc</text>
   <path d="M46 236 H254" stroke="#efe6dc" stroke-width="2"/>
   <circle cx="66" cy="264" r="15" fill="#cfe3e6"/><circle cx="108" cy="264" r="15" fill="#a9c9b3"/><circle cx="150" cy="264" r="15" fill="#f0c6b8"/><circle cx="192" cy="264" r="15" fill="#e8d2b8"/><circle cx="234" cy="264" r="15" fill="#efe6dc"/>
   <path d="M46 292 H254" stroke="#efe6dc" stroke-width="2"/>

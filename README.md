@@ -14,7 +14,7 @@ npm run preview    # xem thử bản build (có service worker)
 Trang thử riêng màn trị liệu: `http://localhost:5173/treatment-dev.html` (chỉ khi chạy dev).
 
 ## Đưa lên GitHub Pages (đang dùng)
-Địa chỉ game: **https://dkhoi02.github.io/spa_web_game/**
+Địa chỉ game: **https://dkhoi02.github.io/spacuatruc/**
 
 - Mỗi lần `git push` lên nhánh `main`, GitHub Actions (`.github/workflows/deploy.yml`) tự chạy test, build với đường dẫn `/<tên repo>/` rồi đăng lên GitHub Pages.
 - Lần đầu: vào repo trên GitHub → **Settings → Pages → Build and deployment → Source: GitHub Actions**. Repo phải để **Public** nếu dùng gói GitHub miễn phí.
