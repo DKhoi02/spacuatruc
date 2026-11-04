@@ -41,7 +41,7 @@ const page = `
   </g>`;
 const urlBar = `
   <rect x="48" y="56" width="204" height="28" rx="10" fill="#efe6dc"/>
-  <text x="150" y="75" font-size="12" fill="${T2}" text-anchor="middle">spacuatruc.netlify.app</text>`;
+  <text x="150" y="75" font-size="12" fill="${T2}" text-anchor="middle">dkhoi02.github.io/spa_web_game</text>`;
 const toolbar = `
   <rect x="34" y="440" width="232" height="56" fill="#f6efe7"/>
   <path d="M34 440 H266" stroke="#e8d2b8" stroke-width="2"/>
@@ -74,7 +74,7 @@ fs.writeFileSync(`${A}/install-2-share-sheet.svg`, svg('Bước 2: chọn Thêm 
   <rect x="130" y="174" width="40" height="5" rx="2.5" fill="#d8c8b8"/>
   <use href="#ins-app-icon" x="50" y="190" width="34" height="34"/>
   <text x="94" y="204" font-size="13" font-weight="700" fill="${T}">Spa của Trúc</text>
-  <text x="94" y="219" font-size="11" fill="${T2}">spacuatruc.netlify.app</text>
+  <text x="94" y="219" font-size="11" fill="${T2}">dkhoi02.github.io/spa_web_game</text>
   <path d="M46 236 H254" stroke="#efe6dc" stroke-width="2"/>
   ${[0, 1, 2, 3, 4].map(i => `<circle cx="${66 + i * 42}" cy="264" r="15" fill="${['#cfe3e6', '#a9c9b3', '#f0c6b8', '#e8d2b8', '#efe6dc'][i]}"/>`).join('')}
   <path d="M46 292 H254" stroke="#efe6dc" stroke-width="2"/>` +

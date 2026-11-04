@@ -27,7 +27,7 @@
   <rect x="34" y="24" width="232" height="472" rx="28" fill="#fbf6f0" stroke="#e8d2b8" stroke-width="2"/>
   <rect x="115" y="32" width="70" height="14" rx="7" fill="#3d2c25"/>
   <rect x="48" y="56" width="204" height="28" rx="10" fill="#efe6dc"/>
-  <text x="150" y="75" font-size="12" fill="#8a5f4b" text-anchor="middle">spacuatruc.netlify.app</text>
+  <text x="150" y="75" font-size="12" fill="#8a5f4b" text-anchor="middle">dkhoi02.github.io/spa_web_game</text>
   <g>
     <rect x="58" y="96" width="184" height="110" rx="14" fill="#f4e6d6"/>
     <use href="#ins-app-icon" x="122" y="110" width="56" height="56"/>

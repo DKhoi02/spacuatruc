@@ -4,7 +4,11 @@ import preact from "@preact/preset-vite";
 import { VitePWA } from "vite-plugin-pwa";
 import { fileURLToPath } from "node:url";
 
+// Base path: "/" locally/Netlify; GitHub Pages sets BASE_PATH="/<repo>/" in the deploy workflow.
+const base = process.env.BASE_PATH ?? "/";
+
 export default defineConfig({
+  base,
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
@@ -22,7 +26,8 @@ export default defineConfig({
         lang: "vi",
         display: "standalone",
         orientation: "portrait",
-        start_url: "/",
+        start_url: base,
+        scope: base,
         background_color: "#fbf6f0",
         theme_color: "#8fb39a",
         icons: [

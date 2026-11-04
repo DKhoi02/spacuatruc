@@ -13,13 +13,15 @@ npm run preview    # xem thử bản build (có service worker)
 ```
 Trang thử riêng màn trị liệu: `http://localhost:5173/treatment-dev.html` (chỉ khi chạy dev).
 
-## Đưa lên Netlify
-1. Đẩy thư mục dự án lên một kho Git riêng tư (GitHub/GitLab).
-2. Netlify → Add new site → Import from Git → chọn kho. Cấu hình đã có sẵn trong `netlify.toml` (lệnh `npm run build`, thư mục `dist`).
-3. Đặt tên site là **spacuatruc** (Site configuration → Change site name) → địa chỉ game: https://spacuatruc.netlify.app
-4. Trên iPhone: mở link bằng **Safari** → Chia sẻ → **Thêm vào Màn hình chính** → mở game từ biểu tượng.
+## Đưa lên GitHub Pages (đang dùng)
+Địa chỉ game: **https://dkhoi02.github.io/spa_web_game/**
 
-Đổi tên hiển thị của app (đang là "Spa của Trúc"): sửa `vite.config.ts` (manifest) và `index.html`; hình hướng dẫn cài đặt tạo lại bằng `node art/_src/shop/build-install.mjs`.
+- Mỗi lần `git push` lên nhánh `main`, GitHub Actions (`.github/workflows/deploy.yml`) tự chạy test, build với đường dẫn `/<tên repo>/` rồi đăng lên GitHub Pages.
+- Lần đầu: vào repo trên GitHub → **Settings → Pages → Build and deployment → Source: GitHub Actions**. Repo phải để **Public** nếu dùng gói GitHub miễn phí.
+- Xem tiến trình ở tab **Actions** của repo.
+- Nếu đổi tên repo, địa chỉ đổi theo và workflow tự dùng tên mới. Nhớ sửa địa chỉ trong `art/_src/shop/build-install.mjs` rồi chạy `node art/_src/shop/build-install.mjs`.
+
+Trên iPhone: mở địa chỉ bằng **Safari** → Chia sẻ → **Thêm vào Màn hình chính**.
 
 ## Cấu trúc code
 - `src/core/` – bộ máy game (thuần TypeScript, có test): ngày chơi, khách, chấm điểm, độ thành thạo, kinh tế, nhân viên, chương, bài kiểm tra, save.
