@@ -1,0 +1,2 @@
+<!-- Kính gọng chữ nhật bo tròn -->
+<g data-layer="top" fill="none" stroke="var(--frame, #8a5f4b)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="141" y="149" width="50" height="34" rx="11"/><rect x="209" y="149" width="50" height="34" rx="11"/><path d="M191 162 C 196 158 204 158 209 162 M141 158 L118 154 M259 158 L282 154"/></g>

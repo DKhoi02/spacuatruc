@@ -1,0 +1,34 @@
+{
+  "view": "V07",
+  "title": "Mu bàn tay",
+  "svg": "V07.svg",
+  "frame": {
+    "width": 1000,
+    "height": 1400
+  },
+  "mirrorable": true,
+  "limb": "hand",
+  "drawnSide": "right",
+  "variants": {},
+  "midlineX": null,
+  "cun": {
+    "unitsPerCun": 0.1,
+    "reference": "bề ngang khớp liên đốt ngón cái ≈ 1 thốn (≈100 đv SVG). Hợp Cốc định vị theo xương bàn tay 2, không cần thước thốn"
+  },
+  "points": [
+    {
+      "id": "LI4",
+      "name": "Hợp Cốc",
+      "side": "right",
+      "x": 0.35,
+      "y": 0.6821,
+      "r": 0.034,
+      "variant": null,
+      "note": "mu bàn tay, giữa xương bàn tay 2 (gốc y≈1150, đầu y≈760 → giữa y≈955), sát bờ phía ngón cái"
+    }
+  ],
+  "muscles": [],
+  "forbidden": [],
+  "zones": [],
+  "sideConvention": "customer: \"left\"/\"right\" = bên trái/phải CỦA KHÁCH (giải phẫu), không phải bên màn hình"
+}

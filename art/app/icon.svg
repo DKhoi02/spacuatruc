@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Biểu tượng app</title>
+  <g id="icon">
+    <rect width="512" height="512" fill="#8fb39a"/>
+    <circle cx="256" cy="280" r="214" fill="#a9c9b3"/>
+    <g stroke="#8a5f4b" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M96 520 C 104 446 170 420 256 420 C 342 420 408 446 416 520 Z" fill="#e7b4a6"/>
+      <path d="M212 426 C 226 452 286 452 300 426" fill="none"/>
+      <rect x="226" y="380" width="60" height="56" fill="#efc7b0"/>
+      <circle cx="256" cy="112" r="50" fill="#3b2a24"/>
+      <ellipse cx="256" cy="282" rx="118" ry="140" fill="#f3d2bd"/>
+      <path d="M140 270 C 124 176 186 140 256 142 C 326 140 388 176 372 270 C 360 222 322 204 256 206 C 190 204 152 222 140 270 Z" fill="#3b2a24"/>
+    </g>
+    <g fill="none" stroke="#3d2c25" stroke-width="9" stroke-linecap="round">
+      <path d="M190 292 C 200 304 220 304 230 292 M282 292 C 292 304 312 304 322 292"/>
+      <path d="M234 352 C 246 364 266 364 278 352"/>
+    </g>
+    <circle cx="196" cy="328" r="18" fill="#e9a99b" opacity="0.7"/>
+    <circle cx="316" cy="328" r="18" fill="#e9a99b" opacity="0.7"/>
+    <circle cx="256" cy="258" r="28" fill="none" stroke="#fffaf3" stroke-width="6" opacity="0.9"/>
+    <circle cx="256" cy="258" r="13" fill="#d98a83" stroke="#8a5f4b" stroke-width="5"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>I03 Dầu massage cao cấp</title>
+  <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M42 4 C 42 4 36 10 36 14 H60 C 60 10 54 4 54 4 Z" fill="#e8b46a"/>
+    <rect x="38" y="14" width="20" height="10" rx="2" fill="#c9953f"/>
+    <path d="M40 24 H56 V30 C 72 36 80 48 80 60 C 80 76 66 88 48 88 C 30 88 16 76 16 60 C 16 48 24 36 40 30 Z" fill="#d98a83"/>
+    <path d="M24 56 C 24 46 30 40 36 37" stroke="#f0c6b8" stroke-width="3" fill="none"/>
+    <path d="M40 30 L48 40 L56 30" stroke="#e8b46a" stroke-width="3" fill="none"/>
+    <ellipse cx="48" cy="64" rx="20" ry="14" fill="#fffaf3" stroke="#c9953f" stroke-width="3"/>
+    <path d="M40 64 C 43 57 53 57 56 64 C 53 71 43 71 40 64 Z" fill="#8fb39a" stroke="none"/>
+    <path d="M80 10 L82 16 L88 18 L82 20 L80 26 L78 20 L72 18 L78 16 Z" fill="#e8b46a" stroke-width="2"/>
+    <path d="M14 22 L15 25 L18 26 L15 27 L14 30 L13 27 L10 26 L13 25 Z" fill="#e8b46a" stroke="none"/>
+  </g>
+</svg>

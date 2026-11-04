@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220">
+  <title>E06 Giường gội đầu massage toàn thân – Cao cấp</title>
+  <g id="shampoo-chair" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- bệ bồn gỗ sẫm -->
+    <rect x="22" y="106" width="72" height="108" rx="8" fill="#9a6a4b"/>
+    <path d="M28 114 H88" stroke="#d4a85a" stroke-width="3" fill="none"/>
+    <rect x="34" y="128" width="48" height="72" rx="5" fill="#b07d5a" stroke-width="3"/>
+    <path d="M42 140 H74 M42 188 H74" stroke="#d4a85a" stroke-width="2" fill="none"/>
+    <circle cx="74" cy="164" r="3.5" fill="#d4a85a" stroke-width="2"/>
+    <!-- vòi vàng -->
+    <path d="M38 52 V36 C 38 28 46 24 54 24 H68" fill="none" stroke="#d4a85a" stroke-width="7"/>
+    <path d="M38 52 V36 C 38 28 46 24 54 24 H68" fill="none" stroke-width="2"/>
+    <path d="M66 16 V30" fill="none" stroke-width="5"/>
+    <circle cx="38" cy="58" r="5" fill="#d4a85a" stroke-width="3"/>
+    <path d="M6 72 H112 C 108 104 82 116 58 116 C 34 116 10 104 6 72 Z" fill="#ffffff"/>
+    <path d="M7 76 H111" stroke="#d4a85a" stroke-width="3" fill="none"/>
+    <path d="M18 84 C 40 92 78 92 100 84" stroke="#cfe3e6" stroke-width="4" fill="none"/>
+    <!-- thân giường dài -->
+    <path d="M170 156 L176 200 M300 156 L294 200" fill="none" stroke="#9a6a4b" stroke-width="8"/>
+    <rect x="122" y="196" width="194" height="18" rx="7" fill="#9a6a4b"/>
+    <path d="M130 202 H308" stroke="#d4a85a" stroke-width="2" fill="none"/>
+    <rect x="132" y="142" width="184" height="18" rx="8" fill="#9a6a4b"/>
+    <path d="M140 151 H308" stroke="#d4a85a" stroke-width="2" fill="none"/>
+    <!-- đệm nhung xanh sẫm -->
+    <rect x="96" y="96" width="76" height="38" rx="16" fill="#5f8a70" transform="rotate(26 134 115)"/>
+    <rect x="160" y="112" width="156" height="36" rx="16" fill="#5f8a70"/>
+    <path d="M178 116 L194 130 L210 116 L226 130 L242 116 L258 130 L274 116 L290 130 L306 116 M178 144 L194 130 L210 144 L226 130 L242 144 L258 130 L274 144 L290 130 L306 144" stroke="#4f7a62" stroke-width="2" fill="none"/>
+    <g fill="#d4a85a" stroke="none"><circle cx="194" cy="130" r="2.8"/><circle cx="226" cy="130" r="2.8"/><circle cx="258" cy="130" r="2.8"/><circle cx="290" cy="130" r="2.8"/></g>
+    <!-- khăn trên chân, khăn cuộn ở kệ dưới -->
+    <rect x="262" y="104" width="50" height="12" rx="5" fill="#fffaf3" stroke-width="3"/>
+    <path d="M270 110 H304" stroke="#d4a85a" stroke-width="2" fill="none"/>
+    <rect x="196" y="176" width="30" height="20" rx="9" fill="#fffaf3" stroke-width="3"/>
+    <rect x="228" y="176" width="30" height="20" rx="9" fill="#a9c9b3" stroke-width="3"/>
+    <rect x="260" y="176" width="30" height="20" rx="9" fill="#fffaf3" stroke-width="3"/>
+    <circle cx="211" cy="186" r="4" fill="none" stroke="#e8d2b8" stroke-width="2"/>
+    <circle cx="243" cy="186" r="4" fill="none" stroke="#8fb39a" stroke-width="2"/>
+    <circle cx="275" cy="186" r="4" fill="none" stroke="#e8d2b8" stroke-width="2"/>
+    <!-- gối cổ -->
+    <rect x="98" y="76" width="40" height="26" rx="12" fill="#fffaf3" transform="rotate(26 118 89)"/>
+    <path d="M106 82 L130 94" stroke="#d4a85a" stroke-width="2" fill="none"/>
+  </g>
+</svg>

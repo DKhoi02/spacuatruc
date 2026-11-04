@@ -1,0 +1,62 @@
+{
+  "view": "V08",
+  "title": "Lòng bàn tay và cổ tay mặt trong",
+  "svg": "V08.svg",
+  "frame": {
+    "width": 1000,
+    "height": 1400
+  },
+  "mirrorable": true,
+  "limb": "hand",
+  "drawnSide": "right",
+  "variants": {},
+  "midlineX": null,
+  "cun": {
+    "unitsPerCun": 0.096,
+    "reference": "nếp gấp cổ tay → nếp gấp khuỷu = 12 thốn; 1 thốn = 96 đv SVG (dọc). Nếp gấp cổ tay y=934 (0.6671); vạch thốn mỗi 96 đv xuống cẳng tay"
+  },
+  "points": [
+    {
+      "id": "PC8",
+      "name": "Lao Cung",
+      "side": "right",
+      "x": 0.532,
+      "y": 0.4321,
+      "r": 0.03,
+      "variant": null,
+      "note": "giữa xương bàn tay 2 và 3, ngay trên khớp bàn-ngón, trên nếp gấp ngang lòng bàn tay"
+    },
+    {
+      "id": "PC6",
+      "name": "Nội Quan",
+      "side": "right",
+      "x": 0.52,
+      "y": 0.8043,
+      "r": 0.03,
+      "variant": null,
+      "note": "trên nếp gấp cổ tay 2 thốn, giữa gân gan tay dài và gân gấp cổ tay quay"
+    },
+    {
+      "id": "HT7",
+      "name": "Thần Môn",
+      "side": "right",
+      "x": 0.397,
+      "y": 0.6686,
+      "r": 0.026,
+      "variant": null,
+      "note": "trên nếp gấp cổ tay, bờ phía ngón cái (bờ quay) của gân gấp cổ tay trụ"
+    }
+  ],
+  "landmarksData": [
+    {
+      "id": "wrist-crease",
+      "name": "Nếp gấp cổ tay",
+      "x": 0.48,
+      "y": 0.6671
+    }
+  ],
+  "muscles": [],
+  "forbidden": [],
+  "zones": [],
+  "sideConvention": "customer: \"left\"/\"right\" = bên trái/phải CỦA KHÁCH (giải phẫu), không phải bên màn hình"
+}

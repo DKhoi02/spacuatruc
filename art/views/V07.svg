@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400">
+  <title>V07 – Mu bàn tay (phải)</title>
+  <defs>
+    <path id="v07-index" transform="translate(378 745) rotate(-3)" d="M -50.0 40 C -50.0 -96.5 -44.0 -273.0 -42.0 -413.0 A 42.0 44.1 0 0 1 42.0 -413.0 C 44.0 -273.0 50.0 -96.5 50.0 40 Z"/>
+    <path id="v07-middle" transform="translate(492 728) rotate(0)" d="M -52.0 40 C -52.0 -109.1 -46.0 -298.2 -44.0 -453.0 A 44.0 46.2 0 0 1 44.0 -453.0 C 46.0 -298.2 52.0 -109.1 52.0 40 Z"/>
+    <path id="v07-ring" transform="translate(603 738) rotate(4)" d="M -48.0 40 C -48.0 -101.6 -43.0 -283.2 -41.0 -431.0 A 41.0 43.1 0 0 1 41.0 -431.0 C 43.0 -283.2 48.0 -101.6 48.0 40 Z"/>
+    <path id="v07-little" transform="translate(702 768) rotate(8)" d="M -42.0 40 C -42.0 -68.0 -37.0 -216.0 -35.0 -325.0 A 35.0 36.8 0 0 1 35.0 -325.0 C 37.0 -216.0 42.0 -68.0 42.0 40 Z"/>
+    <path id="v07-palm" d="M 330 742 C 330 712 340 708 370 708 L 700 712 C 735 714 748 740 748 770 C 752 860 735 1000 700 1150 C 692 1200 690 1240 694 1290 L 704 1420 L 342 1420 L 350 1290 C 352 1230 356 1190 352 1140 C 336 1020 326 880 330 742 Z"/>
+    <path id="v07-thumb" d="M 352 1240 C 300 1150 240 1060 212 1000 C 190 960 172 900 160 840 C 150 795 138 760 140 735 C 142 690 205 678 224 716 C 238 745 250 800 262 845 C 270 870 280 888 292 898 Q 322 850 336 748 L 420 900 L 420 1240 Z"/>
+  </defs>
+  <g id="bg"><rect width="1000" height="1400" fill="#fbf6f0"/></g>
+  <g id="base" stroke-linejoin="round" stroke-linecap="round">
+    <g fill="none" stroke="#9a6a52" stroke-width="8"><use href="#v07-palm"/><use href="#v07-thumb"/><use href="#v07-index"/><use href="#v07-middle"/><use href="#v07-ring"/><use href="#v07-little"/></g>
+    <g fill="var(--skin, #f3d2bd)"><use href="#v07-palm"/><use href="#v07-thumb"/><use href="#v07-index"/><use href="#v07-middle"/><use href="#v07-ring"/><use href="#v07-little"/></g>
+  </g>
+  <g id="skin-detail" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 700 1150 C 735 1000 752 860 748 770 C 735 900 712 1030 680 1150 C 672 1220 675 1300 684 1420 L 704 1420 L 694 1290 C 690 1240 692 1200 700 1150 Z" fill="var(--skin-shade, #efc7b0)"/>
+    <path d="M 212 1000 C 240 1060 300 1150 352 1240 L 362 1200 C 320 1130 270 1060 240 1000 Z" fill="var(--skin-shade, #efc7b0)" opacity="0.8"/>
+    <path d="M 690 1252 C 700 1236 716 1238 720 1256" fill="none" stroke="#c9967c" stroke-width="3"/>
+    <path d="M 432 1262 C 470 1272 560 1272 610 1258" fill="none" stroke="#c9967c" stroke-width="2.5" opacity="0.7"/>
+    <path d="M 436 742 L 441 712 M 548 744 L 549 712 M 655 752 L 650 722" fill="none" stroke="#9a6a52" stroke-width="3"/>
+    <g transform="translate(378 745) rotate(-3)"><path d="M -29.0 -348.0 L -29.0 -414.0 C -29.0 -447.0 29.0 -447.0 29.0 -414.0 L 29.0 -348.0 C 14.5 -340.0 -14.5 -340.0 -29.0 -348.0 Z" fill="#f7e2d6" stroke="#c9967c" stroke-width="2.5"/><path d="M -18.9 -318.5 Q 0 -326.5 18.9 -318.5 M -12.6 -309.5 Q 0 -315.5 12.6 -309.5" fill="none" stroke="#c9967c" stroke-width="2.5"/><path d="M -25.2 -182.0 Q 0 -194.0 25.2 -182.0 M -21.0 -171.0 Q 0 -181.0 21.0 -171.0 M -14.7 -160.0 Q 0 -167.0 14.7 -160.0" fill="none" stroke="#c9967c" stroke-width="2.5"/><path d="M -23.1 10 Q 0 -6 23.1 10" fill="none" stroke="#c9967c" stroke-width="2.5" opacity="0.8"/></g><g transform="translate(492 728) rotate(0)"><path d="M -31.0 -381.6 L -31.0 -455.0 C -31.0 -489.0 31.0 -489.0 31.0 -455.0 L 31.0 -381.6 C 15.5 -373.6 -15.5 -373.6 -31.0 -381.6 Z" fill="#f7e2d6" stroke="#c9967c" stroke-width="2.5"/><path d="M -19.8 -347.9 Q 0 -355.9 19.8 -347.9 M -13.2 -338.9 Q 0 -344.9 13.2 -338.9" fill="none" stroke="#c9967c" stroke-width="2.5"/><path d="M -26.4 -198.8 Q 0 -210.8 26.4 -198.8 M -22.0 -187.8 Q 0 -197.8 22.0 -187.8 M -15.4 -176.8 Q 0 -183.8 15.4 -176.8" fill="none" stroke="#c9967c" stroke-width="2.5"/><path d="M -24.2 10 Q 0 -6 24.2 10" fill="none" stroke="#c9967c" stroke-width="2.5" opacity="0.8"/></g><g transform="translate(603 738) rotate(4)"><path d="M -28.0 -361.6 L -28.0 -431.5 C -28.0 -464.0 28.0 -464.0 28.0 -431.5 L 28.0 -361.6 C 14.0 -353.6 -14.0 -353.6 -28.0 -361.6 Z" fill="#f7e2d6" stroke="#c9967c" stroke-width="2.5"/><path d="M -18.4 -330.4 Q 0 -338.4 18.4 -330.4 M -12.3 -321.4 Q 0 -327.4 12.3 -321.4" fill="none" stroke="#c9967c" stroke-width="2.5"/><path d="M -24.6 -188.8 Q 0 -200.8 24.6 -188.8 M -20.5 -177.8 Q 0 -187.8 20.5 -177.8 M -14.3 -166.8 Q 0 -173.8 14.3 -166.8" fill="none" stroke="#c9967c" stroke-width="2.5"/><path d="M -22.6 10 Q 0 -6 22.6 10" fill="none" stroke="#c9967c" stroke-width="2.5" opacity="0.8"/></g><g transform="translate(702 768) rotate(8)"><path d="M -22.0 -272.0 L -22.0 -322.5 C -22.0 -352.0 22.0 -352.0 22.0 -322.5 L 22.0 -272.0 C 11.0 -264.0 -11.0 -264.0 -22.0 -272.0 Z" fill="#f7e2d6" stroke="#c9967c" stroke-width="2.5"/><path d="M -15.8 -252.0 Q 0 -260.0 15.8 -252.0 M -10.5 -243.0 Q 0 -249.0 10.5 -243.0" fill="none" stroke="#c9967c" stroke-width="2.5"/><path d="M -21.0 -144.0 Q 0 -156.0 21.0 -144.0 M -17.5 -133.0 Q 0 -143.0 17.5 -133.0 M -12.2 -122.0 Q 0 -129.0 12.2 -122.0" fill="none" stroke="#c9967c" stroke-width="2.5"/><path d="M -19.2 10 Q 0 -6 19.2 10" fill="none" stroke="#c9967c" stroke-width="2.5" opacity="0.8"/></g><g transform="translate(240 965) rotate(-15)"><path d="M -40 -206 L -40 -234 C -40 -262 4 -264 6 -234 L 6 -206 C -8 -198 -26 -198 -40 -206 Z" fill="#f7e2d6" stroke="#c9967c" stroke-width="2.5"/><path d="M -34 -141.44 Q -6 -153.44 22 -141.44 M -28 -130.44 Q -6 -139.44 16 -130.44" fill="none" stroke="#c9967c" stroke-width="2.5"/></g>
+  </g>
+  <g id="landmarks" fill="none" stroke="#c9967c" stroke-width="3" stroke-linecap="round" opacity="0.75">
+    <path id="lm-metacarpal-1" d="M 340 1170 C 310 1110 272 1040 240 975" stroke-dasharray="2 9"/>
+    <path id="lm-metacarpal-2" d="M 402 1150 C 396 1020 388 880 380 762" stroke-dasharray="2 9"/>
+    <path d="M 456 1150 C 465 1020 480 880 490 748" stroke-dasharray="2 9" opacity="0.6"/>
+    <path id="lm-thumb-web" d="M 336 770 Q 320 850 280 905"/>
+    <ellipse id="lm-mc2-head" cx="380" cy="742" rx="22" ry="14" opacity="0.7"/>
+    <ellipse id="lm-mc1-head" cx="232" cy="962" rx="24" ry="16" transform="rotate(-30 232 962)" opacity="0.7"/>
+  </g>
+  <g id="guides" fill="none" stroke="#4f86c6" stroke-width="2.5" stroke-dasharray="10 8" opacity="0.8">
+    <line x1="403" y1="1180" x2="377" y2="700"/>
+    <line x1="370" y1="955" x2="414" y2="955" stroke-dasharray="none"/><line x1="380" y1="1150" x2="424" y2="1150" stroke-dasharray="none"/><line x1="358" y1="760" x2="402" y2="760" stroke-dasharray="none"/>
+  </g>
+</svg>

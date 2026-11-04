@@ -1,0 +1,3 @@
+<!-- Áo cổ tim (khách) -->
+<g data-layer="body"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="var(--top, #cfe3e6)" class="ol"/></g>
+<g data-layer="over"><path d="M168 279 L200 318 L232 279 Z" fill="var(--skin-shade, #efc7b0)"/><path d="M168 279 L200 318 L232 279" fill="none" class="ol"/></g>

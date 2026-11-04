@@ -1,0 +1,3 @@
+<!-- Đồng phục Trưởng KTV: xanh xô thơm đậm, cổ chữ V viền kem (đeo kèm bảng tên name-tag-lead) -->
+<g data-layer="body"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="var(--top, #4f7a62)" class="ol"/><path d="M112 312 C 120 340 122 366 120 392 M288 312 C 280 340 278 366 280 392" fill="none" stroke="var(--top-shade, #8fb39a)" stroke-width="3.5" stroke-linecap="round"/></g>
+<g data-layer="over"><path d="M163 279 L200 322 L237 279 Z" fill="var(--collar, #fffaf3)"/><path d="M178 279 L200 304 L222 279 Z" fill="var(--skin-shade, #efc7b0)"/><path d="M163 279 L200 322 L237 279 M178 279 L200 304 L222 279" fill="none" class="ol"/></g>

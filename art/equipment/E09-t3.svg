@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 130">
+  <title>E09 Đá nóng và máy hâm đá – Cao cấp (đá bazan trên khay tre)</title>
+  <g id="steam" fill="none" stroke="#b9cfd6" stroke-width="4" stroke-linecap="round">
+    <path class="steam-1" d="M52 30 C 44 20 58 14 52 2"/>
+    <path class="steam-2" d="M78 30 C 70 20 84 12 78 2"/>
+  </g>
+  <g id="stone-warmer" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- máy hâm đá ốp gỗ -->
+    <path d="M4 64 C 0 64 0 80 4 80" fill="none" stroke="#d4a85a" stroke-width="5"/>
+    <path d="M138 64 C 142 64 142 80 138 80" fill="none" stroke="#d4a85a" stroke-width="5"/>
+    <rect x="10" y="52" width="122" height="68" rx="14" fill="#9a6a4b"/>
+    <path d="M16 62 H126" stroke="#d4a85a" stroke-width="3" fill="none"/>
+    <path d="M30 70 V112 M112 70 V112" stroke="#7d5239" stroke-width="2" fill="none"/>
+    <rect x="8" y="38" width="126" height="18" rx="9" fill="#fffaf3"/>
+    <path d="M14 47 H128" stroke="#d4a85a" stroke-width="2" fill="none"/>
+    <rect x="56" y="28" width="30" height="12" rx="5" fill="#d4a85a" stroke-width="3"/>
+    <rect x="38" y="76" width="50" height="26" rx="5" fill="#3d2c25" stroke-width="3"/>
+    <path d="M45 84 H53 V96 H45 M59 84 H67 V96 M59 90 H67" stroke="#a9e0c0" stroke-width="2.2" fill="none"/>
+    <circle cx="80" cy="84" r="2.5" fill="#d4a85a" stroke="none"/>
+    <circle cx="102" cy="89" r="7" fill="#d4a85a" stroke-width="3"/>
+    <path d="M22 120 L20 126 M120 120 L122 126" fill="none" stroke-width="5"/>
+    <!-- khay tre + đá bazan -->
+    <rect x="130" y="110" width="58" height="14" rx="4" fill="#e3c27a" stroke-width="3"/>
+    <path d="M144 111 V123 M159 111 V123 M174 111 V123" stroke="#c49a5a" stroke-width="2" fill="none"/>
+    <path d="M133 117 H185" stroke="#c49a5a" stroke-width="1.5" fill="none"/>
+    <ellipse cx="159" cy="101" rx="25" ry="10" fill="#3e3633"/>
+    <ellipse cx="160" cy="84" rx="20" ry="8.5" fill="#4a403c"/>
+    <ellipse cx="158" cy="69" rx="15" ry="7" fill="#3e3633"/>
+    <path d="M146 97 C 152 94 160 94 166 96 M150 81 C 155 79 161 79 166 80 M150 67 C 154 65 158 65 162 66" stroke="#8a7d76" stroke-width="2" fill="none"/>
+    <!-- lá trang trí -->
+    <path d="M168 62 C 174 50 186 50 188 56 C 182 62 174 64 168 62 Z" fill="#8fb39a" stroke-width="2"/>
+    <circle cx="166" cy="60" r="5" fill="#f0c6b8" stroke-width="2"/>
+    <circle cx="166" cy="60" r="2" fill="#d4a85a" stroke="none"/>
+  </g>
+</svg>

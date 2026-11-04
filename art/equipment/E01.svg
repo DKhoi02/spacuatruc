@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 140">
+  <title>E01 Giường spa cơ bản</title>
+  <g id="bed" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M36 88 V134 M264 88 V134 M36 118 H264" fill="none"/>
+    <path d="M26 134 H46 M254 134 H274" fill="none"/>
+    <rect x="8" y="58" width="284" height="32" rx="14" fill="#fffaf3"/>
+    <path d="M24 74 H276" stroke="#e8d2b8" stroke-width="3" fill="none"/>
+    <rect x="18" y="42" width="78" height="22" rx="10" fill="#f0c6b8"/>
+    <rect x="150" y="48" width="112" height="14" rx="6" fill="#a9c9b3"/>
+  </g>
+</svg>

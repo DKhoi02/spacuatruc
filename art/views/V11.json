@@ -1,0 +1,49 @@
+{
+  "view": "V11",
+  "title": "Mu bàn chân",
+  "svg": "V11.svg",
+  "frame": {
+    "width": 1000,
+    "height": 1400
+  },
+  "mirrorable": true,
+  "limb": "foot",
+  "drawnSide": "right",
+  "variants": {},
+  "midlineX": null,
+  "orientation": "mu bàn chân phải, ngón chân hướng lên; ngón cái bên trái màn hình",
+  "cun": {
+    "unitsPerCun": 0.097,
+    "reference": "ước lượng tỉ lệ: 1 thốn ≈ 2,1 cm ≈ 97 đv SVG (46 đv/cm). Thái Xung định vị theo mốc xương, không đo thốn"
+  },
+  "points": [
+    {
+      "id": "LR3",
+      "name": "Thái Xung",
+      "side": "right",
+      "x": 0.419,
+      "y": 0.4271,
+      "r": 0.028,
+      "variant": null,
+      "note": "giữa xương bàn chân 1 và 2, chỗ lõm ngay phía trước (phía ngón chân) chỗ hai nền xương gặp nhau (chỗ gặp nhau y≈645), trên đường đi của động mạch mu chân"
+    }
+  ],
+  "landmarksData": [
+    {
+      "id": "mt12-base-junction",
+      "name": "Chỗ gặp nhau của nền xương bàn chân 1–2",
+      "x": 0.424,
+      "y": 0.4607
+    },
+    {
+      "id": "dorsalis-pedis",
+      "name": "Mạch mu chân",
+      "x": 0.44,
+      "y": 0.525
+    }
+  ],
+  "muscles": [],
+  "forbidden": [],
+  "zones": [],
+  "sideConvention": "customer: \"left\"/\"right\" = bên trái/phải CỦA KHÁCH (giải phẫu), không phải bên màn hình"
+}

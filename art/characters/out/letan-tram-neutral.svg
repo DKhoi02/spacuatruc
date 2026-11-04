@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Trâm – Bình thường" data-character="letan-tram" data-expression="neutral">
+<title>Trâm – Bình thường</title>
+<g class="layer-hair-behind">
+<g data-part="hair/bob"><path d="M108 150 C 100 200 104 236 112 258 L 288 258 C 296 236 300 200 292 150 Z" fill="#3b2a24" style="fill:var(--hair, #3b2a24)"/></g>
+</g>
+<g class="layer-outfit-body">
+<g data-part="outfits/uniform-reception"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#fffaf3" style="fill:var(--top, #fffaf3)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M200 300 V392" stroke="#e8d2b8" style="stroke:var(--top-shade, #e8d2b8)" stroke-width="3.5"/><g fill="#e8d2b8" style="fill:var(--top-shade, #e8d2b8)"><circle cx="200" cy="350" r="4"/><circle cx="200" cy="378" r="4"/></g><path d="M112 312 C 120 340 122 366 120 392 M288 312 C 280 340 278 366 280 392" fill="none" stroke="#8fb39a" style="stroke:var(--top-shade, #8fb39a)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/round"><rect x="179" y="222" width="42" height="68" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)"/><path d="M179 222 V286 M221 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/uniform-reception"><path d="M166 279 C 176 296 224 296 234 279 L 230 300 C 214 308 186 308 170 300 Z" fill="#8fb39a" style="fill:var(--scarf, #8fb39a)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M194 306 L180 346 L196 340 Z M206 306 L222 346 L206 340 Z" fill="#8fb39a" style="fill:var(--scarf, #8fb39a)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="200" cy="306" rx="11" ry="9" fill="#7ea58a" style="fill:var(--scarf-shade, #7ea58a)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/round"><path d="M200 56 C 252 56 291 96 291 158 C 291 214 254 254 200 254 C 146 254 109 214 109 158 C 109 96 148 56 200 56 Z" fill="#f3d2bd" style="fill:var(--skin, #f3d2bd)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/neutral">
+<g class="blush"><circle cx="146" cy="194" r="13" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.45"/><circle cx="254" cy="194" r="13" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.45"/></g>
+<g class="brows" fill="none" stroke="#3b2a24" style="stroke:var(--brow, #3b2a24)" stroke-width="5.5" stroke-linecap="round"><path d="M147 136 C 157 129 174 128 185 133"/><path d="M215 133 C 226 128 243 129 253 136"/></g>
+<g class="eyes" fill="#2a1d18"><ellipse cx="166" cy="164" rx="8.5" ry="11.5"/><ellipse cx="234" cy="164" rx="8.5" ry="11.5"/></g>
+<g class="mouth" fill="none" stroke="#3d2c25" stroke-width="5.5" stroke-linecap="round"><path d="M185 218 C 194 224 206 224 215 218"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/bob" data-hides-ears="true"><path d="M112 158 C 100 76 150 46 200 48 C 250 46 300 76 288 158 C 290 200 294 232 300 256 C 284 264 266 262 256 252 C 266 218 268 176 266 142 C 264 128 260 120 252 116 L 148 116 C 140 120 136 128 134 142 C 132 176 134 218 144 252 C 134 262 116 264 100 256 C 106 232 110 200 112 158 Z" fill="#3b2a24" style="fill:var(--hair, #3b2a24)"/><path d="M160 116 L164 100 M188 116 L190 98 M214 116 L212 98 M240 116 L236 100" fill="none" stroke="#55403a" style="stroke:var(--hair-shade, #55403a)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-top">
+<g data-part="accessories/glasses-rect" fill="none" stroke="#8a5f4b" style="stroke:var(--frame, #8a5f4b)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="141" y="149" width="50" height="34" rx="11"/><rect x="209" y="149" width="50" height="34" rx="11"/><path d="M191 162 C 196 158 204 158 209 162 M141 158 L118 154 M259 158 L282 154"/></g>
+<g data-part="accessories/name-tag"><rect x="236" y="320" width="70" height="28" rx="6" fill="#fffaf3" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M246 334 H284" stroke="#e7b4a6" style="stroke:var(--tag-line, #e7b4a6)" stroke-width="4" stroke-linecap="round"/></g>
+</g>
+</svg>

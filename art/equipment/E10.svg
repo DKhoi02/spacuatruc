@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 230">
+  <title>E10 Ghế ngâm chân</title>
+  <g id="steam" fill="none" stroke="#b9cfd6" stroke-width="4" stroke-linecap="round">
+    <path class="steam-1" d="M232 146 C 224 132 240 126 232 110"/>
+    <path class="steam-2" d="M258 146 C 250 132 266 124 258 106"/>
+  </g>
+  <g id="footbath-chair" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- ghế bành -->
+    <path d="M40 178 V224 M160 178 V224" fill="none"/>
+    <rect x="12" y="16" width="70" height="168" rx="26" fill="#e7b4a6"/>
+    <path d="M30 40 V150" stroke="#f0c6b8" stroke-width="3" fill="none"/>
+    <rect x="28" y="128" width="148" height="50" rx="18" fill="#f0c6b8"/>
+    <rect x="58" y="104" width="122" height="22" rx="11" fill="#d8b48c"/>
+    <path d="M168 126 V178" fill="none"/>
+    <rect x="22" y="174" width="156" height="14" rx="6" fill="#c49a70"/>
+    <!-- chậu gỗ ngâm chân -->
+    <path d="M196 156 H292 L284 222 H204 Z" fill="#d8b48c"/>
+    <path d="M200 176 H288 M202 200 H286" stroke="#c49a70" stroke-width="3" fill="none"/>
+    <ellipse cx="244" cy="156" rx="48" ry="9" fill="#cfe3e6"/>
+    <circle cx="226" cy="155" r="4" fill="#e7b4a6" stroke="none"/>
+    <circle cx="258" cy="157" r="3" fill="#e7b4a6" stroke="none"/>
+  </g>
+</svg>

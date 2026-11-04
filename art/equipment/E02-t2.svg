@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 116">
+  <title>E02 Ghế chờ – Tốt (ghế bành có đệm)</title>
+  <g id="chair" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M20 92 L16 112 M110 92 L114 112" fill="none" stroke="#c49a70" stroke-width="6"/>
+    <path d="M20 92 L16 112 M110 92 L114 112" fill="none" stroke-width="2"/>
+    <rect x="16" y="4" width="98" height="76" rx="20" fill="#a9c9b3"/>
+    <path d="M30 22 C 50 16 80 16 100 22" stroke="#fffaf3" stroke-width="3" fill="none"/>
+    <g fill="#8fb39a" stroke="none"><circle cx="44" cy="36" r="3"/><circle cx="65" cy="34" r="3"/><circle cx="86" cy="36" r="3"/></g>
+    <rect x="16" y="56" width="98" height="30" rx="12" fill="#fffaf3"/>
+    <path d="M26 66 C 50 62 80 62 104 66" stroke="#e8d2b8" stroke-width="3" fill="none"/>
+    <rect x="2" y="40" width="24" height="54" rx="11" fill="#8fb39a"/>
+    <rect x="104" y="40" width="24" height="54" rx="11" fill="#8fb39a"/>
+    <path d="M8 50 H20 M110 50 H122" stroke="#a9c9b3" stroke-width="3" fill="none"/>
+    <rect x="14" y="84" width="102" height="10" rx="4" fill="#d8b48c" stroke-width="3"/>
+  </g>
+</svg>

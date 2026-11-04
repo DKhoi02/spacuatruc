@@ -1,0 +1,401 @@
+[
+  {
+    "id": "anh-khoi",
+    "name": "Anh Khôi",
+    "group": "lead",
+    "roleLabel": "Trưởng KTV",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "anh-khoi-neutral.svg",
+      "happy": "anh-khoi-happy.svg",
+      "praise": "anh-khoi-praise.svg",
+      "critique": "anh-khoi-critique.svg"
+    }
+  },
+  {
+    "id": "ktv-lan",
+    "name": "Lan",
+    "group": "ktv",
+    "roleLabel": "KTV (ứng viên)",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "ktv-lan-neutral.svg",
+      "happy": "ktv-lan-happy.svg",
+      "tired": "ktv-lan-tired.svg"
+    }
+  },
+  {
+    "id": "ktv-minh",
+    "name": "Minh",
+    "group": "ktv",
+    "roleLabel": "KTV (ứng viên)",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "ktv-minh-neutral.svg",
+      "happy": "ktv-minh-happy.svg",
+      "tired": "ktv-minh-tired.svg"
+    }
+  },
+  {
+    "id": "ktv-thao",
+    "name": "Thảo",
+    "group": "ktv",
+    "roleLabel": "KTV (ứng viên)",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "ktv-thao-neutral.svg",
+      "happy": "ktv-thao-happy.svg",
+      "tired": "ktv-thao-tired.svg"
+    }
+  },
+  {
+    "id": "ktv-hung",
+    "name": "Hùng",
+    "group": "ktv",
+    "roleLabel": "KTV (ứng viên)",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "ktv-hung-neutral.svg",
+      "happy": "ktv-hung-happy.svg",
+      "tired": "ktv-hung-tired.svg"
+    }
+  },
+  {
+    "id": "ktv-lien",
+    "name": "Cô Liên",
+    "group": "ktv",
+    "roleLabel": "KTV (ứng viên)",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "ktv-lien-neutral.svg",
+      "happy": "ktv-lien-happy.svg",
+      "tired": "ktv-lien-tired.svg"
+    }
+  },
+  {
+    "id": "ktv-vy",
+    "name": "Vy",
+    "group": "ktv",
+    "roleLabel": "KTV (ứng viên)",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "ktv-vy-neutral.svg",
+      "happy": "ktv-vy-happy.svg",
+      "tired": "ktv-vy-tired.svg"
+    }
+  },
+  {
+    "id": "letan-ngoc",
+    "name": "Ngọc",
+    "group": "le-tan",
+    "roleLabel": "Lễ tân",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "letan-ngoc-neutral.svg",
+      "happy": "letan-ngoc-happy.svg",
+      "tired": "letan-ngoc-tired.svg"
+    }
+  },
+  {
+    "id": "letan-tram",
+    "name": "Trâm",
+    "group": "le-tan",
+    "roleLabel": "Lễ tân",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "letan-tram-neutral.svg",
+      "happy": "letan-tram-happy.svg",
+      "tired": "letan-tram-tired.svg"
+    }
+  },
+  {
+    "id": "tapvu-co-sau",
+    "name": "Cô Sáu",
+    "group": "tap-vu",
+    "roleLabel": "Tạp vụ",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "tapvu-co-sau-neutral.svg",
+      "happy": "tapvu-co-sau-happy.svg",
+      "tired": "tapvu-co-sau-tired.svg"
+    }
+  },
+  {
+    "id": "tapvu-chu-tu",
+    "name": "Chú Tư",
+    "group": "tap-vu",
+    "roleLabel": "Tạp vụ",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "tapvu-chu-tu-neutral.svg",
+      "happy": "tapvu-chu-tu-happy.svg",
+      "tired": "tapvu-chu-tu-tired.svg"
+    }
+  },
+  {
+    "id": "khach-mai",
+    "name": "Chị Mai",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-mai-neutral.svg",
+      "happy": "khach-mai-happy.svg",
+      "relaxed": "khach-mai-relaxed.svg",
+      "annoyed": "khach-mai-annoyed.svg",
+      "pain": "khach-mai-pain.svg"
+    }
+  },
+  {
+    "id": "khach-hoa",
+    "name": "Chị Hoa",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-hoa-neutral.svg",
+      "happy": "khach-hoa-happy.svg",
+      "relaxed": "khach-hoa-relaxed.svg",
+      "annoyed": "khach-hoa-annoyed.svg",
+      "pain": "khach-hoa-pain.svg"
+    }
+  },
+  {
+    "id": "khach-bich",
+    "name": "Cô Bích",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-bich-neutral.svg",
+      "happy": "khach-bich-happy.svg",
+      "relaxed": "khach-bich-relaxed.svg",
+      "annoyed": "khach-bich-annoyed.svg",
+      "pain": "khach-bich-pain.svg"
+    }
+  },
+  {
+    "id": "khach-tuan",
+    "name": "Anh Tuấn",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-tuan-neutral.svg",
+      "happy": "khach-tuan-happy.svg",
+      "relaxed": "khach-tuan-relaxed.svg",
+      "annoyed": "khach-tuan-annoyed.svg",
+      "pain": "khach-tuan-pain.svg"
+    }
+  },
+  {
+    "id": "khach-linh",
+    "name": "Linh",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-linh-neutral.svg",
+      "happy": "khach-linh-happy.svg",
+      "relaxed": "khach-linh-relaxed.svg",
+      "annoyed": "khach-linh-annoyed.svg",
+      "pain": "khach-linh-pain.svg"
+    }
+  },
+  {
+    "id": "khach-phuong",
+    "name": "Chị Phương",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-phuong-neutral.svg",
+      "happy": "khach-phuong-happy.svg",
+      "relaxed": "khach-phuong-relaxed.svg",
+      "annoyed": "khach-phuong-annoyed.svg",
+      "pain": "khach-phuong-pain.svg"
+    }
+  },
+  {
+    "id": "khach-chu-bay",
+    "name": "Chú Bảy",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-chu-bay-neutral.svg",
+      "happy": "khach-chu-bay-happy.svg",
+      "relaxed": "khach-chu-bay-relaxed.svg",
+      "annoyed": "khach-chu-bay-annoyed.svg",
+      "pain": "khach-chu-bay-pain.svg"
+    }
+  },
+  {
+    "id": "khach-hang",
+    "name": "Chị Hằng",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-hang-neutral.svg",
+      "happy": "khach-hang-happy.svg",
+      "relaxed": "khach-hang-relaxed.svg",
+      "annoyed": "khach-hang-annoyed.svg",
+      "pain": "khach-hang-pain.svg"
+    }
+  },
+  {
+    "id": "khach-dung",
+    "name": "Anh Dũng",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-dung-neutral.svg",
+      "happy": "khach-dung-happy.svg",
+      "relaxed": "khach-dung-relaxed.svg",
+      "annoyed": "khach-dung-annoyed.svg",
+      "pain": "khach-dung-pain.svg"
+    }
+  },
+  {
+    "id": "khach-yen",
+    "name": "Chị Yến",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-yen-neutral.svg",
+      "happy": "khach-yen-happy.svg",
+      "relaxed": "khach-yen-relaxed.svg",
+      "annoyed": "khach-yen-annoyed.svg",
+      "pain": "khach-yen-pain.svg"
+    }
+  },
+  {
+    "id": "khach-ba-tam",
+    "name": "Bà Tám",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-ba-tam-neutral.svg",
+      "happy": "khach-ba-tam-happy.svg",
+      "relaxed": "khach-ba-tam-relaxed.svg",
+      "annoyed": "khach-ba-tam-annoyed.svg",
+      "pain": "khach-ba-tam-pain.svg"
+    }
+  },
+  {
+    "id": "khach-nhung",
+    "name": "Chị Nhung",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-nhung-neutral.svg",
+      "happy": "khach-nhung-happy.svg",
+      "relaxed": "khach-nhung-relaxed.svg",
+      "annoyed": "khach-nhung-annoyed.svg",
+      "pain": "khach-nhung-pain.svg"
+    }
+  },
+  {
+    "id": "quen-thu",
+    "name": "Cô Thu",
+    "group": "khach-quen",
+    "roleLabel": "Khách quen",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "quen-thu-neutral.svg",
+      "happy": "quen-thu-happy.svg",
+      "relaxed": "quen-thu-relaxed.svg",
+      "annoyed": "quen-thu-annoyed.svg",
+      "pain": "quen-thu-pain.svg"
+    }
+  },
+  {
+    "id": "quen-huong",
+    "name": "Chị Hương",
+    "group": "khach-quen",
+    "roleLabel": "Khách quen",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "quen-huong-neutral.svg",
+      "happy": "quen-huong-happy.svg",
+      "relaxed": "quen-huong-relaxed.svg",
+      "annoyed": "quen-huong-annoyed.svg",
+      "pain": "quen-huong-pain.svg"
+    }
+  },
+  {
+    "id": "quen-phat",
+    "name": "Anh Phát",
+    "group": "khach-quen",
+    "roleLabel": "Khách quen",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "quen-phat-neutral.svg",
+      "happy": "quen-phat-happy.svg",
+      "relaxed": "quen-phat-relaxed.svg",
+      "annoyed": "quen-phat-annoyed.svg",
+      "pain": "quen-phat-pain.svg"
+    }
+  },
+  {
+    "id": "quen-diem",
+    "name": "Chị Diễm",
+    "group": "khach-quen",
+    "roleLabel": "Khách quen",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "quen-diem-neutral.svg",
+      "happy": "quen-diem-happy.svg",
+      "relaxed": "quen-diem-relaxed.svg",
+      "annoyed": "quen-diem-annoyed.svg",
+      "pain": "quen-diem-pain.svg"
+    }
+  },
+  {
+    "id": "dacbiet-mang-thai",
+    "name": "Chị Thủy",
+    "group": "khach-dac-biet",
+    "roleLabel": "Khách đặc biệt",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "dacbiet-mang-thai-neutral.svg",
+      "happy": "dacbiet-mang-thai-happy.svg",
+      "relaxed": "dacbiet-mang-thai-relaxed.svg",
+      "annoyed": "dacbiet-mang-thai-annoyed.svg",
+      "pain": "dacbiet-mang-thai-pain.svg"
+    }
+  },
+  {
+    "id": "dacbiet-vip",
+    "name": "Bà Kim Ngân",
+    "group": "khach-dac-biet",
+    "roleLabel": "Khách đặc biệt",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "dacbiet-vip-neutral.svg",
+      "happy": "dacbiet-vip-happy.svg",
+      "relaxed": "dacbiet-vip-relaxed.svg",
+      "annoyed": "dacbiet-vip-annoyed.svg",
+      "pain": "dacbiet-vip-pain.svg"
+    }
+  },
+  {
+    "id": "dacbiet-van-phong",
+    "name": "Anh Khang",
+    "group": "khach-dac-biet",
+    "roleLabel": "Khách đặc biệt",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "dacbiet-van-phong-neutral.svg",
+      "happy": "dacbiet-van-phong-happy.svg",
+      "relaxed": "dacbiet-van-phong-relaxed.svg",
+      "annoyed": "dacbiet-van-phong-annoyed.svg",
+      "pain": "dacbiet-van-phong-pain.svg"
+    }
+  }
+]

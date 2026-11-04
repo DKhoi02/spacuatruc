@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 140">
+  <title>E01 Giường spa có nệm êm (E04)</title>
+  <g id="bed" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M36 88 V134 M264 88 V134 M36 118 H264" fill="none"/>
+    <path d="M26 134 H46 M254 134 H274" fill="none"/>
+    <rect x="8" y="66" width="284" height="26" rx="12" fill="#d8b48c"/>
+  </g>
+  <g id="mattress" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="12" y="34" width="276" height="40" rx="16" fill="#fffaf3"/>
+    <path d="M70 40 V68 M130 40 V68 M190 40 V68 M250 40 V68" stroke="#e8d2b8" stroke-width="3" fill="none"/>
+    <path d="M24 54 H276" stroke="#f0c6b8" stroke-width="3" fill="none" stroke-dasharray="2 10"/>
+    <rect x="20" y="16" width="82" height="26" rx="12" fill="#f0c6b8"/>
+    <path d="M34 29 H88" stroke="#e7b4a6" stroke-width="3" fill="none"/>
+    <rect x="150" y="22" width="114" height="16" rx="7" fill="#a9c9b3"/>
+    <path d="M196 22 V38" stroke="#8fb39a" stroke-width="3" fill="none"/>
+  </g>
+</svg>

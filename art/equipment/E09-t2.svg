@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 130">
+  <title>E09 Đá nóng và máy hâm đá – Tốt</title>
+  <g id="steam" fill="none" stroke="#b9cfd6" stroke-width="4" stroke-linecap="round">
+    <path class="steam-1" d="M52 30 C 44 20 58 14 52 2"/>
+    <path class="steam-2" d="M78 30 C 70 20 84 12 78 2"/>
+  </g>
+  <g id="stone-warmer" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- máy hâm đá -->
+    <rect x="2" y="70" width="14" height="10" rx="4" fill="#d8b48c" stroke-width="3"/>
+    <rect x="126" y="70" width="14" height="10" rx="4" fill="#d8b48c" stroke-width="3"/>
+    <rect x="12" y="52" width="118" height="68" rx="20" fill="#a9c9b3"/>
+    <path d="M18 70 H124" stroke="#fffaf3" stroke-width="5" fill="none" stroke-linecap="butt"/>
+    <rect x="8" y="38" width="126" height="18" rx="9" fill="#fffaf3"/>
+    <rect x="56" y="28" width="30" height="12" rx="5" fill="#d8b48c" stroke-width="3"/>
+    <rect x="30" y="84" width="40" height="22" rx="5" fill="#fffaf3" stroke-width="3"/>
+    <path d="M37 92 H51 M37 99 H47" stroke="#8fb39a" stroke-width="2.5" fill="none"/>
+    <circle cx="96" cy="95" r="9" fill="#fffaf3" stroke-width="3"/>
+    <path d="M96 95 L101 90" stroke-width="2" fill="none"/>
+    <circle cx="116" cy="88" r="3" fill="#e8b46a" stroke="none"/>
+    <path d="M28 120 V126 M114 120 V126" fill="none"/>
+    <!-- đá nóng trên khăn -->
+    <rect x="134" y="110" width="54" height="14" rx="5" fill="#fffaf3" stroke-width="3"/>
+    <path d="M140 116 H182" stroke="#f0c6b8" stroke-width="2" fill="none"/>
+    <ellipse cx="160" cy="101" rx="25" ry="10" fill="#5e504a"/>
+    <ellipse cx="161" cy="84" rx="20" ry="8.5" fill="#6e5d55"/>
+    <ellipse cx="159" cy="69" rx="15" ry="7" fill="#5e504a"/>
+    <ellipse cx="160" cy="56" rx="10" ry="5" fill="#6e5d55" stroke-width="3"/>
+    <path d="M148 98 C 154 95 162 95 168 97 M152 81 C 157 79 163 79 167 80" stroke="#9a8a80" stroke-width="2" fill="none"/>
+  </g>
+</svg>

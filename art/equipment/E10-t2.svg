@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 230">
+  <title>E10 Ghế ngâm chân – Tốt (đệm êm + chậu sục bọt)</title>
+  <g id="steam" fill="none" stroke="#b9cfd6" stroke-width="4" stroke-linecap="round">
+    <path class="steam-1" d="M232 140 C 224 126 240 120 232 104"/>
+    <path class="steam-2" d="M258 140 C 250 126 266 118 258 100"/>
+  </g>
+  <g id="footbath-chair" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- ghế bành có đệm -->
+    <path d="M40 186 L36 224 M160 186 L164 224" fill="none" stroke="#c49a70" stroke-width="8"/>
+    <path d="M40 186 L36 224 M160 186 L164 224" fill="none" stroke-width="2"/>
+    <rect x="12" y="14" width="74" height="172" rx="28" fill="#a9c9b3"/>
+    <g fill="#8fb39a" stroke="none"><circle cx="49" cy="50" r="3"/><circle cx="49" cy="82" r="3"/><circle cx="49" cy="114" r="3"/></g>
+    <path d="M28 36 V150" stroke="#fffaf3" stroke-width="3" fill="none"/>
+    <rect x="22" y="22" width="56" height="22" rx="10" fill="#fffaf3" stroke-width="3"/>
+    <rect x="28" y="124" width="150" height="54" rx="20" fill="#fffaf3"/>
+    <path d="M40 140 C 80 134 130 134 168 140" stroke="#e8d2b8" stroke-width="3" fill="none"/>
+    <rect x="58" y="100" width="124" height="24" rx="12" fill="#8fb39a"/>
+    <path d="M70 112 H170" stroke="#a9c9b3" stroke-width="3" fill="none"/>
+    <rect x="22" y="174" width="156" height="14" rx="6" fill="#d8b48c"/>
+    <!-- chậu ngâm sục bọt -->
+    <path d="M194 152 H294 L286 222 H202 Z" fill="#fffaf3"/>
+    <path d="M196 170 H292" stroke="#8fb39a" stroke-width="7" fill="none" stroke-linecap="butt"/>
+    <circle cx="226" cy="198" r="7" fill="#a9c9b3" stroke-width="3"/>
+    <circle cx="250" cy="198" r="4" fill="#e8b46a" stroke="none"/>
+    <circle cx="264" cy="198" r="4" fill="#cfe3e6" stroke-width="2"/>
+    <ellipse cx="244" cy="152" rx="50" ry="9" fill="#cfe3e6"/>
+    <g fill="#ffffff" stroke="#8a5f4b" stroke-width="2">
+      <circle cx="218" cy="146" r="4"/><circle cx="236" cy="142" r="3"/><circle cx="250" cy="147" r="4.5"/><circle cx="268" cy="143" r="3"/><circle cx="246" cy="134" r="2.5"/>
+    </g>
+  </g>
+</svg>

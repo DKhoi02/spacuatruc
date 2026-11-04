@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Anh Khang – Đau (quá lực)" data-character="dacbiet-van-phong" data-expression="pain">
+<title>Anh Khang – Đau (quá lực)</title>
+<g class="layer-outfit-body">
+<g data-part="outfits/office-shirt"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#ffffff" style="fill:var(--top, #ffffff)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M200 302 V392" stroke="#cfe3e6" style="stroke:var(--top-shade, #cfe3e6)" stroke-width="3.5"/><g fill="#cfe3e6" style="fill:var(--top-shade, #cfe3e6)"><circle cx="207" cy="324" r="3.5"/><circle cx="207" cy="352" r="3.5"/><circle cx="207" cy="380" r="3.5"/></g></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/soft-square"><rect x="177" y="222" width="46" height="68" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)"/><path d="M177 222 V286 M223 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/office-shirt"><path d="M180 279 L200 302 L220 279 Z" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)"/><path d="M176 272 L164 300 L196 306 L200 302 L180 279 Z" fill="#ffffff" style="fill:var(--collar, #ffffff)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M224 272 L236 300 L204 306 L200 302 L220 279 Z" fill="#ffffff" style="fill:var(--collar, #ffffff)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M168 300 C 172 320 180 340 190 352 M232 300 C 228 320 220 340 210 352" fill="none" stroke="#7d9cc0" style="stroke:var(--lanyard, #7d9cc0)" stroke-width="7" stroke-linecap="round"/><rect x="180" y="348" width="40" height="44" rx="5" fill="#fffaf3" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="188" y="358" width="14" height="16" rx="3" fill="#7d9cc0" style="fill:var(--lanyard, #7d9cc0)" opacity="0.6"/><path d="M188 382 H212" stroke="#c49a70" stroke-width="3" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-ears">
+<g data-part="heads/soft-square"><ellipse cx="114" cy="164" rx="13" ry="21" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="286" cy="164" rx="13" ry="21" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/soft-square"><path d="M200 52 C 250 52 287 90 287 148 C 287 196 276 226 248 246 C 230 258 170 258 152 246 C 124 226 113 196 113 148 C 113 90 150 52 200 52 Z" fill="#f3d2bd" style="fill:var(--skin, #f3d2bd)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/pain">
+<g class="blush"><circle cx="146" cy="195" r="12" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.35"/><circle cx="254" cy="195" r="12" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.35"/></g>
+<g class="brows" fill="none" stroke="#2f2420" style="stroke:var(--brow, #2f2420)" stroke-width="6.5" stroke-linecap="round"><path d="M148 140 C 160 139 174 134 185 126"/><path d="M215 126 C 226 134 240 139 252 140"/></g>
+<g class="eyes" fill="none" stroke="#2a1d18" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"><path d="M155 154 L176 164 L155 174"/><path d="M245 154 L224 164 L245 174"/></g>
+<g class="mouth"><path d="M182 226 C 186 214 194 212 200 216 C 206 212 214 214 218 226 C 206 222 194 222 182 226 Z" fill="#b8605a" stroke="#3d2c25" stroke-width="5" stroke-linejoin="round"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/side-part-male"><path d="M112 148 C 98 62 150 32 204 34 C 258 32 304 62 288 148 C 284 118 274 100 258 92 C 234 106 196 104 174 88 C 162 100 150 104 138 106 C 124 114 116 128 112 148 Z" fill="#2f2420" style="fill:var(--hair, #2f2420)"/><path d="M170 46 C 168 62 170 76 174 88" fill="none" stroke="#4a3830" style="stroke:var(--hair-shade, #4a3830)" stroke-width="3.5" stroke-linecap="round"/><path d="M190 52 C 220 50 250 60 268 78" fill="none" stroke="#4a3830" style="stroke:var(--hair-shade, #4a3830)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-top">
+<g data-part="accessories/glasses-rect" fill="none" stroke="#8a5f4b" style="stroke:var(--frame, #8a5f4b)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="141" y="149" width="50" height="34" rx="11"/><rect x="209" y="149" width="50" height="34" rx="11"/><path d="M191 162 C 196 158 204 158 209 162 M141 158 L118 154 M259 158 L282 154"/></g>
+</g>
+<g class="layer-expr-fx">
+<g data-part="expressions/pain">
+<path d="M296 104 C 304 116 308 124 308 130 C 308 137 303 141 297 141 C 291 141 286 137 286 130 C 286 124 290 116 296 104 Z" fill="#cfe3e6" stroke="#7fa7b3" stroke-width="3.5" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

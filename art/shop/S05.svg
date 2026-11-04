@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" font-family="Helvetica, Arial, sans-serif">
+  <title>S05 Khu ngâm chân</title>
+  <g id="bg">
+    <rect x="0" y="0" width="1000" height="700" fill="#efdcc6"/>
+    <path d="M20 26 V700 M62 26 V700 M104 26 V700 M146 26 V700 M188 26 V700 M230 26 V700 M272 26 V700 M314 26 V700 M356 26 V700 M398 26 V700 M440 26 V700 M482 26 V700 M524 26 V700 M566 26 V700 M608 26 V700 M650 26 V700 M692 26 V700 M734 26 V700 M776 26 V700 M818 26 V700 M860 26 V700 M902 26 V700 M944 26 V700 M986 26 V700 M1028 26 V700" stroke="#e5ceb5" stroke-width="3" fill="none"/>
+    <rect x="-4" y="-4" width="1008" height="30" fill="#fffaf3" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect id="floor" x="0" y="700" width="1000" height="300" fill="#d8b48c"/>
+    <path d="M0 760 H1000 M0 830 H1000 M0 910 H1000 M180 700 V760 M520 700 V760 M860 700 V760 M90 760 V830 M400 760 V830 M700 760 V830 M260 830 V910 M600 830 V910 M920 830 V910 M140 910 V1000 M470 910 V1000 M780 910 V1000 " stroke="#c49a70" stroke-width="3" fill="none"/>
+    <path d="M-4 700 H1004" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+    <rect x="-4" y="682" width="1008" height="18" fill="#e8d2b8" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+    <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="380" y="160" width="240" height="200" rx="8" fill="#cfe3e6"/>
+      <path d="M500 160 V360 M380 260 H620" fill="none"/>
+      <path d="M402 190 L432 220 M522 190 L552 220" stroke="#ffffff" stroke-width="6"/>
+      <rect x="366" y="360" width="268" height="14" rx="5" fill="#c49a70"/>
+      <path d="M360 152 H640" stroke-width="6" fill="none"/>
+      <path d="M366 152 H420 C 410 260 420 320 406 370 H366 Z" fill="#e8d2b8"/>
+      <path d="M634 152 H580 C 590 260 580 320 594 370 H634 Z" fill="#e8d2b8"/>
+    </g>
+    <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="#f0c6b8">
+      <line x1="230" y1="26" x2="230" y2="140"/>
+      <path d="M192 168 A38 28 0 0 1 268 168 Z"/>
+    </g>
+    <circle  cx="230" cy="171" r="9" fill="#ffe9a8"/>
+    <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="#f0c6b8">
+      <line x1="720" y1="26" x2="720" y2="90"/>
+      <path d="M682 118 A38 28 0 0 1 758 118 Z"/>
+    </g>
+    <circle  cx="720" cy="121" r="9" fill="#ffe9a8"/>
+    <g stroke="#8a5f4b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="30" cy="674" rx="22" ry="11" fill="#e8d2b8"/><ellipse cx="80" cy="677" rx="19" ry="8" fill="#fffaf3"/><ellipse cx="128" cy="674" rx="21" ry="10" fill="#d8b48c"/><ellipse cx="180" cy="677" rx="18" ry="7" fill="#e8d2b8"/><ellipse cx="232" cy="674" rx="22" ry="11" fill="#fffaf3"/><ellipse cx="300" cy="677" rx="19" ry="8" fill="#d8b48c"/><ellipse cx="360" cy="674" rx="21" ry="10" fill="#e8d2b8"/><ellipse cx="430" cy="677" rx="20" ry="9" fill="#fffaf3"/><ellipse cx="500" cy="674" rx="22" ry="11" fill="#d8b48c"/><ellipse cx="570" cy="677" rx="19" ry="8" fill="#e8d2b8"/><ellipse cx="640" cy="674" rx="21" ry="10" fill="#fffaf3"/><ellipse cx="710" cy="677" rx="20" ry="9" fill="#d8b48c"/><ellipse cx="780" cy="674" rx="22" ry="11" fill="#e8d2b8"/><ellipse cx="850" cy="677" rx="19" ry="8" fill="#fffaf3"/><ellipse cx="920" cy="674" rx="21" ry="10" fill="#d8b48c"/><ellipse cx="975" cy="677" rx="19" ry="8" fill="#e8d2b8"/></g>
+  </g>
+  <g id="decor-wall">
+    <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M860 700 V120 M894 700 V170 M926 700 V90" stroke="#8fb39a" stroke-width="16" fill="none"/>
+      <path d="M860 300 h0 M860 460 h0 M894 380 h0 M926 260 h0 M926 520 h0" stroke="#4f7a62" stroke-width="18"/>
+      <path d="M860 180 C 830 160 810 170 800 150 C 826 146 844 160 860 180 Z M926 200 C 956 176 976 186 986 166 C 960 160 940 176 926 200 Z M894 250 C 864 236 852 244 840 226 C 864 222 880 232 894 250 Z" fill="#a9c9b3" stroke-width="3"/>
+      <rect x="834" y="670" width="118" height="50" rx="8" fill="#c49a70"/>
+    </g>
+    <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="80" y="330" width="260" height="14" rx="5" fill="#d8b48c"/>
+      <path d="M104 344 L104 370 L130 344 M316 344 L316 370 L290 344" fill="none" stroke-width="3"/>
+    </g>
+    <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="660" y="210" width="140" height="150" rx="6" fill="#fffaf3"/>
+      <path d="M680 340 C 710 245 740 245 760 280 C 775 260 790 260 780 340 Z" fill="#b8d3bf" stroke="none"/>
+      <circle cx="765" cy="240" r="12" fill="#f2c9a0" stroke="none"/>
+    </g>
+  </g>
+  <g id="slots-shelf">
+    <g id="slot-shelf-1" data-slot="shelf-1" data-accepts="I01 I02 I03 I04 I05 I06 I07 I08" transform="translate(100 260)"></g>
+    <g id="slot-shelf-2" data-slot="shelf-2" data-accepts="I01 I02 I03 I04 I05 I06 I07 I08" transform="translate(180 260)"></g>
+    <g id="slot-shelf-3" data-slot="shelf-3" data-accepts="I01 I02 I03 I04 I05 I06 I07 I08" transform="translate(260 260)"></g>
+  </g>
+  <g id="slots-back">
+    <g id="slot-footbath-chair-1" data-slot="footbath-chair-1" data-accepts="E10" transform="translate(60 490)"></g>
+    <g id="slot-footbath-chair-2" data-slot="footbath-chair-2" data-accepts="E10" transform="translate(400 490)"></g>
+    <g id="slot-aroma" data-slot="aroma" data-accepts="E05" transform="translate(710 490)"></g>
+  </g>
+  <g id="actors"></g>
+  <g id="slots-front">
+    <g id="slot-footbath-chair-3" data-slot="footbath-chair-3" data-accepts="E10" transform="translate(240 710)"></g>
+  </g>
+  <g id="fg"></g>
+  <g id="ambient" style="display:none" pointer-events="none">
+    <rect x="0" y="0" width="1000" height="1000" fill="#ffe9a8" opacity="0.16"/>
+  </g>
+</svg>

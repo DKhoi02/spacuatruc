@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220">
+  <title>Huy hiệu Chương 5 – Cổ và vai</title>
+  <g id="ribbon" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M66 140 L48 212 L66 202 L80 214 L92 150 Z" fill="#e8b46a"/>
+    <path d="M134 140 L152 212 L134 202 L120 214 L108 150 Z" fill="#e8b46a"/>
+  </g>
+  <g id="medal">
+    <g stroke="#8a5f4b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"><circle cx="178.0" cy="92.0" r="12" fill="#4f7a62"/><circle cx="172.1" cy="121.8" r="12" fill="#4f7a62"/><circle cx="155.2" cy="147.2" r="12" fill="#4f7a62"/><circle cx="129.8" cy="164.1" r="12" fill="#4f7a62"/><circle cx="100.0" cy="170.0" r="12" fill="#4f7a62"/><circle cx="70.2" cy="164.1" r="12" fill="#4f7a62"/><circle cx="44.8" cy="147.2" r="12" fill="#4f7a62"/><circle cx="27.9" cy="121.8" r="12" fill="#4f7a62"/><circle cx="22.0" cy="92.0" r="12" fill="#4f7a62"/><circle cx="27.9" cy="62.2" r="12" fill="#4f7a62"/><circle cx="44.8" cy="36.8" r="12" fill="#4f7a62"/><circle cx="70.2" cy="19.9" r="12" fill="#4f7a62"/><circle cx="100.0" cy="14.0" r="12" fill="#4f7a62"/><circle cx="129.8" cy="19.9" r="12" fill="#4f7a62"/><circle cx="155.2" cy="36.8" r="12" fill="#4f7a62"/><circle cx="172.1" cy="62.2" r="12" fill="#4f7a62"/></g>
+    <g><circle cx="178.0" cy="92.0" r="12" fill="#4f7a62"/><circle cx="172.1" cy="121.8" r="12" fill="#4f7a62"/><circle cx="155.2" cy="147.2" r="12" fill="#4f7a62"/><circle cx="129.8" cy="164.1" r="12" fill="#4f7a62"/><circle cx="100.0" cy="170.0" r="12" fill="#4f7a62"/><circle cx="70.2" cy="164.1" r="12" fill="#4f7a62"/><circle cx="44.8" cy="147.2" r="12" fill="#4f7a62"/><circle cx="27.9" cy="121.8" r="12" fill="#4f7a62"/><circle cx="22.0" cy="92.0" r="12" fill="#4f7a62"/><circle cx="27.9" cy="62.2" r="12" fill="#4f7a62"/><circle cx="44.8" cy="36.8" r="12" fill="#4f7a62"/><circle cx="70.2" cy="19.9" r="12" fill="#4f7a62"/><circle cx="100.0" cy="14.0" r="12" fill="#4f7a62"/><circle cx="129.8" cy="19.9" r="12" fill="#4f7a62"/><circle cx="155.2" cy="36.8" r="12" fill="#4f7a62"/><circle cx="172.1" cy="62.2" r="12" fill="#4f7a62"/></g>
+    <circle cx="100" cy="92" r="78" fill="#4f7a62"/>
+    <circle cx="100" cy="92" r="62" fill="#8fb39a" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="100" cy="92" r="54" fill="#fffaf3"/>
+  </g>
+  <g id="motif" transform="translate(100 96)">
+      <path d="M-48 44 C -46 22 -32 12 -14 8 V-24 H14 V8 C 32 12 46 22 48 44 Z" fill="#f3d2bd" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+      <ellipse cx="0" cy="-30" rx="24" ry="20" fill="#3b2a24" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-12 -10 C -14 0 -30 10 -44 26 L -46 40 L -10 40 Z M12 -10 C 14 0 30 10 44 26 L 46 40 L 10 40 Z" fill="#d98a83" opacity="0.5"/>
+      <path d="M0 -8 V40" stroke="#c9967c" stroke-width="2.5" stroke-dasharray="3 6" stroke-linecap="round"/>
+      <circle cx="-26" cy="14" r="9" fill="#fffaf3" opacity="0.9"/><circle cx="-26" cy="14" r="5.5" fill="#d98a83" stroke="#8a5f4b" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="26" cy="14" r="9" fill="#fffaf3" opacity="0.9"/><circle cx="26" cy="14" r="5.5" fill="#d98a83" stroke="#8a5f4b" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+<!-- Dáng mặt: trái xoan (mặc định, giống mẫu) -->
+<g data-layer="neck"><rect x="179" y="222" width="42" height="68" fill="var(--skin-shade, #efc7b0)"/><path d="M179 222 V286 M221 222 V286" class="ol"/></g>
+<g data-layer="ears"><ellipse cx="114" cy="164" rx="13" ry="21" fill="var(--skin-shade, #efc7b0)" class="ol"/><ellipse cx="286" cy="164" rx="13" ry="21" fill="var(--skin-shade, #efc7b0)" class="ol"/></g>
+<g data-layer="head"><ellipse cx="200" cy="154" rx="86" ry="102" fill="var(--skin, #f3d2bd)" class="ol"/></g>

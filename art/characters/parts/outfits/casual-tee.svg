@@ -1,0 +1,4 @@
+<!-- Áo thun cổ tròn (khách) – đổi màu bằng --top -->
+<g data-layer="body"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="var(--top, #e7b4a6)" class="ol"/></g>
+<g data-layer="under"><path d="M168 278 C 180 298 220 298 232 278" fill="none" class="ol"/></g>
+<g data-layer="over"><defs><clipPath id="neck"><rect x="172" y="240" width="56" height="72"/></clipPath></defs><g clip-path="url(#neck)"><path d="M168 278 C 180 298 220 298 232 278 L 232 296 L 168 296 Z" fill="var(--top, #e7b4a6)"/><path d="M168 278 C 180 298 220 298 232 278" fill="none" class="ol"/></g></g>

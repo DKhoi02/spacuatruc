@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Chị Hoa – Thư giãn" data-character="khach-hoa" data-expression="relaxed">
+<title>Chị Hoa – Thư giãn</title>
+<g class="layer-hair-behind">
+<g data-part="hair/bob"><path d="M108 150 C 100 200 104 236 112 258 L 288 258 C 296 236 300 200 292 150 Z" fill="#3b2a24" style="fill:var(--hair, #3b2a24)"/></g>
+</g>
+<g class="layer-outfit-body">
+<g data-part="outfits/casual-cardigan"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#fffaf3" style="fill:var(--top2, #fffaf3)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-under">
+<g data-part="outfits/casual-cardigan"><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/round"><rect x="179" y="222" width="42" height="68" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)"/><path d="M179 222 V286 M221 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/casual-cardigan"><defs><clipPath id="khach-hoa-relaxed-neck"><rect x="172" y="240" width="56" height="72"/></clipPath></defs><g clip-path="url(#khach-hoa-relaxed-neck)"><path d="M168 278 C 180 298 220 298 232 278 L 232 296 L 168 296 Z" fill="#fffaf3" style="fill:var(--top2, #fffaf3)"/><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g><path d="M60 392 C 74 306 130 278 166 278 C 172 310 178 350 182 392 Z" fill="#8fb39a" style="fill:var(--top, #8fb39a)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M340 392 C 326 306 270 278 234 278 C 228 310 222 350 218 392 Z" fill="#8fb39a" style="fill:var(--top, #8fb39a)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><g fill="#fffaf3" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><circle cx="174" cy="336" r="4.5"/><circle cx="178" cy="370" r="4.5"/></g></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/round"><path d="M200 56 C 252 56 291 96 291 158 C 291 214 254 254 200 254 C 146 254 109 214 109 158 C 109 96 148 56 200 56 Z" fill="#f3d2bd" style="fill:var(--skin, #f3d2bd)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/relaxed">
+<g class="blush"><circle cx="146" cy="193" r="14" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.6"/><circle cx="254" cy="193" r="14" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.6"/></g>
+<g class="brows" fill="none" stroke="#3b2a24" style="stroke:var(--brow, #3b2a24)" stroke-width="5.5" stroke-linecap="round"><path d="M147 134 C 157 129 174 129 185 134"/><path d="M215 134 C 226 129 243 129 253 134"/></g>
+<g class="eyes" fill="none" stroke="#2a1d18" stroke-width="5.5" stroke-linecap="round"><path d="M154 166 C 159 157 173 157 178 166"/><path d="M222 166 C 227 157 241 157 246 166"/></g>
+<g class="mouth" fill="none" stroke="#3d2c25" stroke-width="5.5" stroke-linecap="round"><path d="M183 214 C 192 226 208 226 217 214"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/bob" data-hides-ears="true"><path d="M112 158 C 100 76 150 46 200 48 C 250 46 300 76 288 158 C 290 200 294 232 300 256 C 284 264 266 262 256 252 C 266 218 268 176 266 142 C 264 128 260 120 252 116 L 148 116 C 140 120 136 128 134 142 C 132 176 134 218 144 252 C 134 262 116 264 100 256 C 106 232 110 200 112 158 Z" fill="#3b2a24" style="fill:var(--hair, #3b2a24)"/><path d="M160 116 L164 100 M188 116 L190 98 M214 116 L212 98 M240 116 L236 100" fill="none" stroke="#55403a" style="stroke:var(--hair-shade, #55403a)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-top">
+<g data-part="accessories/hair-clip"><g fill="#f0c6b8" style="fill:var(--clip, #f0c6b8)" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><circle cx="138" cy="86" r="8"/><circle cx="152" cy="80" r="8"/><circle cx="154" cy="96" r="8"/><circle cx="140" cy="102" r="8"/></g><circle cx="146" cy="91" r="5.5" fill="#e8b46a"/></g>
+</g>
+</svg>

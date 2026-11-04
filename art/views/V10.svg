@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400">
+  <title>V10 – Cẳng chân mặt trong (phải)</title>
+  <g id="bg"><rect width="1000" height="1400" fill="#fbf6f0"/></g>
+  <g id="base" stroke="#9a6a52" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path id="v10-leg" d="M 478 -20 C 474 40 466 90 468 130 C 470 165 480 185 484 205 C 488 230 486 260 490 300 C 494 320 496 340 494 360 C 500 450 512 560 522 660 C 534 780 548 900 558 1020 C 562 1080 568 1120 570 1146 C 552 1170 500 1178 450 1188 C 380 1200 320 1222 260 1246 C 220 1260 180 1268 150 1276 C 112 1286 100 1324 116 1340 C 130 1350 180 1348 220 1346 C 260 1346 290 1346 320 1338 C 380 1316 440 1302 500 1304 C 560 1308 620 1336 680 1346 C 720 1352 760 1346 778 1326 C 796 1300 792 1262 776 1226 C 762 1190 762 1160 758 1120 C 752 1060 744 1000 746 950 C 750 880 790 790 820 700 C 842 630 852 540 846 470 C 840 390 826 330 808 280 C 798 250 796 220 800 190 C 804 140 812 80 818 -20 Z" fill="var(--skin, #f3d2bd)"/>
+  </g>
+  <g id="skin-detail" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 846 470 C 852 540 842 630 820 700 C 790 790 750 880 746 950 C 744 1000 752 1060 758 1120 C 740 1050 726 980 730 920 C 740 840 790 760 806 680 C 824 600 828 520 818 440 C 830 450 842 460 846 470 Z" fill="var(--skin-shade, #efc7b0)"/>
+    <path d="M 320 1338 C 380 1316 440 1302 500 1304 C 560 1308 620 1336 680 1346 C 620 1316 560 1286 500 1280 C 430 1276 370 1300 320 1338 Z" fill="var(--skin-shade, #efc7b0)"/>
+    <path d="M 808 280 C 798 250 796 220 800 190 C 804 140 812 80 818 -20 L 790 -20 C 786 80 780 150 784 220 C 788 250 798 270 808 280 Z" fill="var(--skin-shade, #efc7b0)"/>
+    <path d="M 114 1300 C 122 1286 150 1274 178 1272 C 184 1284 178 1294 166 1298 C 148 1302 128 1306 114 1300 Z" fill="#f7e2d6" stroke="#c9967c" stroke-width="2.5"/>
+    <g fill="none" stroke="#c9967c" stroke-width="3">
+      <path d="M 256 1248 C 246 1280 248 1318 258 1342" stroke-width="2.5"/>
+      <path d="M 188 1270 C 184 1300 186 1326 192 1346" stroke-width="2" opacity="0.7"/>
+      <path d="M 570 1148 C 588 1140 598 1130 602 1116" stroke-width="2.5" opacity="0.8"/>
+      <path d="M 790 230 C 770 236 756 240 742 240 M 796 206 C 782 210 770 212 760 212" stroke-width="2.5" opacity="0.8"/>
+      <path d="M 488 120 C 500 100 520 96 540 104" stroke-width="2.5" opacity="0.7"/>
+    </g>
+  </g>
+  <g id="landmarks" fill="none" stroke="#c9967c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
+    <ellipse id="lm-medial-malleolus" cx="632" cy="1130" rx="30" ry="36"/>
+    <path id="lm-tibia-medial-border" d="M 640 270 C 628 480 626 720 636 920 C 642 1010 650 1060 662 1100"/>
+    <path id="lm-tibia-anterior-crest" d="M 506 360 C 518 500 534 700 552 900 C 560 980 566 1050 576 1100" opacity="0.6" stroke-dasharray="2 8"/>
+    <path id="lm-achilles-tendon" d="M 700 900 C 702 990 712 1080 722 1150 C 728 1190 736 1220 750 1246 M 744 880 C 742 960 748 1060 758 1130"/>
+    <path id="lm-medial-condyle" d="M 560 170 C 600 160 660 170 690 200" opacity="0.6"/>
+    <path id="lm-knee-joint-line" d="M 500 194 L 790 194" stroke-dasharray="3 9" opacity="0.6"/>
+    <ellipse id="lm-navicular-tuberosity" cx="540" cy="1214" rx="16" ry="12" opacity="0.7"/>
+    <ellipse id="lm-1st-metatarsal-head" cx="266" cy="1306" rx="26" ry="24" opacity="0.6"/>
+  </g>
+  <g id="guides" fill="none" stroke="#4f86c6" stroke-width="2.5" stroke-dasharray="10 8" opacity="0.8">
+    <line x1="400" y1="194" x2="400" y2="1130"/>
+    <line x1="388" y1="1130" x2="412" y2="1130" stroke-dasharray="none"/><line x1="392" y1="1058" x2="408" y2="1058" stroke-dasharray="none"/><line x1="392" y1="986" x2="408" y2="986" stroke-dasharray="none"/><line x1="388" y1="914" x2="412" y2="914" stroke-dasharray="none"/><line x1="392" y1="842" x2="408" y2="842" stroke-dasharray="none"/><line x1="392" y1="770" x2="408" y2="770" stroke-dasharray="none"/><line x1="388" y1="698" x2="412" y2="698" stroke-dasharray="none"/><line x1="392" y1="626" x2="408" y2="626" stroke-dasharray="none"/><line x1="392" y1="554" x2="408" y2="554" stroke-dasharray="none"/><line x1="388" y1="482" x2="412" y2="482" stroke-dasharray="none"/><line x1="392" y1="410" x2="408" y2="410" stroke-dasharray="none"/><line x1="392" y1="338" x2="408" y2="338" stroke-dasharray="none"/><line x1="388" y1="266" x2="412" y2="266" stroke-dasharray="none"/><line x1="392" y1="194" x2="408" y2="194" stroke-dasharray="none"/>
+    <line x1="412" y1="1130" x2="600" y2="1130"/>
+    <line x1="412" y1="194" x2="480" y2="194"/>
+    <line x1="412" y1="914" x2="620" y2="914" opacity="0.6"/>
+  </g>
+</svg>

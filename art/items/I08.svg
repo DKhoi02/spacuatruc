@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>I08 Dầu xả</title>
+  <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M48 20 V10 H66 V16" fill="none" stroke-width="4"/>
+    <rect x="40" y="18" width="16" height="10" rx="3" fill="#fffaf3" stroke-width="3"/>
+    <path d="M34 28 H62 C 70 28 74 34 74 42 V82 C 74 86 72 88 68 88 H28 C 24 88 22 86 22 82 V42 C 22 34 26 28 34 28 Z" fill="#e7b4a6"/>
+    <rect x="30" y="44" width="36" height="32" rx="6" fill="#fffaf3" stroke-width="3"/>
+    <path d="M48 50 C 48 50 40 59 40 64 C 40 68 44 71 48 71 C 52 71 56 68 56 64 C 56 59 48 50 48 50 Z" fill="#f0c6b8" stroke-width="2"/>
+  </g>
+</svg>

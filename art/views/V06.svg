@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400">
+  <title>V06 – Lưng (nằm sấp)</title>
+  <g id="bg"><rect width="1000" height="1400" fill="#fbf6f0"/></g>
+  <g id="base" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="130" y="-20" width="740" height="1440" rx="40" fill="#e8d2b8" stroke="#c49a70" stroke-width="4"/>
+    <rect x="152" y="-20" width="696" height="1440" rx="30" fill="#fffaf3" stroke="#e8d2b8" stroke-width="3"/>
+    <ellipse cx="402" cy="146" rx="16" ry="34" fill="var(--skin-shade, #efc7b0)" stroke="#9a6a52" stroke-width="3"/>
+    <ellipse cx="598" cy="146" rx="16" ry="34" fill="var(--skin-shade, #efc7b0)" stroke="#9a6a52" stroke-width="3"/>
+    <path d="M500,214 L436,214 C433,240 430,262 420,278 C384,292 304,298 262,314 C250,330 254,360 270,390 C282,430 296,470 303,500 C312,600 330,700 338,782 C340,860 312,940 296,1010 L292,1060 L500,1060 Z" fill="var(--skin, #f3d2bd)" stroke="none"/>
+    <path d="M500,214 L564,214 C567,240 570,262 580,278 C616,292 696,298 738,314 C750,330 746,360 730,390 C718,430 704,470 697,500 C688,600 670,700 662,782 C660,860 688,940 704,1010 L708,1060 L500,1060 Z" fill="var(--skin, #f3d2bd)" stroke="none"/>
+    <path d="M436,190 L436,214 C433,240 430,262 420,278 C384,292 304,298 262,314" fill="none" stroke="#9a6a52" stroke-width="4"/>
+    <path d="M564,190 L564,214 C567,240 570,262 580,278 C616,292 696,298 738,314" fill="none" stroke="#9a6a52" stroke-width="4"/>
+    <path d="M303,500 C312,600 330,700 338,782 C340,860 312,940 296,1010 L292,1060" fill="none" stroke="#9a6a52" stroke-width="4"/>
+    <path d="M697,500 C688,600 670,700 662,782 C660,860 688,940 704,1010 L708,1060" fill="none" stroke="#9a6a52" stroke-width="4"/>
+    <path d="M262,314 C224,328 199,362 201,408 C194,480 186,590 188,700 C191,790 200,900 210,1032 L288,1032 C290,940 284,800 283,700 C286,610 294,540 303,500 C296,470 284,430 274,396 C264,370 258,340 262,314 Z" fill="var(--skin, #f3d2bd)" stroke="none"/>
+    <path d="M262,314 C224,328 199,362 201,408 C194,480 186,590 188,700 C191,790 200,900 210,1032" fill="none" stroke="#9a6a52" stroke-width="4"/>
+    <path d="M303,500 C294,540 286,610 283,700 C284,800 290,940 288,1032" fill="none" stroke="#9a6a52" stroke-width="4"/>
+    <path d="M303,500 C299,484 295,470 290,456" fill="none" stroke="#9a6a52" stroke-width="3"/>
+    <path d="M738,314 C776,328 801,362 799,408 C806,480 814,590 812,700 C809,790 800,900 790,1032 L712,1032 C710,940 716,800 717,700 C714,610 706,540 697,500 C704,470 716,430 726,396 C736,370 742,340 738,314 Z" fill="var(--skin, #f3d2bd)" stroke="none"/>
+    <path d="M738,314 C776,328 801,362 799,408 C806,480 814,590 812,700 C809,790 800,900 790,1032" fill="none" stroke="#9a6a52" stroke-width="4"/>
+    <path d="M697,500 C706,540 714,610 717,700 C716,800 710,940 712,1032" fill="none" stroke="#9a6a52" stroke-width="4"/>
+    <path d="M697,500 C701,484 705,470 710,456" fill="none" stroke="#9a6a52" stroke-width="3"/>
+    <path d="M262,1000 C380,984 620,984 738,1000 L760,1420 L240,1420 Z" fill="#a9c9b3" stroke="#4f7a62" stroke-width="4"/>
+    <path d="M266,1024 C380,1008 620,1008 734,1024" fill="none" stroke="#8fb39a" stroke-width="5"/>
+    <path d="M262,1000 C380,984 620,984 738,1000 L740,1030 C620,1016 380,1016 260,1030 Z" fill="#8fb39a" stroke="#4f7a62" stroke-width="3"/>
+    <path d="M360,1060 C366,1180 346,1300 352,1400" fill="none" stroke="#8fb39a" stroke-width="3"/>
+    <path d="M500,1060 C506,1180 494,1300 500,1400" fill="none" stroke="#8fb39a" stroke-width="3"/>
+    <path d="M640,1060 C646,1180 642,1300 648,1400" fill="none" stroke="#8fb39a" stroke-width="3"/>
+    <path d="M210,1028 C202,1066 204,1118 218,1148 C228,1166 258,1172 276,1162 C284,1150 286,1136 284,1122 C298,1112 302,1090 292,1072 C290,1058 290,1044 288,1028 Z" fill="var(--skin, #f3d2bd)" stroke="none"/>
+    <path d="M210,1028 C202,1066 204,1118 218,1148 C228,1166 258,1172 276,1162 C284,1150 286,1136 284,1122 C298,1112 302,1090 292,1072 C290,1058 290,1044 288,1028" fill="none" stroke="#9a6a52" stroke-width="4"/>
+    <path d="M790,1028 C798,1066 796,1118 782,1148 C772,1166 742,1172 724,1162 C716,1150 714,1136 716,1122 C702,1112 698,1090 708,1072 C710,1058 710,1044 712,1028 Z" fill="var(--skin, #f3d2bd)" stroke="none"/>
+    <path d="M790,1028 C798,1066 796,1118 782,1148 C772,1166 742,1172 724,1162 C716,1150 714,1136 716,1122 C702,1112 698,1090 708,1072 C710,1058 710,1044 712,1028" fill="none" stroke="#9a6a52" stroke-width="4"/>
+  </g>
+  <g id="skin-detail" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M330,420 C318,470 330,540 392,572 C372,520 352,460 330,420 Z" fill="var(--skin-shade, #efc7b0)" stroke="none" opacity="0.9"/>
+    <path d="M306,520 C318,640 334,720 336,800 C326,720 312,640 306,520 Z" fill="var(--skin-shade, #efc7b0)" stroke="none"/>
+    <path d="M214,430 C232,452 252,462 276,462" stroke="#e0b39b" stroke-width="3"/>
+    <path d="M206,700 C228,708 252,708 272,700" stroke="#e0b39b" stroke-width="3"/>
+    <path d="M226,1132 L230,1158 M246,1134 L248,1164 M264,1132 L266,1162" stroke="#d7a58c" stroke-width="2"/>
+    <path d="M474,600 C466,720 462,860 470,990" stroke="#ecc0a8" stroke-width="3"/>
+    <path d="M336,820 C350,830 364,832 378,830" stroke="#e0b39b" stroke-width="2"/>
+    <path d="M670,420 C682,470 670,540 608,572 C628,520 648,460 670,420 Z" fill="var(--skin-shade, #efc7b0)" stroke="none" opacity="0.9"/>
+    <path d="M694,520 C682,640 666,720 664,800 C674,720 688,640 694,520 Z" fill="var(--skin-shade, #efc7b0)" stroke="none"/>
+    <path d="M786,430 C768,452 748,462 724,462" stroke="#e0b39b" stroke-width="3"/>
+    <path d="M794,700 C772,708 748,708 728,700" stroke="#e0b39b" stroke-width="3"/>
+    <path d="M774,1132 L770,1158 M754,1134 L752,1164 M736,1132 L734,1162" stroke="#d7a58c" stroke-width="2"/>
+    <path d="M526,600 C534,720 538,860 530,990" stroke="#ecc0a8" stroke-width="3"/>
+    <path d="M664,820 C650,830 636,832 622,830" stroke="#e0b39b" stroke-width="2"/>
+    <path d="M500,262 L500,1000" stroke="#e7b9a1" stroke-width="3"/>
+    <path d="M436,214 C470,224 530,224 564,214 L564,230 C530,240 470,240 436,230 Z" fill="var(--skin-shade, #efc7b0)" stroke="none"/>
+  </g>
+  <g id="hair" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M500,22 C562,22 602,70 602,128 C602,172 584,204 558,218 C538,212 520,210 500,214 C480,210 462,212 442,218 C416,204 398,172 398,128 C398,70 438,22 500,22 Z" fill="var(--hair, #3b2a24)"/>
+    <path d="M454,214 L458,226 M476,212 L479,225 M500,214 L500,227 M524,212 L521,225 M546,214 L542,226" stroke="var(--hair, #3b2a24)" stroke-width="3"/>
+    <g fill="none" stroke="#6b4434" stroke-width="2" opacity="0.6">
+      <path d="M424,96 C442,140 454,176 470,206"/>
+      <path d="M576,96 C558,140 546,176 530,206"/>
+      <path d="M410,142 C420,172 432,192 446,208"/>
+      <path d="M590,142 C580,172 568,192 554,208"/>
+    </g>
+    <circle cx="500" cy="100" r="50" fill="var(--hair, #3b2a24)" stroke="#2f2420" stroke-width="3"/>
+    <path d="M466,86 C482,68 518,68 534,86 M462,108 C482,126 518,126 538,108" fill="none" stroke="#6b4434" stroke-width="2.5" opacity="0.7"/>
+    <path d="M466,140 C488,151 512,151 534,140" fill="none" stroke="#e8b46a" stroke-width="7"/>
+  </g>
+  <g id="landmarks" fill="none" stroke="#c9967c" stroke-linecap="round" stroke-linejoin="round">
+    <path id="scapula-left" d="M408,372 C380,374 330,382 296,394 C286,420 286,440 290,460 C316,500 368,540 412,560 C410,500 404,440 404,404 C404,390 406,380 408,372 Z" stroke-width="3" fill="#efc7b0" fill-opacity="0.35"/>
+    <path id="scapula-spine-left" d="M404,410 C370,392 310,356 266,330" stroke-width="3"/>
+    <path id="acromion-left" d="M266,330 C258,322 246,322 240,330 C236,340 246,346 262,342" stroke-width="3"/>
+    <path id="scapula-right" d="M592,372 C620,374 670,382 704,394 C714,420 714,440 710,460 C684,500 632,540 588,560 C590,500 596,440 596,404 C596,390 594,380 592,372 Z" stroke-width="3" fill="#efc7b0" fill-opacity="0.35"/>
+    <path id="scapula-spine-right" d="M596,410 C630,392 690,356 734,330" stroke-width="3"/>
+    <path id="acromion-right" d="M734,330 C742,322 754,322 760,330 C764,340 754,346 738,342" stroke-width="3"/>
+    <path id="iliac-crest-left" d="M300,980 C318,944 356,920 398,918 C430,918 452,930 462,946" stroke-width="3"/>
+    <path id="iliac-crest-right" d="M700,980 C682,944 644,920 602,918 C570,918 548,930 538,946" stroke-width="3"/>
+    <g id="spinous-processes" fill="#efc7b0" stroke-width="2.5">
+      <ellipse id="sp-C7" cx="500" cy="300" rx="13" ry="10" stroke-width="3"/>
+      <ellipse id="sp-T1" cx="500" cy="334" rx="9" ry="7"/>
+      <ellipse id="sp-T2" cx="500" cy="369" rx="9" ry="7"/>
+      <ellipse id="sp-T3" cx="500" cy="404" rx="9" ry="7"/>
+      <ellipse id="sp-T4" cx="500" cy="440" rx="9" ry="7"/>
+      <ellipse id="sp-T5" cx="500" cy="476" rx="9" ry="7"/>
+      <ellipse id="sp-T6" cx="500" cy="513" rx="9" ry="7"/>
+      <ellipse id="sp-T7" cx="500" cy="550" rx="9" ry="7"/>
+      <ellipse id="sp-T8" cx="500" cy="588" rx="9" ry="7"/>
+      <ellipse id="sp-T9" cx="500" cy="626" rx="9" ry="7"/>
+      <ellipse id="sp-T10" cx="500" cy="665" rx="9" ry="7"/>
+      <ellipse id="sp-T11" cx="500" cy="704" rx="9" ry="7"/>
+      <ellipse id="sp-T12" cx="500" cy="744" rx="9" ry="7"/>
+      <ellipse id="sp-L1" cx="500" cy="786" rx="11" ry="7"/>
+      <ellipse id="sp-L2" cx="500" cy="830" rx="11" ry="7"/>
+      <ellipse id="sp-L3" cx="500" cy="875" rx="11" ry="7"/>
+      <ellipse id="sp-L4" cx="500" cy="920" rx="11" ry="7"/>
+      <ellipse id="sp-L5" cx="500" cy="964" rx="11" ry="7"/>
+    </g>
+  </g>
+  <g id="muscles" fill="#d98a83" fill-opacity="0.35" stroke="#c0605a" stroke-width="2" stroke-linejoin="round">
+    <polygon id="m-trapezius-left" points="497,222 440,220 432,258 418,280 360,292 300,302 262,316 250,334 268,342 320,362 380,386 440,380 497,372"/>
+    <polygon id="m-trapezius-right" points="503,222 560,220 568,258 582,280 640,292 700,302 738,316 750,334 732,342 680,362 620,386 560,380 503,372"/>
+    <polygon id="m-levator-scapulae-left" points="452,228 466,232 462,280 436,330 414,384 398,384 412,330 440,276" fill="#c96f68"/>
+    <polygon id="m-levator-scapulae-right" points="548,228 534,232 538,280 564,330 586,384 602,384 588,330 560,276" fill="#c96f68"/>
+  </g>
+  <g id="guides" stroke="#4f86c6" stroke-width="2.5" stroke-dasharray="10 8" fill="none" opacity="0.8">
+    <line id="guide-midline" x1="500" y1="226" x2="500" y2="990"/>
+    <line id="guide-bladder-left" x1="452" y1="330" x2="452" y2="990"/>
+    <line id="guide-bladder-right" x1="548" y1="330" x2="548" y2="990"/>
+    <line id="guide-3cun-left" x1="404" y1="380" x2="404" y2="560" stroke-dasharray="4 8"/>
+    <line id="guide-3cun-right" x1="596" y1="380" x2="596" y2="560" stroke-dasharray="4 8"/>
+    <line id="level-C7" x1="420" y1="300" x2="580" y2="300" stroke-dasharray="6 6" stroke-width="2"/>
+    <line id="level-T1" x1="420" y1="351" x2="580" y2="351" stroke-dasharray="6 6" stroke-width="2"/>
+    <line id="level-T2" x1="420" y1="386" x2="580" y2="386" stroke-dasharray="6 6" stroke-width="2"/>
+    <line id="level-T3" x1="420" y1="421" x2="580" y2="421" stroke-dasharray="6 6" stroke-width="2"/>
+    <line id="level-T7" x1="420" y1="567" x2="580" y2="567" stroke-dasharray="6 6" stroke-width="2"/>
+    <line id="level-T9" x1="420" y1="643" x2="580" y2="643" stroke-dasharray="6 6" stroke-width="2"/>
+    <line id="level-T11" x1="420" y1="721" x2="580" y2="721" stroke-dasharray="6 6" stroke-width="2"/>
+    <line id="level-L2" x1="420" y1="847" x2="580" y2="847" stroke-dasharray="6 6" stroke-width="2"/>
+    <line id="level-acromion-c7" x1="500" y1="300" x2="252" y2="326" stroke-dasharray="6 6" stroke-width="2"/>
+    <line id="level-acromion-c7-right" x1="500" y1="300" x2="748" y2="326" stroke-dasharray="6 6" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+<!-- Dáng mặt: hàm vuông nhẹ (nam) -->
+<g data-layer="neck"><rect x="177" y="222" width="46" height="68" fill="var(--skin-shade, #efc7b0)"/><path d="M177 222 V286 M223 222 V286" class="ol"/></g>
+<g data-layer="ears"><ellipse cx="114" cy="164" rx="13" ry="21" fill="var(--skin-shade, #efc7b0)" class="ol"/><ellipse cx="286" cy="164" rx="13" ry="21" fill="var(--skin-shade, #efc7b0)" class="ol"/></g>
+<g data-layer="head"><path d="M200 52 C 250 52 287 90 287 148 C 287 196 276 226 248 246 C 230 258 170 258 152 246 C 124 226 113 196 113 148 C 113 90 150 52 200 52 Z" fill="var(--skin, #f3d2bd)" class="ol"/></g>

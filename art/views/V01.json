@@ -1,0 +1,2223 @@
+{
+  "view": "V01",
+  "title": "Mặt chính diện",
+  "svg": "V01.svg",
+  "frame": {
+    "width": 1000,
+    "height": 1400
+  },
+  "sideConvention": "customer: \"left\"/\"right\" = bên trái/phải CỦA KHÁCH (giải phẫu), không phải bên màn hình",
+  "variants": {
+    "eyes": [
+      "eyes-open",
+      "eyes-closed"
+    ],
+    "mouth": [
+      "mouth-closed",
+      "mouth-clench",
+      "mouth-open"
+    ],
+    "expr": [
+      "expr-relaxed",
+      "expr-neutral",
+      "expr-pain"
+    ]
+  },
+  "defaultVariants": {
+    "eyes": "eyes-open",
+    "mouth": "mouth-closed",
+    "expr": "expr-neutral"
+  },
+  "overlays": [
+    "V13.svg"
+  ],
+  "midlineX": 0.5,
+  "cun": {
+    "unitsPerCun": 0.06,
+    "reference": "Thốn theo tỉ lệ xương (WHO): chân tóc trán giữa (y 0.2986) → Ấn Đường/giữa hai đầu lông mày (y 0.4243) = 3 thốn; 1 thốn = 60px = 0.06 chiều rộng. Điểm ở xa đường giữa (Đầu Duy 4,5 thốn) đã tính co ngắn do mặt cong khi nhìn chính diện."
+  },
+  "points": [
+    {
+      "id": "GV29",
+      "name": "Ấn Đường",
+      "side": "center",
+      "x": 0.5,
+      "y": 0.4243,
+      "r": 0.024,
+      "variant": null,
+      "note": "Chỗ lõm ở điểm giữa hai đầu trong lông mày"
+    },
+    {
+      "id": "BL2",
+      "name": "Toản Trúc",
+      "side": "right",
+      "x": 0.446,
+      "y": 0.4229,
+      "r": 0.022,
+      "variant": null,
+      "note": "Chỗ lõm ở đầu trong lông mày"
+    },
+    {
+      "id": "BL2",
+      "name": "Toản Trúc",
+      "side": "left",
+      "x": 0.554,
+      "y": 0.4229,
+      "r": 0.022,
+      "variant": null,
+      "note": "Chỗ lõm ở đầu trong lông mày"
+    },
+    {
+      "id": "EX-HN4",
+      "name": "Ngư Yêu",
+      "side": "right",
+      "x": 0.378,
+      "y": 0.4107,
+      "r": 0.022,
+      "variant": null,
+      "note": "Giữa lông mày, thẳng trên đồng tử"
+    },
+    {
+      "id": "EX-HN4",
+      "name": "Ngư Yêu",
+      "side": "left",
+      "x": 0.622,
+      "y": 0.4107,
+      "r": 0.022,
+      "variant": null,
+      "note": "Giữa lông mày, thẳng trên đồng tử"
+    },
+    {
+      "id": "TE23",
+      "name": "Ty Trúc Không",
+      "side": "right",
+      "x": 0.294,
+      "y": 0.4286,
+      "r": 0.022,
+      "variant": null,
+      "note": "Chỗ lõm ở đầu ngoài lông mày"
+    },
+    {
+      "id": "TE23",
+      "name": "Ty Trúc Không",
+      "side": "left",
+      "x": 0.706,
+      "y": 0.4286,
+      "r": 0.022,
+      "variant": null,
+      "note": "Chỗ lõm ở đầu ngoài lông mày"
+    },
+    {
+      "id": "EX-HN5",
+      "name": "Thái Dương",
+      "side": "right",
+      "x": 0.246,
+      "y": 0.4471,
+      "r": 0.024,
+      "variant": null,
+      "note": "Chỗ lõm 1 thốn phía sau điểm giữa đầu ngoài lông mày và khóe mắt ngoài"
+    },
+    {
+      "id": "EX-HN5",
+      "name": "Thái Dương",
+      "side": "left",
+      "x": 0.754,
+      "y": 0.4471,
+      "r": 0.024,
+      "variant": null,
+      "note": "Chỗ lõm 1 thốn phía sau điểm giữa đầu ngoài lông mày và khóe mắt ngoài"
+    },
+    {
+      "id": "GB14",
+      "name": "Dương Bạch",
+      "side": "right",
+      "x": 0.38,
+      "y": 0.3686,
+      "r": 0.024,
+      "variant": null,
+      "note": "Trên lông mày 1 thốn, thẳng trên đồng tử"
+    },
+    {
+      "id": "GB14",
+      "name": "Dương Bạch",
+      "side": "left",
+      "x": 0.62,
+      "y": 0.3686,
+      "r": 0.024,
+      "variant": null,
+      "note": "Trên lông mày 1 thốn, thẳng trên đồng tử"
+    },
+    {
+      "id": "BL1",
+      "name": "Tình Minh",
+      "side": "right",
+      "x": 0.454,
+      "y": 0.4593,
+      "r": 0.016,
+      "variant": null,
+      "note": "Chỗ lõm hơi trên khóe mắt trong, sát thành trong hốc mắt. Ấn rất nhẹ"
+    },
+    {
+      "id": "BL1",
+      "name": "Tình Minh",
+      "side": "left",
+      "x": 0.546,
+      "y": 0.4593,
+      "r": 0.016,
+      "variant": null,
+      "note": "Chỗ lõm hơi trên khóe mắt trong, sát thành trong hốc mắt. Ấn rất nhẹ"
+    },
+    {
+      "id": "GB1",
+      "name": "Đồng Tử Liêu",
+      "side": "right",
+      "x": 0.29,
+      "y": 0.4657,
+      "r": 0.02,
+      "variant": null,
+      "note": "Cách khóe mắt ngoài 0,5 thốn về phía ngoài"
+    },
+    {
+      "id": "GB1",
+      "name": "Đồng Tử Liêu",
+      "side": "left",
+      "x": 0.71,
+      "y": 0.4657,
+      "r": 0.02,
+      "variant": null,
+      "note": "Cách khóe mắt ngoài 0,5 thốn về phía ngoài"
+    },
+    {
+      "id": "ST1",
+      "name": "Thừa Khấp",
+      "side": "right",
+      "x": 0.38,
+      "y": 0.49,
+      "r": 0.016,
+      "variant": null,
+      "note": "Thẳng dưới đồng tử, giữa nhãn cầu và bờ dưới hốc mắt. Ấn rất nhẹ lên bờ xương"
+    },
+    {
+      "id": "ST1",
+      "name": "Thừa Khấp",
+      "side": "left",
+      "x": 0.62,
+      "y": 0.49,
+      "r": 0.016,
+      "variant": null,
+      "note": "Thẳng dưới đồng tử, giữa nhãn cầu và bờ dưới hốc mắt. Ấn rất nhẹ lên bờ xương"
+    },
+    {
+      "id": "ST2",
+      "name": "Tứ Bạch",
+      "side": "right",
+      "x": 0.38,
+      "y": 0.5186,
+      "r": 0.018,
+      "variant": null,
+      "note": "Thẳng dưới đồng tử, tại lỗ dưới hốc mắt"
+    },
+    {
+      "id": "ST2",
+      "name": "Tứ Bạch",
+      "side": "left",
+      "x": 0.62,
+      "y": 0.5186,
+      "r": 0.018,
+      "variant": null,
+      "note": "Thẳng dưới đồng tử, tại lỗ dưới hốc mắt"
+    },
+    {
+      "id": "ST3",
+      "name": "Cự Liêu",
+      "side": "right",
+      "x": 0.38,
+      "y": 0.5679,
+      "r": 0.022,
+      "variant": null,
+      "note": "Thẳng dưới đồng tử, ngang bờ dưới cánh mũi"
+    },
+    {
+      "id": "ST3",
+      "name": "Cự Liêu",
+      "side": "left",
+      "x": 0.62,
+      "y": 0.5679,
+      "r": 0.022,
+      "variant": null,
+      "note": "Thẳng dưới đồng tử, ngang bờ dưới cánh mũi"
+    },
+    {
+      "id": "SI18",
+      "name": "Quyền Liêu",
+      "side": "right",
+      "x": 0.322,
+      "y": 0.5514,
+      "r": 0.022,
+      "variant": null,
+      "note": "Thẳng dưới khóe mắt ngoài, chỗ lõm bờ dưới xương gò má"
+    },
+    {
+      "id": "SI18",
+      "name": "Quyền Liêu",
+      "side": "left",
+      "x": 0.678,
+      "y": 0.5514,
+      "r": 0.022,
+      "variant": null,
+      "note": "Thẳng dưới khóe mắt ngoài, chỗ lõm bờ dưới xương gò má"
+    },
+    {
+      "id": "EX-HN8",
+      "name": "Thượng Nghinh Hương",
+      "side": "right",
+      "x": 0.45,
+      "y": 0.5343,
+      "r": 0.018,
+      "variant": null,
+      "note": "Đầu trên rãnh mũi má, chỗ nối sụn cánh mũi và xương mũi"
+    },
+    {
+      "id": "EX-HN8",
+      "name": "Thượng Nghinh Hương",
+      "side": "left",
+      "x": 0.55,
+      "y": 0.5343,
+      "r": 0.018,
+      "variant": null,
+      "note": "Đầu trên rãnh mũi má, chỗ nối sụn cánh mũi và xương mũi"
+    },
+    {
+      "id": "LI20",
+      "name": "Nghinh Hương",
+      "side": "right",
+      "x": 0.43,
+      "y": 0.56,
+      "r": 0.018,
+      "variant": null,
+      "note": "Trong rãnh mũi má, ngang điểm giữa bờ ngoài cánh mũi"
+    },
+    {
+      "id": "LI20",
+      "name": "Nghinh Hương",
+      "side": "left",
+      "x": 0.57,
+      "y": 0.56,
+      "r": 0.018,
+      "variant": null,
+      "note": "Trong rãnh mũi má, ngang điểm giữa bờ ngoài cánh mũi"
+    },
+    {
+      "id": "GV26",
+      "name": "Thủy Câu",
+      "side": "center",
+      "x": 0.5,
+      "y": 0.5843,
+      "r": 0.018,
+      "variant": null,
+      "note": "Rãnh nhân trung, chỗ nối 1/3 trên và 1/3 giữa"
+    },
+    {
+      "id": "ST4",
+      "name": "Địa Thương",
+      "side": "right",
+      "x": 0.386,
+      "y": 0.6157,
+      "r": 0.02,
+      "variant": null,
+      "note": "Cách khóe miệng 0,4 thốn về phía ngoài"
+    },
+    {
+      "id": "ST4",
+      "name": "Địa Thương",
+      "side": "left",
+      "x": 0.614,
+      "y": 0.6157,
+      "r": 0.02,
+      "variant": null,
+      "note": "Cách khóe miệng 0,4 thốn về phía ngoài"
+    },
+    {
+      "id": "CV24",
+      "name": "Thừa Tương",
+      "side": "center",
+      "x": 0.5,
+      "y": 0.6557,
+      "r": 0.022,
+      "variant": null,
+      "note": "Chỗ lõm ở giữa rãnh môi cằm"
+    },
+    {
+      "id": "ST5",
+      "name": "Đại Nghinh",
+      "side": "right",
+      "x": 0.322,
+      "y": 0.6436,
+      "r": 0.018,
+      "variant": null,
+      "note": "Trước góc hàm, chỗ lõm bờ trước cơ cắn, nơi có mạch động mạch mặt. Tránh ấn mạnh"
+    },
+    {
+      "id": "ST5",
+      "name": "Đại Nghinh",
+      "side": "left",
+      "x": 0.678,
+      "y": 0.6436,
+      "r": 0.018,
+      "variant": null,
+      "note": "Trước góc hàm, chỗ lõm bờ trước cơ cắn, nơi có mạch động mạch mặt. Tránh ấn mạnh"
+    },
+    {
+      "id": "ST6",
+      "name": "Giáp Xa",
+      "side": "right",
+      "x": 0.29,
+      "y": 0.5929,
+      "r": 0.024,
+      "variant": null,
+      "note": "1 khoát ngón tay trước-trên góc hàm, trên cơ cắn (cắn chặt thì nổi, thả ra thì lõm)"
+    },
+    {
+      "id": "ST6",
+      "name": "Giáp Xa",
+      "side": "left",
+      "x": 0.71,
+      "y": 0.5929,
+      "r": 0.024,
+      "variant": null,
+      "note": "1 khoát ngón tay trước-trên góc hàm, trên cơ cắn (cắn chặt thì nổi, thả ra thì lõm)"
+    },
+    {
+      "id": "ST7",
+      "name": "Hạ Quan",
+      "side": "right",
+      "x": 0.247,
+      "y": 0.5314,
+      "r": 0.022,
+      "variant": "mouth-closed",
+      "note": "Trước tai, chỗ lõm giữa bờ dưới cung gò má và khuyết xương hàm dưới (ngậm miệng)"
+    },
+    {
+      "id": "ST7",
+      "name": "Hạ Quan",
+      "side": "left",
+      "x": 0.753,
+      "y": 0.5314,
+      "r": 0.022,
+      "variant": "mouth-closed",
+      "note": "Trước tai, chỗ lõm giữa bờ dưới cung gò má và khuyết xương hàm dưới (ngậm miệng)"
+    },
+    {
+      "id": "GV24",
+      "name": "Thần Đình",
+      "side": "center",
+      "x": 0.5,
+      "y": 0.2771,
+      "r": 0.024,
+      "variant": null,
+      "note": "Trên đường giữa, vào trong chân tóc trán 0,5 thốn"
+    },
+    {
+      "id": "ST8",
+      "name": "Đầu Duy",
+      "side": "right",
+      "x": 0.268,
+      "y": 0.3143,
+      "r": 0.024,
+      "variant": null,
+      "note": "Vào trong chân tóc góc trán 0,5 thốn, cách đường giữa 4,5 thốn"
+    },
+    {
+      "id": "ST8",
+      "name": "Đầu Duy",
+      "side": "left",
+      "x": 0.732,
+      "y": 0.3143,
+      "r": 0.024,
+      "variant": null,
+      "note": "Vào trong chân tóc góc trán 0,5 thốn, cách đường giữa 4,5 thốn"
+    }
+  ],
+  "muscles": [
+    {
+      "id": "frontalis",
+      "name": "Cơ trán",
+      "latin": "Frontalis",
+      "side": "center",
+      "svgPath": "m-frontalis",
+      "polygon": [
+        [
+          0.296,
+          0.4186
+        ],
+        [
+          0.288,
+          0.3893
+        ],
+        [
+          0.29,
+          0.3571
+        ],
+        [
+          0.3,
+          0.3357
+        ],
+        [
+          0.33,
+          0.3229
+        ],
+        [
+          0.42,
+          0.3086
+        ],
+        [
+          0.5,
+          0.3057
+        ],
+        [
+          0.58,
+          0.3086
+        ],
+        [
+          0.67,
+          0.3229
+        ],
+        [
+          0.7,
+          0.3357
+        ],
+        [
+          0.71,
+          0.3571
+        ],
+        [
+          0.712,
+          0.3893
+        ],
+        [
+          0.704,
+          0.4186
+        ],
+        [
+          0.64,
+          0.4057
+        ],
+        [
+          0.565,
+          0.4071
+        ],
+        [
+          0.522,
+          0.3971
+        ],
+        [
+          0.5,
+          0.3914
+        ],
+        [
+          0.478,
+          0.3971
+        ],
+        [
+          0.435,
+          0.4071
+        ],
+        [
+          0.36,
+          0.4057
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.47,
+            0.3971
+          ],
+          "to": [
+            0.47,
+            0.32
+          ]
+        },
+        {
+          "from": [
+            0.53,
+            0.3971
+          ],
+          "to": [
+            0.53,
+            0.32
+          ]
+        },
+        {
+          "from": [
+            0.405,
+            0.4029
+          ],
+          "to": [
+            0.4,
+            0.3186
+          ]
+        },
+        {
+          "from": [
+            0.595,
+            0.4029
+          ],
+          "to": [
+            0.6,
+            0.3186
+          ]
+        },
+        {
+          "from": [
+            0.33,
+            0.4043
+          ],
+          "to": [
+            0.31,
+            0.3429
+          ]
+        },
+        {
+          "from": [
+            0.67,
+            0.4043
+          ],
+          "to": [
+            0.69,
+            0.3429
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "orbicularis-oris",
+      "name": "Cơ vòng miệng",
+      "latin": "Orbicularis oris",
+      "side": "center",
+      "svgPath": "m-orbicularis-oris",
+      "polygon": [
+        [
+          0.382,
+          0.62
+        ],
+        [
+          0.3868,
+          0.6087
+        ],
+        [
+          0.4007,
+          0.5984
+        ],
+        [
+          0.4227,
+          0.5898
+        ],
+        [
+          0.451,
+          0.5836
+        ],
+        [
+          0.4832,
+          0.5804
+        ],
+        [
+          0.5168,
+          0.5804
+        ],
+        [
+          0.549,
+          0.5836
+        ],
+        [
+          0.5773,
+          0.5898
+        ],
+        [
+          0.5993,
+          0.5984
+        ],
+        [
+          0.6132,
+          0.6087
+        ],
+        [
+          0.618,
+          0.62
+        ],
+        [
+          0.6132,
+          0.6313
+        ],
+        [
+          0.5993,
+          0.6416
+        ],
+        [
+          0.5773,
+          0.6502
+        ],
+        [
+          0.549,
+          0.6564
+        ],
+        [
+          0.5168,
+          0.6596
+        ],
+        [
+          0.4832,
+          0.6596
+        ],
+        [
+          0.451,
+          0.6564
+        ],
+        [
+          0.4227,
+          0.6502
+        ],
+        [
+          0.4007,
+          0.6416
+        ],
+        [
+          0.3868,
+          0.6313
+        ],
+        [
+          0.382,
+          0.62
+        ],
+        [
+          0.41,
+          0.6186
+        ],
+        [
+          0.4169,
+          0.6246
+        ],
+        [
+          0.4364,
+          0.6297
+        ],
+        [
+          0.4656,
+          0.6331
+        ],
+        [
+          0.5,
+          0.6343
+        ],
+        [
+          0.5344,
+          0.6331
+        ],
+        [
+          0.5636,
+          0.6297
+        ],
+        [
+          0.5831,
+          0.6246
+        ],
+        [
+          0.59,
+          0.6186
+        ],
+        [
+          0.5831,
+          0.6126
+        ],
+        [
+          0.5636,
+          0.6074
+        ],
+        [
+          0.5344,
+          0.6041
+        ],
+        [
+          0.5,
+          0.6029
+        ],
+        [
+          0.4656,
+          0.6041
+        ],
+        [
+          0.4364,
+          0.6074
+        ],
+        [
+          0.4169,
+          0.6126
+        ],
+        [
+          0.41,
+          0.6186
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.494,
+            0.5957
+          ],
+          "to": [
+            0.418,
+            0.6086
+          ]
+        },
+        {
+          "from": [
+            0.506,
+            0.5957
+          ],
+          "to": [
+            0.582,
+            0.6086
+          ]
+        },
+        {
+          "from": [
+            0.494,
+            0.6443
+          ],
+          "to": [
+            0.418,
+            0.6286
+          ]
+        },
+        {
+          "from": [
+            0.506,
+            0.6443
+          ],
+          "to": [
+            0.582,
+            0.6286
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "corrugator-supercilii",
+      "name": "Cơ cau mày",
+      "latin": "Corrugator supercilii",
+      "side": "right",
+      "svgPath": "m-corrugator-supercilii-left",
+      "polygon": [
+        [
+          0.456,
+          0.4329
+        ],
+        [
+          0.444,
+          0.4214
+        ],
+        [
+          0.414,
+          0.4129
+        ],
+        [
+          0.382,
+          0.4086
+        ],
+        [
+          0.372,
+          0.4129
+        ],
+        [
+          0.398,
+          0.4214
+        ],
+        [
+          0.44,
+          0.4343
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.446,
+            0.4271
+          ],
+          "to": [
+            0.384,
+            0.4121
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "corrugator-supercilii",
+      "name": "Cơ cau mày",
+      "latin": "Corrugator supercilii",
+      "side": "left",
+      "svgPath": "m-corrugator-supercilii-right",
+      "polygon": [
+        [
+          0.544,
+          0.4329
+        ],
+        [
+          0.556,
+          0.4214
+        ],
+        [
+          0.586,
+          0.4129
+        ],
+        [
+          0.618,
+          0.4086
+        ],
+        [
+          0.628,
+          0.4129
+        ],
+        [
+          0.602,
+          0.4214
+        ],
+        [
+          0.56,
+          0.4343
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.554,
+            0.4271
+          ],
+          "to": [
+            0.616,
+            0.4121
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "orbicularis-oculi",
+      "name": "Cơ vòng mắt",
+      "latin": "Orbicularis oculi",
+      "side": "right",
+      "svgPath": "m-orbicularis-oculi-left",
+      "polygon": [
+        [
+          0.28,
+          0.4657
+        ],
+        [
+          0.284,
+          0.4512
+        ],
+        [
+          0.2956,
+          0.4379
+        ],
+        [
+          0.3138,
+          0.4269
+        ],
+        [
+          0.3373,
+          0.4189
+        ],
+        [
+          0.3641,
+          0.4148
+        ],
+        [
+          0.3919,
+          0.4148
+        ],
+        [
+          0.4187,
+          0.4189
+        ],
+        [
+          0.4422,
+          0.4269
+        ],
+        [
+          0.4604,
+          0.4379
+        ],
+        [
+          0.472,
+          0.4512
+        ],
+        [
+          0.476,
+          0.4657
+        ],
+        [
+          0.472,
+          0.4802
+        ],
+        [
+          0.4604,
+          0.4935
+        ],
+        [
+          0.4422,
+          0.5046
+        ],
+        [
+          0.4187,
+          0.5125
+        ],
+        [
+          0.3919,
+          0.5166
+        ],
+        [
+          0.3641,
+          0.5166
+        ],
+        [
+          0.3373,
+          0.5125
+        ],
+        [
+          0.3138,
+          0.5046
+        ],
+        [
+          0.2956,
+          0.4935
+        ],
+        [
+          0.284,
+          0.4802
+        ],
+        [
+          0.28,
+          0.4657
+        ],
+        [
+          0.314,
+          0.4636
+        ],
+        [
+          0.319,
+          0.4706
+        ],
+        [
+          0.3333,
+          0.4767
+        ],
+        [
+          0.3547,
+          0.4807
+        ],
+        [
+          0.38,
+          0.4821
+        ],
+        [
+          0.4053,
+          0.4807
+        ],
+        [
+          0.4267,
+          0.4767
+        ],
+        [
+          0.441,
+          0.4706
+        ],
+        [
+          0.446,
+          0.4636
+        ],
+        [
+          0.441,
+          0.4565
+        ],
+        [
+          0.4267,
+          0.4504
+        ],
+        [
+          0.4053,
+          0.4464
+        ],
+        [
+          0.38,
+          0.445
+        ],
+        [
+          0.3547,
+          0.4464
+        ],
+        [
+          0.3333,
+          0.4504
+        ],
+        [
+          0.319,
+          0.4565
+        ],
+        [
+          0.314,
+          0.4636
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.448,
+            0.4329
+          ],
+          "to": [
+            0.288,
+            0.4414
+          ]
+        },
+        {
+          "from": [
+            0.446,
+            0.4957
+          ],
+          "to": [
+            0.286,
+            0.4829
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "orbicularis-oculi",
+      "name": "Cơ vòng mắt",
+      "latin": "Orbicularis oculi",
+      "side": "left",
+      "svgPath": "m-orbicularis-oculi-right",
+      "polygon": [
+        [
+          0.72,
+          0.4657
+        ],
+        [
+          0.716,
+          0.4802
+        ],
+        [
+          0.7044,
+          0.4935
+        ],
+        [
+          0.6862,
+          0.5046
+        ],
+        [
+          0.6627,
+          0.5125
+        ],
+        [
+          0.6359,
+          0.5166
+        ],
+        [
+          0.6081,
+          0.5166
+        ],
+        [
+          0.5813,
+          0.5125
+        ],
+        [
+          0.5578,
+          0.5046
+        ],
+        [
+          0.5396,
+          0.4935
+        ],
+        [
+          0.528,
+          0.4802
+        ],
+        [
+          0.524,
+          0.4657
+        ],
+        [
+          0.528,
+          0.4512
+        ],
+        [
+          0.5396,
+          0.4379
+        ],
+        [
+          0.5578,
+          0.4269
+        ],
+        [
+          0.5813,
+          0.4189
+        ],
+        [
+          0.6081,
+          0.4148
+        ],
+        [
+          0.6359,
+          0.4148
+        ],
+        [
+          0.6627,
+          0.4189
+        ],
+        [
+          0.6862,
+          0.4269
+        ],
+        [
+          0.7044,
+          0.4379
+        ],
+        [
+          0.716,
+          0.4512
+        ],
+        [
+          0.72,
+          0.4657
+        ],
+        [
+          0.686,
+          0.4636
+        ],
+        [
+          0.681,
+          0.4565
+        ],
+        [
+          0.6667,
+          0.4504
+        ],
+        [
+          0.6453,
+          0.4464
+        ],
+        [
+          0.62,
+          0.445
+        ],
+        [
+          0.5947,
+          0.4464
+        ],
+        [
+          0.5733,
+          0.4504
+        ],
+        [
+          0.559,
+          0.4565
+        ],
+        [
+          0.554,
+          0.4636
+        ],
+        [
+          0.559,
+          0.4706
+        ],
+        [
+          0.5733,
+          0.4767
+        ],
+        [
+          0.5947,
+          0.4807
+        ],
+        [
+          0.62,
+          0.4821
+        ],
+        [
+          0.6453,
+          0.4807
+        ],
+        [
+          0.6667,
+          0.4767
+        ],
+        [
+          0.681,
+          0.4706
+        ],
+        [
+          0.686,
+          0.4636
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.552,
+            0.4329
+          ],
+          "to": [
+            0.712,
+            0.4414
+          ]
+        },
+        {
+          "from": [
+            0.554,
+            0.4957
+          ],
+          "to": [
+            0.714,
+            0.4829
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "temporalis",
+      "name": "Cơ thái dương",
+      "latin": "Temporalis",
+      "side": "right",
+      "svgPath": "m-temporalis-left",
+      "polygon": [
+        [
+          0.248,
+          0.3257
+        ],
+        [
+          0.28,
+          0.3386
+        ],
+        [
+          0.282,
+          0.3857
+        ],
+        [
+          0.272,
+          0.4357
+        ],
+        [
+          0.256,
+          0.4829
+        ],
+        [
+          0.24,
+          0.5029
+        ],
+        [
+          0.224,
+          0.4957
+        ],
+        [
+          0.219,
+          0.4429
+        ],
+        [
+          0.222,
+          0.3786
+        ],
+        [
+          0.232,
+          0.34
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.262,
+            0.3429
+          ],
+          "to": [
+            0.244,
+            0.4829
+          ]
+        },
+        {
+          "from": [
+            0.278,
+            0.3614
+          ],
+          "to": [
+            0.252,
+            0.4771
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "temporalis",
+      "name": "Cơ thái dương",
+      "latin": "Temporalis",
+      "side": "left",
+      "svgPath": "m-temporalis-right",
+      "polygon": [
+        [
+          0.752,
+          0.3257
+        ],
+        [
+          0.72,
+          0.3386
+        ],
+        [
+          0.718,
+          0.3857
+        ],
+        [
+          0.728,
+          0.4357
+        ],
+        [
+          0.744,
+          0.4829
+        ],
+        [
+          0.76,
+          0.5029
+        ],
+        [
+          0.776,
+          0.4957
+        ],
+        [
+          0.781,
+          0.4429
+        ],
+        [
+          0.778,
+          0.3786
+        ],
+        [
+          0.768,
+          0.34
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.738,
+            0.3429
+          ],
+          "to": [
+            0.756,
+            0.4829
+          ]
+        },
+        {
+          "from": [
+            0.722,
+            0.3614
+          ],
+          "to": [
+            0.748,
+            0.4771
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "masseter",
+      "name": "Cơ cắn",
+      "latin": "Masseter",
+      "side": "right",
+      "svgPath": "m-masseter-left",
+      "polygon": [
+        [
+          0.236,
+          0.51
+        ],
+        [
+          0.272,
+          0.5114
+        ],
+        [
+          0.306,
+          0.5186
+        ],
+        [
+          0.316,
+          0.5586
+        ],
+        [
+          0.318,
+          0.6071
+        ],
+        [
+          0.312,
+          0.6386
+        ],
+        [
+          0.292,
+          0.6443
+        ],
+        [
+          0.272,
+          0.6314
+        ],
+        [
+          0.256,
+          0.6114
+        ],
+        [
+          0.244,
+          0.5857
+        ],
+        [
+          0.236,
+          0.55
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.268,
+            0.5171
+          ],
+          "to": [
+            0.284,
+            0.6329
+          ]
+        },
+        {
+          "from": [
+            0.296,
+            0.5243
+          ],
+          "to": [
+            0.304,
+            0.6286
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "masseter",
+      "name": "Cơ cắn",
+      "latin": "Masseter",
+      "side": "left",
+      "svgPath": "m-masseter-right",
+      "polygon": [
+        [
+          0.764,
+          0.51
+        ],
+        [
+          0.728,
+          0.5114
+        ],
+        [
+          0.694,
+          0.5186
+        ],
+        [
+          0.684,
+          0.5586
+        ],
+        [
+          0.682,
+          0.6071
+        ],
+        [
+          0.688,
+          0.6386
+        ],
+        [
+          0.708,
+          0.6443
+        ],
+        [
+          0.728,
+          0.6314
+        ],
+        [
+          0.744,
+          0.6114
+        ],
+        [
+          0.756,
+          0.5857
+        ],
+        [
+          0.764,
+          0.55
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.732,
+            0.5171
+          ],
+          "to": [
+            0.716,
+            0.6329
+          ]
+        },
+        {
+          "from": [
+            0.704,
+            0.5243
+          ],
+          "to": [
+            0.696,
+            0.6286
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "zygomaticus-major",
+      "name": "Cơ gò má lớn",
+      "latin": "Zygomaticus major",
+      "side": "right",
+      "svgPath": "m-zygomaticus-major-left",
+      "polygon": [
+        [
+          0.286,
+          0.5371
+        ],
+        [
+          0.306,
+          0.5257
+        ],
+        [
+          0.356,
+          0.5657
+        ],
+        [
+          0.408,
+          0.6043
+        ],
+        [
+          0.414,
+          0.6186
+        ],
+        [
+          0.398,
+          0.6186
+        ],
+        [
+          0.34,
+          0.5786
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.404,
+            0.6129
+          ],
+          "to": [
+            0.298,
+            0.5343
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "zygomaticus-major",
+      "name": "Cơ gò má lớn",
+      "latin": "Zygomaticus major",
+      "side": "left",
+      "svgPath": "m-zygomaticus-major-right",
+      "polygon": [
+        [
+          0.714,
+          0.5371
+        ],
+        [
+          0.694,
+          0.5257
+        ],
+        [
+          0.644,
+          0.5657
+        ],
+        [
+          0.592,
+          0.6043
+        ],
+        [
+          0.586,
+          0.6186
+        ],
+        [
+          0.602,
+          0.6186
+        ],
+        [
+          0.66,
+          0.5786
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.596,
+            0.6129
+          ],
+          "to": [
+            0.702,
+            0.5343
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "zygomaticus-minor",
+      "name": "Cơ gò má nhỏ",
+      "latin": "Zygomaticus minor",
+      "side": "right",
+      "svgPath": "m-zygomaticus-minor-left",
+      "polygon": [
+        [
+          0.322,
+          0.5229
+        ],
+        [
+          0.344,
+          0.5157
+        ],
+        [
+          0.382,
+          0.5586
+        ],
+        [
+          0.424,
+          0.5986
+        ],
+        [
+          0.412,
+          0.6071
+        ],
+        [
+          0.364,
+          0.5671
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.416,
+            0.6014
+          ],
+          "to": [
+            0.336,
+            0.5214
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "zygomaticus-minor",
+      "name": "Cơ gò má nhỏ",
+      "latin": "Zygomaticus minor",
+      "side": "left",
+      "svgPath": "m-zygomaticus-minor-right",
+      "polygon": [
+        [
+          0.678,
+          0.5229
+        ],
+        [
+          0.656,
+          0.5157
+        ],
+        [
+          0.618,
+          0.5586
+        ],
+        [
+          0.576,
+          0.5986
+        ],
+        [
+          0.588,
+          0.6071
+        ],
+        [
+          0.636,
+          0.5671
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.584,
+            0.6014
+          ],
+          "to": [
+            0.664,
+            0.5214
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "levator-labii-superioris",
+      "name": "Cơ nâng môi trên",
+      "latin": "Levator labii superioris",
+      "side": "right",
+      "svgPath": "m-levator-labii-superioris-left",
+      "polygon": [
+        [
+          0.374,
+          0.5043
+        ],
+        [
+          0.424,
+          0.5043
+        ],
+        [
+          0.436,
+          0.5371
+        ],
+        [
+          0.44,
+          0.5714
+        ],
+        [
+          0.45,
+          0.5986
+        ],
+        [
+          0.432,
+          0.6043
+        ],
+        [
+          0.41,
+          0.5714
+        ],
+        [
+          0.39,
+          0.5371
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.44,
+            0.5971
+          ],
+          "to": [
+            0.404,
+            0.5114
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "levator-labii-superioris",
+      "name": "Cơ nâng môi trên",
+      "latin": "Levator labii superioris",
+      "side": "left",
+      "svgPath": "m-levator-labii-superioris-right",
+      "polygon": [
+        [
+          0.626,
+          0.5043
+        ],
+        [
+          0.576,
+          0.5043
+        ],
+        [
+          0.564,
+          0.5371
+        ],
+        [
+          0.56,
+          0.5714
+        ],
+        [
+          0.55,
+          0.5986
+        ],
+        [
+          0.568,
+          0.6043
+        ],
+        [
+          0.59,
+          0.5714
+        ],
+        [
+          0.61,
+          0.5371
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.56,
+            0.5971
+          ],
+          "to": [
+            0.596,
+            0.5114
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "buccinator",
+      "name": "Cơ mút",
+      "latin": "Buccinator",
+      "side": "right",
+      "svgPath": "m-buccinator-left",
+      "polygon": [
+        [
+          0.318,
+          0.59
+        ],
+        [
+          0.362,
+          0.5957
+        ],
+        [
+          0.406,
+          0.6086
+        ],
+        [
+          0.41,
+          0.6243
+        ],
+        [
+          0.362,
+          0.6343
+        ],
+        [
+          0.318,
+          0.6314
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.404,
+            0.6157
+          ],
+          "to": [
+            0.324,
+            0.6114
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "buccinator",
+      "name": "Cơ mút",
+      "latin": "Buccinator",
+      "side": "left",
+      "svgPath": "m-buccinator-right",
+      "polygon": [
+        [
+          0.682,
+          0.59
+        ],
+        [
+          0.638,
+          0.5957
+        ],
+        [
+          0.594,
+          0.6086
+        ],
+        [
+          0.59,
+          0.6243
+        ],
+        [
+          0.638,
+          0.6343
+        ],
+        [
+          0.682,
+          0.6314
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.596,
+            0.6157
+          ],
+          "to": [
+            0.676,
+            0.6114
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "depressor-anguli-oris",
+      "name": "Cơ hạ góc miệng",
+      "latin": "Depressor anguli oris",
+      "side": "right",
+      "svgPath": "m-depressor-anguli-oris-left",
+      "polygon": [
+        [
+          0.324,
+          0.6586
+        ],
+        [
+          0.36,
+          0.675
+        ],
+        [
+          0.412,
+          0.6857
+        ],
+        [
+          0.424,
+          0.67
+        ],
+        [
+          0.412,
+          0.6286
+        ],
+        [
+          0.398,
+          0.6271
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.384,
+            0.6771
+          ],
+          "to": [
+            0.406,
+            0.6329
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "depressor-anguli-oris",
+      "name": "Cơ hạ góc miệng",
+      "latin": "Depressor anguli oris",
+      "side": "left",
+      "svgPath": "m-depressor-anguli-oris-right",
+      "polygon": [
+        [
+          0.676,
+          0.6586
+        ],
+        [
+          0.64,
+          0.675
+        ],
+        [
+          0.588,
+          0.6857
+        ],
+        [
+          0.576,
+          0.67
+        ],
+        [
+          0.588,
+          0.6286
+        ],
+        [
+          0.602,
+          0.6271
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.616,
+            0.6771
+          ],
+          "to": [
+            0.594,
+            0.6329
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "mentalis",
+      "name": "Cơ cằm",
+      "latin": "Mentalis",
+      "side": "right",
+      "svgPath": "m-mentalis-left",
+      "polygon": [
+        [
+          0.452,
+          0.6671
+        ],
+        [
+          0.474,
+          0.66
+        ],
+        [
+          0.496,
+          0.6629
+        ],
+        [
+          0.497,
+          0.6886
+        ],
+        [
+          0.476,
+          0.6929
+        ],
+        [
+          0.456,
+          0.6843
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.492,
+            0.6757
+          ],
+          "to": [
+            0.458,
+            0.6743
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    },
+    {
+      "id": "mentalis",
+      "name": "Cơ cằm",
+      "latin": "Mentalis",
+      "side": "left",
+      "svgPath": "m-mentalis-right",
+      "polygon": [
+        [
+          0.548,
+          0.6671
+        ],
+        [
+          0.526,
+          0.66
+        ],
+        [
+          0.504,
+          0.6629
+        ],
+        [
+          0.503,
+          0.6886
+        ],
+        [
+          0.524,
+          0.6929
+        ],
+        [
+          0.544,
+          0.6843
+        ]
+      ],
+      "strokes": [
+        {
+          "from": [
+            0.508,
+            0.6757
+          ],
+          "to": [
+            0.542,
+            0.6743
+          ]
+        }
+      ],
+      "maxAngleDeg": 30,
+      "minLengthRatio": 0.6
+    }
+  ],
+  "forbidden": [
+    {
+      "id": "eyeball-right",
+      "shape": "ellipse",
+      "x": 0.38,
+      "y": 0.4636,
+      "rx": 0.056,
+      "ry": 0.0129,
+      "message": "Huyệt quanh mắt nằm trên bờ xương hốc mắt, không ấn vào nhãn cầu."
+    },
+    {
+      "id": "eyeball-left",
+      "shape": "ellipse",
+      "x": 0.62,
+      "y": 0.4636,
+      "rx": 0.056,
+      "ry": 0.0129,
+      "message": "Huyệt quanh mắt nằm trên bờ xương hốc mắt, không ấn vào nhãn cầu."
+    },
+    {
+      "id": "facial-artery-right",
+      "shape": "circle",
+      "x": 0.324,
+      "y": 0.6643,
+      "r": 0.009,
+      "message": "Đây là chỗ động mạch mặt đi qua bờ xương hàm. Đại Nghinh chỉ ấn nhẹ, không đè mạnh vào động mạch."
+    },
+    {
+      "id": "facial-artery-left",
+      "shape": "circle",
+      "x": 0.676,
+      "y": 0.6643,
+      "r": 0.009,
+      "message": "Đây là chỗ động mạch mặt đi qua bờ xương hàm. Đại Nghinh chỉ ấn nhẹ, không đè mạnh vào động mạch."
+    }
+  ],
+  "zones": [],
+  "screenLeftIs": "customer-right"
+}

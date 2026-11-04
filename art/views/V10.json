@@ -1,0 +1,59 @@
+{
+  "view": "V10",
+  "title": "Cẳng chân mặt trong",
+  "svg": "V10.svg",
+  "frame": {
+    "width": 1000,
+    "height": 1400
+  },
+  "mirrorable": true,
+  "limb": "leg",
+  "drawnSide": "right",
+  "variants": {},
+  "midlineX": null,
+  "orientation": "chân phải nhìn từ mặt trong: phía trước (ống quyển, ngón chân) bên trái màn hình, gót và bắp chân bên phải",
+  "cun": {
+    "unitsPerCun": 0.072,
+    "reference": "đỉnh mắt cá trong (y=1130) → khe khớp gối (y=194) = 13 thốn; 1 thốn = 72 đv SVG"
+  },
+  "points": [
+    {
+      "id": "SP6",
+      "name": "Tam Âm Giao",
+      "side": "right",
+      "x": 0.662,
+      "y": 0.6529,
+      "r": 0.028,
+      "variant": null,
+      "note": "trên đỉnh mắt cá trong 3 thốn, sát bờ sau (bờ trong) xương chày"
+    },
+    {
+      "id": "KI3",
+      "name": "Thái Khê",
+      "side": "right",
+      "x": 0.688,
+      "y": 0.8071,
+      "r": 0.024,
+      "variant": null,
+      "note": "chỗ lõm giữa đỉnh mắt cá trong và gân gót, ngang đỉnh mắt cá"
+    }
+  ],
+  "landmarksData": [
+    {
+      "id": "medial-malleolus",
+      "name": "Đỉnh mắt cá trong",
+      "x": 0.632,
+      "y": 0.8071
+    },
+    {
+      "id": "knee-joint-line",
+      "name": "Khe khớp gối",
+      "x": 0.64,
+      "y": 0.1386
+    }
+  ],
+  "muscles": [],
+  "forbidden": [],
+  "zones": [],
+  "sideConvention": "customer: \"left\"/\"right\" = bên trái/phải CỦA KHÁCH (giải phẫu), không phải bên màn hình"
+}

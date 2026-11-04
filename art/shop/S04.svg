@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" font-family="Helvetica, Arial, sans-serif">
+  <title>S04 Khu gội đầu</title>
+  <g id="bg">
+    <rect id="wall" x="0" y="0" width="1000" height="700" fill="#f4e6d6"/>
+    <rect x="0" y="420" width="1000" height="280" fill="#e3eef0"/>
+    <path d="M0 450 H1000 M0 506 H1000 M0 562 H1000 M0 618 H1000 M0 674 H1000 M0 420 V700 M50 420 V700 M100 420 V700 M150 420 V700 M200 420 V700 M250 420 V700 M300 420 V700 M350 420 V700 M400 420 V700 M450 420 V700 M500 420 V700 M550 420 V700 M600 420 V700 M650 420 V700 M700 420 V700 M750 420 V700 M800 420 V700 M850 420 V700 M900 420 V700 M950 420 V700 M1000 420 V700" stroke="#cfe3e6" stroke-width="3" fill="none"/>
+    <path d="M-4 420 H1004" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+    <rect x="-4" y="-4" width="1008" height="30" fill="#fffaf3" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect id="floor" x="0" y="700" width="1000" height="300" fill="#d8b48c"/>
+    <path d="M0 760 H1000 M0 830 H1000 M0 910 H1000 M180 700 V760 M520 700 V760 M860 700 V760 M90 760 V830 M400 760 V830 M700 760 V830 M260 830 V910 M600 830 V910 M920 830 V910 M140 910 V1000 M470 910 V1000 M780 910 V1000 " stroke="#c49a70" stroke-width="3" fill="none"/>
+    <path d="M-4 700 H1004" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+    <rect x="-4" y="682" width="1008" height="18" fill="#e8d2b8" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+    <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="#fffaf3">
+      <line x1="330" y1="26" x2="330" y2="120"/>
+      <path d="M292 148 A38 28 0 0 1 368 148 Z"/>
+    </g>
+    <circle  cx="330" cy="151" r="9" fill="#ffe9a8"/>
+    <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="#fffaf3">
+      <line x1="740" y1="26" x2="740" y2="120"/>
+      <path d="M702 148 A38 28 0 0 1 778 148 Z"/>
+    </g>
+    <circle  cx="740" cy="151" r="9" fill="#ffe9a8"/>
+  </g>
+  <g id="decor-wall">
+    <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="420" y="160" width="150" height="190" rx="70" fill="#d8b48c"/>
+      <rect x="434" y="174" width="122" height="162" rx="58" fill="#cfe3e6"/>
+      <path d="M460 220 L490 190 M464 250 L516 198" stroke="#ffffff" stroke-width="6" fill="none"/>
+    </g>
+    <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="640" y="330" width="300" height="14" rx="5" fill="#d8b48c"/>
+      <path d="M664 344 L664 370 L690 344 M916 344 L916 370 L890 344" fill="none" stroke-width="3"/>
+    </g>
+    <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="810" y="550" width="160" height="170" rx="8" fill="#e8d2b8"/>
+      <rect x="822" y="562" width="136" height="70" rx="5" fill="#fffaf3" stroke-width="3"/>
+      <rect x="832" y="594" width="116" height="18" rx="7" fill="#ffffff" stroke-width="3"/>
+      <rect x="832" y="576" width="116" height="18" rx="7" fill="#a9c9b3" stroke-width="3"/>
+      <rect x="832" y="612" width="116" height="18" rx="7" fill="#f0c6b8" stroke-width="3"/>
+      <path d="M822 650 H958 M890 650 V710" fill="none" stroke="#c49a70" stroke-width="3"/>
+      <circle cx="876" cy="680" r="4" fill="#8a5f4b" stroke="none"/><circle cx="904" cy="680" r="4" fill="#8a5f4b" stroke="none"/>
+    </g>
+    <g transform="translate(970 940) scale(0.9)" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+      <ellipse cx="-14" cy="-90" rx="18" ry="42" fill="#8fb39a" transform="rotate(-20 -14 -90)"/>
+      <ellipse cx="14" cy="-95" rx="18" ry="46" fill="#7aa588" transform="rotate(15 14 -95)"/>
+      <ellipse cx="0" cy="-110" rx="16" ry="50" fill="#8fb39a"/>
+      <path d="M-30 -52 H30 L22 0 H-22 Z" fill="#e7b4a6"/>
+    </g>
+  </g>
+  <g id="slots-shelf">
+    <g id="slot-shelf-1" data-slot="shelf-1" data-accepts="I01 I02 I03 I04 I05 I06 I07 I08" transform="translate(660 260)"></g>
+    <g id="slot-shelf-2" data-slot="shelf-2" data-accepts="I01 I02 I03 I04 I05 I06 I07 I08" transform="translate(740 260)"></g>
+    <g id="slot-shelf-3" data-slot="shelf-3" data-accepts="I01 I02 I03 I04 I05 I06 I07 I08" transform="translate(820 260)"></g>
+  </g>
+  <g id="slots-wall">
+    <g id="slot-water-heater" data-slot="water-heater" data-accepts="E08" transform="translate(40 220)"></g>
+  </g>
+  <g id="slots-back">
+    <g id="slot-shampoo-chair-1" data-slot="shampoo-chair-1" data-accepts="E06" transform="translate(90 500)"></g>
+  </g>
+  <g id="actors"></g>
+  <g id="slots-front">
+    <g id="slot-shampoo-chair-2" data-slot="shampoo-chair-2" data-accepts="E06" transform="translate(440 720)"></g>
+  </g>
+  <g id="fg"></g>
+</svg>

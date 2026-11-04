@@ -1,0 +1,137 @@
+{
+  "view": "V03",
+  "title": "Đỉnh đầu",
+  "svg": "V03.svg",
+  "frame": {
+    "width": 1000,
+    "height": 1400
+  },
+  "sideConvention": "customer: \"left\"/\"right\" = bên trái/phải CỦA KHÁCH (giải phẫu), không phải bên màn hình",
+  "orientation": "Nhìn từ trên xuống, mặt khách ở phía DƯỚI màn hình, gáy ở phía TRÊN. Bên trái màn hình = bên PHẢI của khách.",
+  "variants": {},
+  "midlineX": 0.5,
+  "cun": {
+    "unitsPerCun": null,
+    "reference": "Thốn đo dọc da đầu (cung dọc đường giữa): chân tóc trán → chân tóc gáy = 12 thốn = 34.3 cm trên mô hình. Trên hình chiếu từ trên, thốn bị co theo độ cong; vạch thốn trong nhóm guides đặt theo từng thốn từ chân tóc trán. Đầu Duy đặt ở góc trán (mốc giải phẫu) + 0,5 thốn vào chân tóc.",
+    "ticksFromAnteriorHairline": [
+      [
+        0.5,
+        0.6198
+      ],
+      [
+        0.5,
+        0.5399
+      ],
+      [
+        0.5,
+        0.4494
+      ],
+      [
+        0.5,
+        0.3559
+      ],
+      [
+        0.5,
+        0.2683
+      ],
+      [
+        0.5,
+        0.1953
+      ],
+      [
+        0.5,
+        0.1435
+      ],
+      [
+        0.5,
+        0.1169
+      ]
+    ]
+  },
+  "points": [
+    {
+      "id": "GV24",
+      "name": "Thần Đình",
+      "side": "center",
+      "x": 0.5,
+      "y": 0.5816,
+      "r": 0.03,
+      "variant": null,
+      "note": "Đường giữa, vào trong chân tóc trán 0,5 thốn."
+    },
+    {
+      "id": "ST8",
+      "name": "Đầu Duy",
+      "side": "right",
+      "x": 0.2339,
+      "y": 0.4911,
+      "r": 0.03,
+      "variant": null,
+      "note": "Góc trán, vào trong chân tóc 0,5 thốn (cách đường giữa 4,5 thốn)."
+    },
+    {
+      "id": "ST8",
+      "name": "Đầu Duy",
+      "side": "left",
+      "x": 0.7661,
+      "y": 0.4911,
+      "r": 0.03,
+      "variant": null,
+      "note": "Góc trán, vào trong chân tóc 0,5 thốn (cách đường giữa 4,5 thốn)."
+    },
+    {
+      "id": "GV20",
+      "name": "Bách Hội",
+      "side": "center",
+      "x": 0.5,
+      "y": 0.1953,
+      "r": 0.03,
+      "variant": null,
+      "note": "Đường giữa, vào trong chân tóc trán 5 thốn; gần điểm giữa đường nối hai đỉnh vành tai."
+    },
+    {
+      "id": "EX-HN1",
+      "name": "Tứ Thần Thông",
+      "side": "front",
+      "x": 0.5,
+      "y": 0.2683,
+      "r": 0.028,
+      "variant": null,
+      "note": "1 thốn trước Bách Hội."
+    },
+    {
+      "id": "EX-HN1",
+      "name": "Tứ Thần Thông",
+      "side": "back",
+      "x": 0.5,
+      "y": 0.1435,
+      "r": 0.028,
+      "variant": null,
+      "note": "1 thốn sau Bách Hội."
+    },
+    {
+      "id": "EX-HN1",
+      "name": "Tứ Thần Thông",
+      "side": "right",
+      "x": 0.3732,
+      "y": 0.2045,
+      "r": 0.028,
+      "variant": null,
+      "note": "1 thốn bên trái (màn hình) Bách Hội."
+    },
+    {
+      "id": "EX-HN1",
+      "name": "Tứ Thần Thông",
+      "side": "left",
+      "x": 0.6268,
+      "y": 0.2045,
+      "r": 0.028,
+      "variant": null,
+      "note": "1 thốn bên phải (màn hình) Bách Hội."
+    }
+  ],
+  "muscles": [],
+  "forbidden": [],
+  "zones": [],
+  "screenLeftIs": "customer-right"
+}

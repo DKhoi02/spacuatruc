@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400">
+  <title>V05 – Cổ trước và nghiêng</title>
+  <defs><clipPath id="v05-neck-clip"><path d="M280,250 C280,380 288,500 300,596 C240,656 130,690 -10,708 L-10,1410 L1010,1410 L1010,708 C880,690 770,656 706,598 C722,500 736,400 744,250 Z"/></clipPath></defs>
+  <g id="bg"><rect width="1000" height="1400" fill="#fbf6f0"/></g>
+  <g id="base" stroke="#9a6a52" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M280,250 C280,380 288,500 300,596 C240,656 130,690 -10,708 L-10,1410 L1010,1410 L1010,708 C880,690 770,656 706,598 C722,500 736,400 744,250 Z" fill="var(--skin-shade, #efc7b0)"/>
+    <path d="M304,160 C272,138 236,160 238,208 C240,254 254,290 284,304 C296,308 304,298 304,288 Z" fill="var(--skin-shade, #efc7b0)"/>
+    <path d="M290,180 C270,172 258,190 260,214 C262,240 272,262 286,270" fill="none" stroke-width="3"/>
+    <path d="M744,170 C764,166 776,190 774,222 C772,256 762,282 746,292 Z" fill="var(--skin-shade, #efc7b0)"/>
+    <path d="M300,-10 C292,60 288,150 296,240 C304,300 316,340 338,372 C392,428 470,462 540,466 C604,466 652,430 690,392 C722,356 740,300 748,230 C754,150 754,60 748,-10 Z" fill="var(--skin, #f3d2bd)"/>
+    <path d="M-10,972 C180,948 380,962 505,958 C650,954 840,944 1010,962 L1010,1410 L-10,1410 Z" fill="#fffaf3" stroke="#c49a70"/>
+    <path d="M-10,1000 C180,978 380,992 505,988 C650,984 840,974 1010,992" fill="none" stroke="#e7b4a6" stroke-width="6"/>
+    <path d="M610,956 L676,953 L652,1012 Z" fill="#f4e6d6" stroke="#c49a70" stroke-width="3"/>
+    <path d="M-10,1030 C180,1008 380,1022 505,1018 C650,1014 840,1004 1010,1022" fill="none" stroke="#e8d2b8" stroke-width="3"/>
+    <path d="M200,1060 C230,1160 240,1260 236,1400 M820,1050 C800,1160 796,1280 800,1400" fill="none" stroke="#e8d2b8" stroke-width="3"/>
+  </g>
+  <g id="skin-detail" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M296,250 C306,330 330,390 380,420 C430,450 490,470 540,472 C604,472 656,440 700,396 C726,366 742,320 750,260 L752,330 C736,420 690,480 610,500 C560,510 500,505 450,486 C380,460 320,410 290,330 Z" fill="#9a6a52" opacity="0.10" clip-path="url(#v05-neck-clip)"/>
+    <path d="M300,322 C330,420 400,600 470,760" stroke="#d9a58c" stroke-width="3"/>
+    <path d="M280,332 C292,440 336,600 392,770" stroke="#dcab93" stroke-width="2"/>
+    <path d="M718,362 C694,470 636,620 556,760" stroke="#dcab93" stroke-width="2"/>
+    <path d="M392,780 C410,770 432,770 444,790" stroke="#d9a58c" stroke-width="2"/>
+    <path d="M300,760 C340,740 372,750 392,786 C350,782 320,778 300,760 Z" fill="#9a6a52" opacity="0.08"/>
+    <path d="M710,760 C670,742 640,752 620,786 C660,782 690,778 710,760 Z" fill="#9a6a52" opacity="0.08"/>
+    <path d="M430,640 C470,652 520,652 570,640" stroke="#e0b39b" stroke-width="2"/>
+    <path d="M440,700 C480,710 530,710 572,700" stroke="#e0b39b" stroke-width="2"/>
+    <ellipse cx="380" cy="190" rx="52" ry="30" fill="#e9a99b" opacity="0.35"/>
+    <ellipse cx="690" cy="196" rx="34" ry="26" fill="#e9a99b" opacity="0.35"/>
+    <path d="M520,420 C536,428 556,428 572,420" stroke="#e0b39b" stroke-width="3"/>
+  </g>
+  <g id="hair">
+    <path d="M300,-10 C298,40 294,96 300,150 C276,152 250,166 236,196 C204,144 194,60 200,-10 Z" fill="var(--hair, #3b2a24)"/>
+    <path d="M748,-10 C752,50 754,104 750,160 C770,150 784,116 792,60 L796,-10 Z" fill="var(--hair, #3b2a24)"/>
+    <path d="M236,196 C226,240 236,292 264,334 C256,292 260,250 272,226 Z" fill="var(--hair, #3b2a24)"/>
+  </g>
+  <g id="features" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M352,22 C382,4 432,4 466,18" stroke="#4a342c" stroke-width="12"/>
+    <path d="M604,18 C640,6 676,8 700,24" stroke="#4a342c" stroke-width="11"/>
+    <path d="M362,72 C390,92 438,92 466,74" stroke="#5a3d30" stroke-width="4"/>
+    <path d="M372,84 L366,96 M394,92 L391,104 M418,93 L418,105 M442,89 L446,100" stroke="#5a3d30" stroke-width="2.5"/>
+    <path d="M604,74 C626,92 664,92 688,72" stroke="#5a3d30" stroke-width="4"/>
+    <path d="M614,85 L609,96 M634,92 L632,104 M656,93 L658,104 M676,86 L681,96" stroke="#5a3d30" stroke-width="2.5"/>
+    <path d="M528,60 C532,120 544,170 556,204" stroke="#c9967c" stroke-width="4"/>
+    <path d="M522,212 C506,230 532,242 552,234 C568,242 594,238 592,218" stroke="#9a6a52" stroke-width="4"/>
+    <path d="M548,286 L552,248 M570,286 L568,248" stroke="#e0b39b" stroke-width="3"/>
+    <path d="M488,316 C522,298 546,296 560,304 C576,296 600,298 628,314 C590,324 524,324 488,316 Z" fill="#d98a83" stroke="#a55a54" stroke-width="3"/>
+    <path d="M488,316 C524,324 590,324 628,314 C602,346 512,348 488,316 Z" fill="#e39a92" stroke="#a55a54" stroke-width="3"/>
+  </g>
+  <g id="landmarks" fill="none" stroke="#c9967c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <path id="mandible-left" d="M300,250 C306,310 318,346 342,374 C396,422 470,452 540,456" opacity="0.8"/>
+    <path id="mandible-right" d="M540,456 C600,456 646,424 682,388 C712,356 730,312 738,262" opacity="0.8"/>
+    <path id="mandible-angle-left" d="M322,338 C330,356 338,366 352,376" stroke-width="2"/>
+    <path id="mastoid-left" d="M262,302 C256,320 262,338 278,340 C290,338 294,324 290,310"/>
+    <path id="mastoid-right" d="M732,318 C730,334 736,346 746,346"/>
+    <path id="clavicle-left" d="M482,812 C440,796 360,786 290,798 C220,810 130,790 20,770"/>
+    <path id="clavicle-right" d="M528,812 C570,796 650,786 720,798 C790,810 880,790 990,770"/>
+    <path id="clavicle-left-lower" d="M470,826 C420,812 360,806 300,814" stroke-width="2" opacity="0.6"/>
+    <path id="clavicle-right-lower" d="M540,826 C590,812 650,806 710,814" stroke-width="2" opacity="0.6"/>
+    <path id="sternal-notch" d="M484,800 C490,822 520,822 526,800"/>
+    <path id="thyroid-cartilage" d="M502,560 L522,592 L542,560 M506,604 C516,610 528,610 538,604" stroke-width="2.5"/>
+  </g>
+  <g id="muscles" fill="#d98a83" fill-opacity="0.35" stroke="#c0605a" stroke-width="2" stroke-linejoin="round">
+    <polygon id="m-platysma-left" points="336,372 400,424 470,456 496,470 494,560 480,680 470,780 452,860 330,872 200,850 270,680 306,560 312,440" fill="#e7b4a6" fill-opacity="0.45" stroke-dasharray="6 4"/>
+    <polygon id="m-platysma-right" points="712,372 660,424 600,456 568,470 566,560 574,680 590,780 612,860 730,872 850,850 750,680 700,560 722,440" fill="#e7b4a6" fill-opacity="0.45" stroke-dasharray="6 4"/>
+    <polygon id="m-sternocleidomastoid-left" points="302,314 330,400 372,500 412,610 448,700 474,770 490,800 470,806 448,784 432,806 398,806 392,770 368,700 336,600 306,500 282,400 270,320"/>
+    <polygon id="m-sternocleidomastoid-right" points="718,368 702,420 672,510 634,600 594,690 552,760 520,800 540,806 560,786 576,806 614,806 628,770 664,700 698,610 720,520 734,430 738,362"/>
+  </g>
+  <g id="guides" stroke="#4f86c6" stroke-width="2.5" stroke-dasharray="10 8" fill="none" opacity="0.8">
+    <path id="guide-midline" d="M545,472 C540,560 520,700 505,800 L505,950"/>
+    <polyline id="guide-scm-anterior-left" points="302,314 330,400 372,500 412,610 448,700 474,770 490,800" stroke-dasharray="4 6"/>
+    <polyline id="guide-scm-anterior-right" points="718,368 702,420 672,510 634,600 594,690 552,760 520,800" stroke-dasharray="4 6"/>
+  </g>
+</svg>

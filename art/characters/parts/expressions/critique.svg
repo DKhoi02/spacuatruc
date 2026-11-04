@@ -1,0 +1,13 @@
+<!-- Nét mặt: nhận xét / suy nghĩ (Anh Khôi) – nhướng 1 mày, mắt liếc, tay chống cằm -->
+<g data-layer="face">
+<g class="blush"><circle cx="146" cy="195" r="12" fill="var(--blush, #e9a99b)" opacity="0.35"/><circle cx="254" cy="195" r="12" fill="var(--blush, #e9a99b)" opacity="0.35"/></g>
+<g class="brows" fill="none" stroke="var(--brow, #3d2c25)" stroke-width="var(--brow-w, 5.5)" stroke-linecap="round"><path d="M147 128 C 156 116 174 115 185 122"/><path d="M215 137 C 226 135 242 135 253 138"/></g>
+<g class="eyes" fill="#2a1d18"><ellipse cx="161" cy="163" rx="8.5" ry="11.5"/><ellipse cx="229" cy="165" rx="8.5" ry="10"/></g>
+<g class="mouth" fill="none" stroke="#3d2c25" stroke-width="5.5" stroke-linecap="round"><path d="M184 221 C 192 222 202 220 214 215"/></g>
+</g>
+<g data-layer="fx">
+<path d="M218 394 C 220 352 226 318 234 290 L 276 296 C 270 328 266 360 266 394 Z" fill="var(--top, #4f7a62)" class="ol"/>
+<path d="M232 300 L 274 306" fill="none" stroke="var(--collar, #fffaf3)" stroke-width="7" stroke-linecap="round"/>
+<path d="M230 284 C 224 266 230 250 246 246 C 260 242 276 248 280 262 C 284 276 278 290 264 294 C 252 298 236 296 230 284 Z" fill="var(--skin, #f3d2bd)" class="ol"/>
+<path d="M240 258 C 248 255 258 256 266 262 M242 270 C 250 268 260 270 268 276" fill="none" stroke="#c9967c" stroke-width="3" stroke-linecap="round"/>
+</g>

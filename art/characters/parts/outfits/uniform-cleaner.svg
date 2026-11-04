@@ -1,0 +1,4 @@
+<!-- Đồng phục tạp vụ: áo trơn xanh nước + tạp dề màu gỗ có túi -->
+<g data-layer="body"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="var(--top, #b9d4da)" class="ol"/><path d="M150 304 L250 304 L262 392 L138 392 Z" fill="var(--apron, #e8d2b8)" class="ol"/><rect x="176" y="338" width="48" height="32" rx="7" fill="var(--apron, #e8d2b8)" class="ol2"/><path d="M200 338 V370" stroke="#c49a70" stroke-width="3"/></g>
+<g data-layer="under"><path d="M156 304 L176 286 M244 304 L224 286" stroke="#c49a70" stroke-width="7" stroke-linecap="round"/><path d="M168 278 C 180 298 220 298 232 278" fill="none" class="ol"/></g>
+<g data-layer="over"><defs><clipPath id="neck"><rect x="172" y="240" width="56" height="72"/></clipPath></defs><g clip-path="url(#neck)"><path d="M168 278 C 180 298 220 298 232 278 L 232 296 L 168 296 Z" fill="var(--top, #b9d4da)"/><path d="M168 278 C 180 298 220 298 232 278" fill="none" class="ol"/></g></g>

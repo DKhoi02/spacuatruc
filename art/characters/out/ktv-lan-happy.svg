@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Lan – Vui" data-character="ktv-lan" data-expression="happy">
+<title>Lan – Vui</title>
+<g class="layer-hair-behind">
+<g data-part="hair/bun"><ellipse cx="200" cy="46" rx="52" ry="40" fill="#3b2a24" style="fill:var(--hair, #3b2a24)"/><path d="M172 30 C 186 20 210 20 224 28" fill="none" stroke="#55403a" style="stroke:var(--hair-shade, #55403a)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-body">
+<g data-part="outfits/uniform-ktv"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#a9c9b3" style="fill:var(--top, #a9c9b3)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M112 312 C 120 340 122 366 120 392 M288 312 C 280 340 278 366 280 392" fill="none" stroke="#7ea58a" style="stroke:var(--top-shade, #7ea58a)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/oval"><rect x="179" y="222" width="42" height="68" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)"/><path d="M179 222 V286 M221 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/uniform-ktv"><path d="M163 279 L200 322 L237 279 Z" fill="#fffaf3" style="fill:var(--collar, #fffaf3)"/><path d="M178 279 L200 304 L222 279 Z" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)"/><path d="M163 279 L200 322 L237 279 M178 279 L200 304 L222 279" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-ears">
+<g data-part="heads/oval"><ellipse cx="114" cy="164" rx="13" ry="21" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="286" cy="164" rx="13" ry="21" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-ears">
+<g data-part="accessories/earrings-stud" fill="#e8b46a" stroke="#c49a70" stroke-width="2"><circle cx="112" cy="186" r="5"/><circle cx="288" cy="186" r="5"/></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/oval"><ellipse cx="200" cy="154" rx="86" ry="102" fill="#f3d2bd" style="fill:var(--skin, #f3d2bd)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/happy">
+<g class="blush"><circle cx="146" cy="192" r="14" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.7"/><circle cx="254" cy="192" r="14" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.7"/></g>
+<g class="brows" fill="none" stroke="#3b2a24" style="stroke:var(--brow, #3b2a24)" stroke-width="5.5" stroke-linecap="round"><path d="M147 131 C 157 122 174 121 185 127"/><path d="M215 127 C 226 121 243 122 253 131"/></g>
+<g class="eyes" fill="#2a1d18"><ellipse cx="166" cy="163" rx="8.5" ry="11.5"/><ellipse cx="234" cy="163" rx="8.5" ry="11.5"/><circle cx="169" cy="159" r="2.6" fill="#fffaf3"/><circle cx="237" cy="159" r="2.6" fill="#fffaf3"/></g>
+<g class="mouth"><path d="M176 209 C 190 213 210 213 224 209 C 220 232 180 232 176 209 Z" fill="#b8605a" stroke="#3d2c25" stroke-width="5" stroke-linejoin="round"/><path d="M186 224 C 194 219 206 219 214 224 C 206 229 194 229 186 224 Z" fill="#e39a92"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/bun"><path d="M116 152 C 105 73 151 50 200 53 C 249 50 295 73 284 152 C 273 112 242 101 200 104 C 158 101 127 112 116 152 Z" fill="#3b2a24" style="fill:var(--hair, #3b2a24)"/><path d="M200 56 C 196 70 197 86 200 102 M156 70 C 140 82 130 98 126 116 M244 70 C 260 82 270 98 274 116" fill="none" stroke="#55403a" style="stroke:var(--hair-shade, #55403a)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-top">
+<g data-part="accessories/name-tag"><rect x="236" y="320" width="70" height="28" rx="6" fill="#fffaf3" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M246 334 H284" stroke="#8fb39a" style="stroke:var(--tag-line, #8fb39a)" stroke-width="4" stroke-linecap="round"/></g>
+</g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 84">
+  <title>E07 Bộ đá gua sha</title>
+  <g id="guasha-set" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="4" y="56" width="142" height="22" rx="8" fill="#d8b48c"/>
+    <path d="M16 67 H134" stroke="#c49a70" stroke-width="3" fill="none"/>
+    <!-- đá hình trái tim (ngọc bích) -->
+    <path d="M44 56 C 20 46 10 30 18 18 C 26 8 40 12 44 22 C 48 12 62 8 70 18 C 78 30 68 46 44 56 Z" fill="#8fb39a"/>
+    <path d="M28 24 C 32 20 36 20 38 24" stroke="#a9c9b3" stroke-width="3" fill="none"/>
+    <!-- đá gua sha hình cánh (thạch anh hồng) -->
+    <path d="M84 54 C 82 30 102 14 126 18 C 142 21 148 36 140 44 C 128 36 112 38 104 54 Z" fill="#f0c6b8"/>
+    <path d="M100 34 C 106 28 114 25 122 25" stroke="#fffaf3" stroke-width="3" fill="none"/>
+  </g>
+</svg>

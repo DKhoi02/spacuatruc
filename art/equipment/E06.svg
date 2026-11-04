@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220">
+  <title>E06 Ghế gội đầu</title>
+  <g id="shampoo-chair" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- bồn gội -->
+    <rect x="30" y="108" width="56" height="106" rx="8" fill="#fffaf3"/>
+    <path d="M42 130 H74" stroke="#e8d2b8" stroke-width="3" fill="none"/>
+    <path d="M38 52 V36 C 38 28 46 24 54 24 H68" fill="none" stroke-width="5"/>
+    <path d="M66 18 V30" fill="none" stroke-width="5"/>
+    <circle cx="38" cy="58" r="5" fill="#a9c9b3" stroke-width="3"/>
+    <path d="M6 72 H112 C 108 104 82 116 58 116 C 34 116 10 104 6 72 Z" fill="#ffffff"/>
+    <path d="M18 80 C 40 88 78 88 100 80" stroke="#cfe3e6" stroke-width="4" fill="none"/>
+    <!-- ghế -->
+    <path d="M216 158 V200 M196 200 H300" fill="none"/>
+    <rect x="186" y="200" width="124" height="14" rx="6" fill="#c49a70"/>
+    <rect x="96" y="96" width="112" height="34" rx="16" fill="#8fb39a" transform="rotate(24 152 113)"/>
+    <rect x="186" y="128" width="96" height="34" rx="14" fill="#a9c9b3"/>
+    <rect x="270" y="138" width="46" height="24" rx="11" fill="#a9c9b3" transform="rotate(22 293 150)"/>
+    <rect x="194" y="116" width="72" height="12" rx="6" fill="#4f7a62"/>
+    <rect x="100" y="80" width="34" height="22" rx="10" fill="#f0c6b8" transform="rotate(24 117 91)"/>
+  </g>
+</svg>

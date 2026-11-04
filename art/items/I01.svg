@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>I01 Khăn sạch</title>
+  <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="12" y="66" width="72" height="18" rx="7" fill="#ffffff"/>
+    <rect x="16" y="48" width="64" height="18" rx="7" fill="#a9c9b3"/>
+    <rect x="20" y="30" width="56" height="18" rx="7" fill="#ffffff"/>
+    <path d="M24 75 H72 M28 57 H68 M30 39 H66" stroke="#e8d2b8" stroke-width="2" fill="none" stroke-dasharray="3 5"/>
+    <path d="M44 22 C 42 16 46 12 44 6 M54 22 C 52 16 56 12 54 6" stroke="#cfe3e6" stroke-width="3" fill="none"/>
+  </g>
+</svg>

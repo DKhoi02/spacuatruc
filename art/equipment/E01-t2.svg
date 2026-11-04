@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 140">
+  <title>E01 Giường spa – Tốt</title>
+  <g id="bed" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="30" y="86" width="14" height="46" rx="4" fill="#d8b48c"/>
+    <rect x="256" y="86" width="14" height="46" rx="4" fill="#d8b48c"/>
+    <path d="M44 116 H256" fill="none"/>
+    <path d="M24 134 H50 M250 134 H276" fill="none"/>
+    <rect x="8" y="70" width="284" height="24" rx="10" fill="#d8b48c"/>
+    <path d="M22 82 H278" stroke="#c49a70" stroke-width="3" fill="none"/>
+  </g>
+  <g id="mattress" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="10" y="30" width="280" height="46" rx="18" fill="#a9c9b3"/>
+    <path d="M26 53 L46 36 L66 53 L86 36 L106 53 L126 36 L146 53 L166 36 L186 53 L206 36 L226 53 L246 36 L266 53 M26 53 L46 70 L66 53 L86 70 L106 53 L126 70 L146 53 L166 70 L186 53 L206 70 L226 53 L246 70 L266 53" stroke="#8fb39a" stroke-width="2" fill="none"/>
+    <g fill="#fffaf3" stroke="none">
+      <circle cx="46" cy="53" r="2.6"/><circle cx="86" cy="53" r="2.6"/><circle cx="126" cy="53" r="2.6"/><circle cx="166" cy="53" r="2.6"/><circle cx="206" cy="53" r="2.6"/><circle cx="246" cy="53" r="2.6"/>
+    </g>
+    <path d="M22 72 H278" stroke="#fffaf3" stroke-width="3" fill="none" stroke-dasharray="3 7"/>
+    <rect x="18" y="10" width="86" height="28" rx="13" fill="#fffaf3"/>
+    <path d="M30 24 H92" stroke="#e8d2b8" stroke-width="3" fill="none"/>
+    <path d="M20 18 C 18 24 18 28 20 32 M102 18 C 104 24 104 28 102 32" stroke="#e7b4a6" stroke-width="3" fill="none"/>
+    <!-- khăn gấp -->
+    <rect x="160" y="22" width="104" height="12" rx="5" fill="#fffaf3" stroke-width="3"/>
+    <rect x="166" y="12" width="92" height="12" rx="5" fill="#f0c6b8" stroke-width="3"/>
+    <path d="M190 12 V24 M196 12 V24" stroke="#fffaf3" stroke-width="2" fill="none"/>
+  </g>
+</svg>

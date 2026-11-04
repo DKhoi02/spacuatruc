@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Anh Khôi – Nhận xét" data-character="anh-khoi" data-expression="critique">
+<title>Anh Khôi – Nhận xét</title>
+<g class="layer-outfit-body">
+<g data-part="outfits/uniform-lead"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#4f7a62" style="fill:var(--top, #4f7a62)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M112 312 C 120 340 122 366 120 392 M288 312 C 280 340 278 366 280 392" fill="none" stroke="#3f6651" style="stroke:var(--top-shade, #3f6651)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/soft-square"><rect x="177" y="222" width="46" height="68" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)"/><path d="M177 222 V286 M223 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/uniform-lead"><path d="M163 279 L200 322 L237 279 Z" fill="#fffaf3" style="fill:var(--collar, #fffaf3)"/><path d="M178 279 L200 304 L222 279 Z" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)"/><path d="M163 279 L200 322 L237 279 M178 279 L200 304 L222 279" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-ears">
+<g data-part="heads/soft-square"><ellipse cx="114" cy="164" rx="13" ry="21" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="286" cy="164" rx="13" ry="21" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/soft-square"><path d="M200 52 C 250 52 287 90 287 148 C 287 196 276 226 248 246 C 230 258 170 258 152 246 C 124 226 113 196 113 148 C 113 90 150 52 200 52 Z" fill="#f3d2bd" style="fill:var(--skin, #f3d2bd)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/critique">
+<g class="blush"><circle cx="146" cy="195" r="12" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.35"/><circle cx="254" cy="195" r="12" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.35"/></g>
+<g class="brows" fill="none" stroke="#2f2420" style="stroke:var(--brow, #2f2420)" stroke-width="6.5" stroke-linecap="round"><path d="M147 128 C 156 116 174 115 185 122"/><path d="M215 137 C 226 135 242 135 253 138"/></g>
+<g class="eyes" fill="#2a1d18"><ellipse cx="161" cy="163" rx="8.5" ry="11.5"/><ellipse cx="229" cy="165" rx="8.5" ry="10"/></g>
+<g class="mouth" fill="none" stroke="#3d2c25" stroke-width="5.5" stroke-linecap="round"><path d="M184 221 C 192 222 202 220 214 215"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/short-male"><path d="M113 146 C 100 58 158 34 200 37 C 250 34 302 58 287 146 C 280 108 258 92 230 88 C 202 102 158 102 124 106 C 118 118 115 130 113 146 Z" fill="#2f2420" style="fill:var(--hair, #2f2420)"/><path d="M150 62 C 172 50 200 48 222 52 M236 60 C 252 66 266 76 274 90" fill="none" stroke="#4a3830" style="stroke:var(--hair-shade, #4a3830)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-top">
+<g data-part="accessories/glasses-round" fill="none" stroke="#3d2c25" stroke-width="5.5" stroke-linecap="round"><circle cx="166" cy="165" r="24"/><circle cx="234" cy="165" r="24"/><path d="M190 164 C 195 160 205 160 210 164 M142 162 L118 156 M258 162 L282 156"/><circle cx="166" cy="165" r="21" stroke="#ffffff" stroke-width="2" opacity="0.35"/><circle cx="234" cy="165" r="21" stroke="#ffffff" stroke-width="2" opacity="0.35"/></g>
+<g data-part="accessories/name-tag-lead"><rect x="232" y="318" width="82" height="31" rx="6" fill="#fffaf3" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="232" y="318" width="14" height="31" rx="5" fill="#e8b46a"/><rect x="232" y="318" width="82" height="31" rx="6" fill="none" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M254 333 H300" stroke="#4f7a62" stroke-width="4" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-fx">
+<g data-part="expressions/critique">
+<path d="M218 394 C 220 352 226 318 234 290 L 276 296 C 270 328 266 360 266 394 Z" fill="#4f7a62" style="fill:var(--top, #4f7a62)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M232 300 L 274 306" fill="none" stroke="#fffaf3" style="stroke:var(--collar, #fffaf3)" stroke-width="7" stroke-linecap="round"/>
+<path d="M230 284 C 224 266 230 250 246 246 C 260 242 276 248 280 262 C 284 276 278 290 264 294 C 252 298 236 296 230 284 Z" fill="#f3d2bd" style="fill:var(--skin, #f3d2bd)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M240 258 C 248 255 258 256 266 262 M242 270 C 250 268 260 270 268 276" fill="none" stroke="#c9967c" stroke-width="3" stroke-linecap="round"/>
+</g>
+</g>
+</svg>

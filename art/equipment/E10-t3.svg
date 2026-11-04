@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 230">
+  <title>E10 Ghế ngâm chân – Cao cấp (ghế ngả nhung + bồn massage)</title>
+  <g id="steam" fill="none" stroke="#b9cfd6" stroke-width="4" stroke-linecap="round">
+    <path class="steam-1" d="M232 136 C 224 122 240 116 232 100"/>
+    <path class="steam-2" d="M258 136 C 250 122 266 114 258 96"/>
+  </g>
+  <g id="footbath-chair" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- ghế ngả nhung hồng sẫm, khung gỗ -->
+    <path d="M38 186 C 36 200 30 212 26 224 M162 186 C 164 200 170 212 174 224" fill="none" stroke="#9a6a4b" stroke-width="8"/>
+    <circle cx="26" cy="223" r="4" fill="#d4a85a" stroke-width="2"/>
+    <circle cx="174" cy="223" r="4" fill="#d4a85a" stroke-width="2"/>
+    <path d="M14 40 C 14 18 30 8 50 8 C 70 8 86 18 86 40 V186 H14 Z" fill="#c98a7c"/>
+    <path d="M32 26 V170 M50 18 V170 M68 26 V170" stroke="#b47467" stroke-width="3" fill="none"/>
+    <rect x="22" y="16" width="56" height="24" rx="11" fill="#fffaf3" stroke-width="3"/>
+    <path d="M30 28 H70" stroke="#d4a85a" stroke-width="2" fill="none"/>
+    <rect x="28" y="124" width="150" height="54" rx="20" fill="#e7b4a6"/>
+    <path d="M60 128 V174 M100 128 V174 M140 128 V174" stroke="#c98a7c" stroke-width="3" fill="none"/>
+    <rect x="58" y="98" width="128" height="26" rx="10" fill="#9a6a4b"/>
+    <path d="M66 105 H178" stroke="#d4a85a" stroke-width="2" fill="none"/>
+    <circle cx="176" cy="114" r="3.5" fill="#d4a85a" stroke="none"/>
+    <rect x="18" y="174" width="162" height="16" rx="6" fill="#9a6a4b"/>
+    <path d="M24 182 H174" stroke="#d4a85a" stroke-width="2" fill="none"/>
+    <!-- bồn massage ốp gỗ đai vàng -->
+    <path d="M194 148 H294 L286 222 H202 Z" fill="#9a6a4b"/>
+    <path d="M196 166 H292 M200 204 H288" stroke="#d4a85a" stroke-width="5" fill="none" stroke-linecap="butt"/>
+    <rect x="226" y="176" width="36" height="20" rx="4" fill="#3d2c25" stroke-width="3"/>
+    <path d="M232 182 H244 M232 189 H240" stroke="#a9e0c0" stroke-width="2" fill="none"/>
+    <circle cx="254" cy="186" r="3" fill="#d4a85a" stroke="none"/>
+    <ellipse cx="244" cy="148" rx="50" ry="9" fill="#cfe3e6"/>
+    <path d="M198 148 C 210 141 278 141 290 148" stroke="#d4a85a" stroke-width="2" fill="none"/>
+    <!-- cánh hoa hồng trên mặt nước -->
+    <g fill="#e7b4a6" stroke="#8a5f4b" stroke-width="1.5">
+      <ellipse cx="222" cy="148" rx="5" ry="3"/><ellipse cx="240" cy="145" rx="4.5" ry="2.6"/><ellipse cx="262" cy="149" rx="5" ry="3"/><ellipse cx="276" cy="146" rx="4" ry="2.4"/>
+    </g>
+    <circle cx="250" cy="150" r="3" fill="#ffffff" stroke-width="1.5"/>
+  </g>
+</svg>

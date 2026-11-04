@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Chú Bảy – Khó chịu" data-character="khach-chu-bay" data-expression="annoyed">
+<title>Chú Bảy – Khó chịu</title>
+<g class="layer-outfit-body">
+<g data-part="outfits/casual-polo"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#a3a36b" style="fill:var(--top, #a3a36b)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M200 300 V336" stroke="#3d2c25" style="stroke:var(--top-shade, #3d2c25)" stroke-width="3" opacity="0.5"/><g fill="#fffaf3" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><circle cx="200" cy="314" r="3.5"/><circle cx="200" cy="330" r="3.5"/></g></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/soft-square"><rect x="177" y="222" width="46" height="68" fill="#b47d59" style="fill:var(--skin-shade, #b47d59)"/><path d="M177 222 V286 M223 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/casual-polo"><path d="M180 279 L200 302 L220 279 Z" fill="#b47d59" style="fill:var(--skin-shade, #b47d59)"/><path d="M176 272 L162 298 L194 304 L200 302 L180 279 Z" fill="#a3a36b" style="fill:var(--collar, #a3a36b)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M224 272 L238 298 L206 304 L200 302 L220 279 Z" fill="#a3a36b" style="fill:var(--collar, #a3a36b)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-ears">
+<g data-part="heads/soft-square"><ellipse cx="114" cy="164" rx="13" ry="21" fill="#b47d59" style="fill:var(--skin-shade, #b47d59)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="286" cy="164" rx="13" ry="21" fill="#b47d59" style="fill:var(--skin-shade, #b47d59)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/soft-square"><path d="M200 52 C 250 52 287 90 287 148 C 287 196 276 226 248 246 C 230 258 170 258 152 246 C 124 226 113 196 113 148 C 113 90 150 52 200 52 Z" fill="#c48d68" style="fill:var(--skin, #c48d68)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-face">
+<g data-part="accessories/age-lines" fill="none" stroke="#c9967c" stroke-width="3" stroke-linecap="round" opacity="0.85"><path d="M170 202 C 166 210 168 220 174 226 M230 202 C 234 210 232 220 226 226 M140 158 C 136 162 136 168 138 172 M260 158 C 264 162 264 168 262 172 M178 108 C 192 104 208 104 222 108"/></g>
+<g data-part="accessories/mustache"><path d="M200 204 C 192 198 178 198 172 208 C 182 206 190 210 200 210 C 210 210 218 206 228 208 C 222 198 208 198 200 204 Z" fill="#8d8580" style="fill:var(--hair, #8d8580)"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/annoyed">
+<g class="blush"><circle cx="146" cy="196" r="12" fill="#c7746c" style="fill:var(--blush, #c7746c)" opacity="0.25"/><circle cx="254" cy="196" r="12" fill="#c7746c" style="fill:var(--blush, #c7746c)" opacity="0.25"/></g>
+<g class="brows" fill="none" stroke="#5e5550" style="stroke:var(--brow, #5e5550)" stroke-width="6.5" stroke-linecap="round"><path d="M148 134 C 160 135 174 139 186 145"/><path d="M214 145 C 226 139 240 135 252 134"/></g>
+<g class="eyes"><path d="M157 162 H175 C 175 172 157 172 157 162 Z" fill="#2a1d18"/><path d="M225 162 H243 C 243 172 225 172 225 162 Z" fill="#2a1d18"/><path d="M153 160 H179 M221 160 H247" stroke="#2a1d18" stroke-width="5" stroke-linecap="round"/></g>
+<g class="mouth" fill="none" stroke="#3d2c25" stroke-width="5.5" stroke-linecap="round"><path d="M186 225 C 192 218 202 217 208 220 C 211 221 213 223 215 225"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/receding-male"><path d="M113 150 C 104 82 150 44 200 44 C 250 44 296 82 287 150 C 283 124 275 104 262 92 C 246 76 230 74 214 78 C 204 74 196 74 186 78 C 170 74 154 76 138 92 C 125 104 117 124 113 150 Z" fill="#8d8580" style="fill:var(--hair, #8d8580)"/><path d="M150 66 C 170 58 186 56 200 58 M222 60 C 240 62 256 70 266 80" fill="none" stroke="#6e6661" style="stroke:var(--hair-shade, #6e6661)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-fx">
+<g data-part="expressions/annoyed" fill="none" stroke="#d98a83" stroke-width="4.5" stroke-linecap="round"><path d="M296 96 C 302 100 302 106 298 110 M306 88 C 310 94 316 94 322 90 M326 100 C 320 104 320 110 324 116 M304 122 C 310 118 316 118 320 124"/></g>
+</g>
+</svg>

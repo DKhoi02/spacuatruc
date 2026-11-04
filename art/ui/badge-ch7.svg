@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220">
+  <title>Huy hiệu Chương 7 – Lưng</title>
+  <g id="ribbon" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M66 140 L48 212 L66 202 L80 214 L92 150 Z" fill="#8fb39a"/>
+    <path d="M134 140 L152 212 L134 202 L120 214 L108 150 Z" fill="#8fb39a"/>
+  </g>
+  <g id="medal">
+    <g stroke="#8a5f4b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"><circle cx="178.0" cy="92.0" r="12" fill="#c49a70"/><circle cx="172.1" cy="121.8" r="12" fill="#c49a70"/><circle cx="155.2" cy="147.2" r="12" fill="#c49a70"/><circle cx="129.8" cy="164.1" r="12" fill="#c49a70"/><circle cx="100.0" cy="170.0" r="12" fill="#c49a70"/><circle cx="70.2" cy="164.1" r="12" fill="#c49a70"/><circle cx="44.8" cy="147.2" r="12" fill="#c49a70"/><circle cx="27.9" cy="121.8" r="12" fill="#c49a70"/><circle cx="22.0" cy="92.0" r="12" fill="#c49a70"/><circle cx="27.9" cy="62.2" r="12" fill="#c49a70"/><circle cx="44.8" cy="36.8" r="12" fill="#c49a70"/><circle cx="70.2" cy="19.9" r="12" fill="#c49a70"/><circle cx="100.0" cy="14.0" r="12" fill="#c49a70"/><circle cx="129.8" cy="19.9" r="12" fill="#c49a70"/><circle cx="155.2" cy="36.8" r="12" fill="#c49a70"/><circle cx="172.1" cy="62.2" r="12" fill="#c49a70"/></g>
+    <g><circle cx="178.0" cy="92.0" r="12" fill="#c49a70"/><circle cx="172.1" cy="121.8" r="12" fill="#c49a70"/><circle cx="155.2" cy="147.2" r="12" fill="#c49a70"/><circle cx="129.8" cy="164.1" r="12" fill="#c49a70"/><circle cx="100.0" cy="170.0" r="12" fill="#c49a70"/><circle cx="70.2" cy="164.1" r="12" fill="#c49a70"/><circle cx="44.8" cy="147.2" r="12" fill="#c49a70"/><circle cx="27.9" cy="121.8" r="12" fill="#c49a70"/><circle cx="22.0" cy="92.0" r="12" fill="#c49a70"/><circle cx="27.9" cy="62.2" r="12" fill="#c49a70"/><circle cx="44.8" cy="36.8" r="12" fill="#c49a70"/><circle cx="70.2" cy="19.9" r="12" fill="#c49a70"/><circle cx="100.0" cy="14.0" r="12" fill="#c49a70"/><circle cx="129.8" cy="19.9" r="12" fill="#c49a70"/><circle cx="155.2" cy="36.8" r="12" fill="#c49a70"/><circle cx="172.1" cy="62.2" r="12" fill="#c49a70"/></g>
+    <circle cx="100" cy="92" r="78" fill="#c49a70"/>
+    <circle cx="100" cy="92" r="62" fill="#e8d2b8" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="100" cy="92" r="54" fill="#fffaf3"/>
+  </g>
+  <g id="motif" transform="translate(100 96)">
+      <path d="M-44 -30 C -30 -40 -14 -40 -10 -46 H10 C 14 -40 30 -40 44 -30 C 46 -6 34 10 30 46 H-30 C -34 10 -46 -6 -44 -30 Z" fill="#f3d2bd" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M-30 -24 C -20 -14 -16 0 -22 8 M30 -24 C 20 -14 16 0 22 8" stroke="#c9967c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M0 -40 V44" stroke="#c9967c" stroke-width="3" stroke-dasharray="1 7" stroke-linecap="round"/>
+      <circle cx="-10" cy="-6" r="9" fill="#fffaf3" opacity="0.9"/><circle cx="-10" cy="-6" r="5.5" fill="#d98a83" stroke="#8a5f4b" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="10" cy="-6" r="9" fill="#fffaf3" opacity="0.9"/><circle cx="10" cy="-6" r="5.5" fill="#d98a83" stroke="#8a5f4b" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-10" cy="18" r="9" fill="#fffaf3" opacity="0.9"/><circle cx="-10" cy="18" r="5.5" fill="#d98a83" stroke="#8a5f4b" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="10" cy="18" r="9" fill="#fffaf3" opacity="0.9"/><circle cx="10" cy="18" r="5.5" fill="#d98a83" stroke="#8a5f4b" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<!-- Nét mặt: đau (quá lực) -->
+<g data-layer="face">
+<g class="blush"><circle cx="146" cy="195" r="12" fill="var(--blush, #e9a99b)" opacity="0.35"/><circle cx="254" cy="195" r="12" fill="var(--blush, #e9a99b)" opacity="0.35"/></g>
+<g class="brows" fill="none" stroke="var(--brow, #3d2c25)" stroke-width="var(--brow-w, 5.5)" stroke-linecap="round"><path d="M148 140 C 160 139 174 134 185 126"/><path d="M215 126 C 226 134 240 139 252 140"/></g>
+<g class="eyes" fill="none" stroke="#2a1d18" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"><path d="M155 154 L176 164 L155 174"/><path d="M245 154 L224 164 L245 174"/></g>
+<g class="mouth"><path d="M182 226 C 186 214 194 212 200 216 C 206 212 214 214 218 226 C 206 222 194 222 182 226 Z" fill="#b8605a" stroke="#3d2c25" stroke-width="5" stroke-linejoin="round"/></g>
+</g>
+<g data-layer="fx">
+<path d="M296 104 C 304 116 308 124 308 130 C 308 137 303 141 297 141 C 291 141 286 137 286 130 C 286 124 290 116 296 104 Z" fill="#cfe3e6" stroke="#7fa7b3" stroke-width="3.5" stroke-linejoin="round"/>
+</g>

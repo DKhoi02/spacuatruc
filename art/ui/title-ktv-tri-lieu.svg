@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" font-family="Helvetica, Arial, sans-serif">
+  <title>Danh hiệu Kỹ thuật viên trị liệu</title>
+  <g id="laurel"><ellipse cx="251.8" cy="160.8" rx="7" ry="15" fill="#8fb39a" transform="rotate(240 251.8 160.8)" stroke="#8a5f4b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="348.2" cy="160.8" rx="7" ry="15" fill="#8fb39a" transform="rotate(-240 348.2 160.8)" stroke="#8a5f4b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="230.4" cy="139.0" rx="7" ry="15" fill="#8fb39a" transform="rotate(261 230.4 139.0)" stroke="#8a5f4b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="369.6" cy="139.0" rx="7" ry="15" fill="#8fb39a" transform="rotate(-261 369.6 139.0)" stroke="#8a5f4b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="218.2" cy="110.9" rx="7" ry="15" fill="#8fb39a" transform="rotate(282 218.2 110.9)" stroke="#8a5f4b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="381.8" cy="110.9" rx="7" ry="15" fill="#8fb39a" transform="rotate(-282 381.8 110.9)" stroke="#8a5f4b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="216.8" cy="80.3" rx="7" ry="15" fill="#8fb39a" transform="rotate(303 216.8 80.3)" stroke="#8a5f4b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="383.2" cy="80.3" rx="7" ry="15" fill="#8fb39a" transform="rotate(-303 383.2 80.3)" stroke="#8a5f4b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="226.5" cy="51.3" rx="7" ry="15" fill="#8fb39a" transform="rotate(324 226.5 51.3)" stroke="#8a5f4b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="373.5" cy="51.3" rx="7" ry="15" fill="#8fb39a" transform="rotate(-324 373.5 51.3)" stroke="#8a5f4b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="246.0" cy="27.7" rx="7" ry="15" fill="#8fb39a" transform="rotate(345 246.0 27.7)" stroke="#8a5f4b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="354.0" cy="27.7" rx="7" ry="15" fill="#8fb39a" transform="rotate(-345 354.0 27.7)" stroke="#8a5f4b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g>
+  <g id="emblem" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="300" cy="92" r="66" fill="#e8b46a"/>
+    <circle cx="300" cy="92" r="52" fill="#fffaf3"/>
+    <path d="M300 128 C 282 108 282 80 300 58 C 318 80 318 108 300 128 Z" fill="#f0c6b8" stroke-width="3"/>
+    <path d="M300 128 C 276 124 260 108 256 88 C 278 90 294 104 300 128 Z M300 128 C 324 124 340 108 344 88 C 322 90 306 104 300 128 Z" fill="#e7b4a6" stroke-width="3"/>
+    <path d="M268 132 H332" stroke="#8fb39a" stroke-width="5"/>
+    <circle cx="300" cy="96" r="6" fill="#d98a83" stroke-width="2.5"/>
+  </g>
+  <g id="banner" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M70 164 H120 V222 H70 L88 193 Z" fill="#e7b4a6"/>
+    <path d="M530 164 H480 V222 H530 L512 193 Z" fill="#e7b4a6"/>
+    <path d="M100 210 L120 222 V210 Z M500 210 L480 222 V210 Z" fill="#c98e80"/>
+    <rect x="100" y="152" width="400" height="58" rx="10" fill="#8fb39a"/>
+    <path d="M114 162 H486 M114 200 H486" stroke="#a9c9b3" stroke-width="3" fill="none"/>
+  </g>
+  <text id="title-text" x="300" y="191" font-size="29" font-weight="700" fill="#fffaf3" text-anchor="middle">Kỹ thuật viên trị liệu</text>
+</svg>

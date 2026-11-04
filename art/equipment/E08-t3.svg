@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 210">
+  <title>E08 Bình nước nóng – Cao cấp (máy nóng lạnh trực tiếp dạng tấm)</title>
+  <g id="water-heater" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- ống mạ vàng -->
+    <path d="M44 150 V204 M76 150 V204" fill="none" stroke="#d4a85a" stroke-width="7"/>
+    <path d="M44 150 V204 M76 150 V204" fill="none" stroke-width="2"/>
+    <path d="M36 204 H52 M68 204 H84" fill="none"/>
+    <path d="M36 178 H52 M68 178 H84" fill="none" stroke-width="5"/>
+    <circle cx="44" cy="178" r="3" fill="#cfe3e6" stroke-width="2"/>
+    <circle cx="76" cy="178" r="3" fill="#e7b4a6" stroke-width="2"/>
+    <!-- tấm gỗ ốp sau -->
+    <rect x="8" y="8" width="104" height="150" rx="10" fill="#9a6a4b"/>
+    <path d="M14 14 V152 M106 14 V152" stroke="#7d5239" stroke-width="2" fill="none"/>
+    <!-- thân máy kính trắng viền vàng -->
+    <rect x="20" y="20" width="80" height="126" rx="10" fill="#fffaf3"/>
+    <rect x="24" y="24" width="72" height="118" rx="7" fill="none" stroke="#d4a85a" stroke-width="2"/>
+    <rect x="32" y="36" width="56" height="34" rx="6" fill="#3d2c25" stroke-width="3"/>
+    <path d="M40 44 H50 V62 H40 M56 44 H66 V53 H56 V62 H66" stroke="#a9e0c0" stroke-width="2.5" fill="none"/>
+    <circle cx="78" cy="46" r="3" fill="#d4a85a" stroke="none"/>
+    <circle cx="60" cy="96" r="12" fill="#fffaf3" stroke="#d4a85a" stroke-width="4"/>
+    <circle cx="60" cy="96" r="16" fill="none" stroke-width="2"/>
+    <circle cx="60" cy="96" r="3" fill="#d4a85a" stroke="none"/>
+    <circle cx="40" cy="126" r="4" fill="#cfe3e6" stroke-width="2"/>
+    <circle cx="60" cy="126" r="4" fill="#d4a85a" stroke-width="2"/>
+    <circle cx="80" cy="126" r="4" fill="#e7b4a6" stroke-width="2"/>
+  </g>
+</svg>

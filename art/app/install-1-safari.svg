@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 520" font-family="Helvetica, Arial, sans-serif">
+  <title>Bước 1: mở trang trong Safari, bấm nút Chia sẻ</title>
+  <defs>
+    <clipPath id="ins-icon-clip"><rect width="512" height="512" rx="115"/></clipPath>
+    <symbol id="ins-app-icon" viewBox="0 0 512 512"><g clip-path="url(#ins-icon-clip)">
+    <rect width="512" height="512" fill="#8fb39a"/>
+    <circle cx="256" cy="280" r="214" fill="#a9c9b3"/>
+    <g stroke="#8a5f4b" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M96 520 C 104 446 170 420 256 420 C 342 420 408 446 416 520 Z" fill="#e7b4a6"/>
+      <path d="M212 426 C 226 452 286 452 300 426" fill="none"/>
+      <rect x="226" y="380" width="60" height="56" fill="#efc7b0"/>
+      <circle cx="256" cy="112" r="50" fill="#3b2a24"/>
+      <ellipse cx="256" cy="282" rx="118" ry="140" fill="#f3d2bd"/>
+      <path d="M140 270 C 124 176 186 140 256 142 C 326 140 388 176 372 270 C 360 222 322 204 256 206 C 190 204 152 222 140 270 Z" fill="#3b2a24"/>
+    </g>
+    <g fill="none" stroke="#3d2c25" stroke-width="9" stroke-linecap="round">
+      <path d="M190 292 C 200 304 220 304 230 292 M282 292 C 292 304 312 304 322 292"/>
+      <path d="M234 352 C 246 364 266 364 278 352"/>
+    </g>
+    <circle cx="196" cy="328" r="18" fill="#e9a99b" opacity="0.7"/>
+    <circle cx="316" cy="328" r="18" fill="#e9a99b" opacity="0.7"/>
+    <circle cx="256" cy="258" r="28" fill="none" stroke="#fffaf3" stroke-width="6" opacity="0.9"/>
+    <circle cx="256" cy="258" r="13" fill="#d98a83" stroke="#8a5f4b" stroke-width="5"/>
+  </g></symbol>
+  </defs>
+  <rect x="20" y="10" width="260" height="500" rx="40" fill="#fffaf3" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="34" y="24" width="232" height="472" rx="28" fill="#fbf6f0" stroke="#e8d2b8" stroke-width="2"/>
+  <rect x="115" y="32" width="70" height="14" rx="7" fill="#3d2c25"/>
+  <rect x="48" y="56" width="204" height="28" rx="10" fill="#efe6dc"/>
+  <text x="150" y="75" font-size="12" fill="#8a5f4b" text-anchor="middle">spacuatruc.netlify.app</text>
+  <g>
+    <rect x="58" y="96" width="184" height="110" rx="14" fill="#f4e6d6"/>
+    <use href="#ins-app-icon" x="122" y="110" width="56" height="56"/>
+    <rect x="96" y="178" width="108" height="10" rx="5" fill="#8fb39a"/>
+    <rect x="58" y="222" width="184" height="10" rx="5" fill="#e8d2b8"/>
+    <rect x="58" y="242" width="150" height="10" rx="5" fill="#e8d2b8"/>
+    <rect x="58" y="262" width="170" height="10" rx="5" fill="#e8d2b8"/>
+    <rect x="58" y="292" width="88" height="34" rx="17" fill="#8fb39a"/>
+    <rect x="58" y="342" width="184" height="10" rx="5" fill="#e8d2b8"/>
+    <rect x="58" y="362" width="130" height="10" rx="5" fill="#e8d2b8"/>
+  </g>
+  <rect x="34" y="440" width="232" height="56" fill="#f6efe7"/>
+  <path d="M34 440 H266" stroke="#e8d2b8" stroke-width="2"/>
+  <g fill="none" stroke="#4f86c6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64 458 L56 466 L64 474"/>
+    <path d="M100 458 L108 466 L100 474" stroke="#b9c9d6"/>
+    <path d="M182 458 C 188 456 194 456 198 460 C 202 456 208 456 214 458 V476 C 208 474 202 474 198 478 C 194 474 188 474 182 476 Z"/>
+    <rect x="232" y="458" width="16" height="16" rx="3"/><path d="M236 454 H252 V470"/>
+  </g>
+  <circle cx="150" cy="466" r="20" fill="#fffaf3" stroke="#d98a83" stroke-width="4"/>
+  <g transform="translate(150 467) scale(1)" fill="none" stroke="#4f86c6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-5 -4 H-9 V11 H9 V-4 H5"/><path d="M0 4 V-12 M-5 -7 L0 -12 L5 -7"/>
+  </g>
+  <g transform="translate(150 466)">
+    <circle r="22" fill="#e7b4a6" opacity="0.35"/>
+    <circle r="13" fill="none" stroke="#d98a83" stroke-width="3"/>
+    <path d="M6 10 C 6 2 12 0 14 4 L 14 2 C 14 -2 20 -2 21 2 L 21 0 C 22 -3 27 -3 28 1 L 28 22 C 28 36 20 44 10 44 C 0 44 -4 38 -8 30 L -14 18 C -16 13 -10 10 -6 14 L 0 20 L 0 -10 C 0 -16 6 -16 6 -10 Z" fill="#f3d2bd" stroke="#9a6a52" stroke-width="2.5" stroke-linejoin="round" transform="translate(2 20)"/>
+  </g>
+</svg>

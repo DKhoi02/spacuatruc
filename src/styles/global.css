@@ -1,0 +1,17 @@
+/* Design tokens (palette from docs/ART_ASSETS.md). UI agents extend this file only via their own CSS files. */
+:root {
+  --bg: #fbf6f0; --cream: #fffaf3; --wall: #f4e6d6; --wood: #d8b48c; --wood-line: #c49a70;
+  --outline: #8a5f4b; --text: #3d2c25; --text-2: #8a5f4b;
+  --sage: #8fb39a; --sage-light: #a9c9b3; --sage-dark: #4f7a62;
+  --rose: #e7b4a6; --rose-light: #f0c6b8; --water: #cfe3e6; --amber: #e8b46a; --warm: #ffe9a8;
+  --guide: #4f86c6; --danger: #e04f4f; --ok: #2e9e6b; --warn: #d9822b;
+  --radius: 16px;
+  --safe-top: env(safe-area-inset-top, 0px); --safe-bottom: env(safe-area-inset-bottom, 0px);
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--text);
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { margin: 0; height: 100%; background: var(--bg); overscroll-behavior: none; }
+body { -webkit-user-select: none; user-select: none; touch-action: manipulation; }
+#app { min-height: 100dvh; padding-top: var(--safe-top); padding-bottom: var(--safe-bottom); }
+button { font: inherit; color: inherit; }

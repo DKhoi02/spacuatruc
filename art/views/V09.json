@@ -1,0 +1,57 @@
+{
+  "view": "V09",
+  "title": "Cẳng chân mặt trước",
+  "svg": "V09.svg",
+  "frame": {
+    "width": 1000,
+    "height": 1400
+  },
+  "mirrorable": true,
+  "limb": "leg",
+  "drawnSide": "right",
+  "variants": {},
+  "midlineX": null,
+  "orientation": "chân phải nhìn từ trước: mặt ngoài (xương mác) bên trái màn hình, mặt trong bên phải",
+  "cun": {
+    "unitsPerCun": 0.062,
+    "reference": "Độc Tỵ ST35 (y=310) → nếp gấp cổ chân ST41 (y=1302) = 16 thốn; 1 thốn = 62 đv SVG"
+  },
+  "points": [
+    {
+      "id": "ST36",
+      "name": "Túc Tam Lý",
+      "side": "right",
+      "x": 0.458,
+      "y": 0.3543,
+      "r": 0.03,
+      "variant": null,
+      "note": "dưới Độc Tỵ 3 thốn, cách mào xương chày 1 khoát ngón tay (ngón giữa) về phía ngoài"
+    }
+  ],
+  "landmarksData": [
+    {
+      "id": "ST35",
+      "name": "Độc Tỵ",
+      "x": 0.445,
+      "y": 0.2214,
+      "note": "hõm ngoài dưới xương bánh chè, bờ ngoài gân bánh chè (mốc đo, không phải huyệt cần ấn)"
+    },
+    {
+      "id": "ST41",
+      "name": "Giải Khê",
+      "x": 0.505,
+      "y": 0.93,
+      "note": "giữa nếp gấp cổ chân (mốc đo 16 thốn)"
+    },
+    {
+      "id": "tibial-crest-at-ST36",
+      "name": "Mào xương chày ngang ST36",
+      "x": 0.507,
+      "y": 0.3543
+    }
+  ],
+  "muscles": [],
+  "forbidden": [],
+  "zones": [],
+  "sideConvention": "customer: \"left\"/\"right\" = bên trái/phải CỦA KHÁCH (giải phẫu), không phải bên màn hình"
+}

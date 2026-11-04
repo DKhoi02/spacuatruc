@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 140">
+  <title>E01 Giường spa – Cao cấp</title>
+  <g id="bed" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- chân gỗ tiện -->
+    <path d="M30 100 H48 C 48 108 44 110 44 114 C 44 118 48 120 46 126 L44 130 H34 L32 126 C 30 120 34 118 34 114 C 34 110 30 108 30 100 Z" fill="#9a6a4b"/>
+    <path d="M252 100 H270 C 270 108 266 110 266 114 C 266 118 270 120 268 126 L266 130 H256 L254 126 C 252 120 256 118 256 114 C 256 110 252 108 252 100 Z" fill="#9a6a4b"/>
+    <rect x="30" y="129" width="18" height="6" rx="2" fill="#d4a85a" stroke-width="3"/>
+    <rect x="252" y="129" width="18" height="6" rx="2" fill="#d4a85a" stroke-width="3"/>
+    <!-- thân giường + ngăn kéo -->
+    <rect x="8" y="68" width="284" height="38" rx="10" fill="#9a6a4b"/>
+    <path d="M14 74 H286" stroke="#d4a85a" stroke-width="3" fill="none"/>
+    <rect x="64" y="80" width="78" height="20" rx="4" fill="#b07d5a" stroke-width="3"/>
+    <rect x="158" y="80" width="78" height="20" rx="4" fill="#b07d5a" stroke-width="3"/>
+    <path d="M94 90 H112 M188 90 H206" stroke="#d4a85a" stroke-width="4" fill="none"/>
+    <path d="M24 82 C 30 88 38 88 44 82 M256 82 C 262 88 270 88 276 82" stroke="#d4a85a" stroke-width="2" fill="none"/>
+  </g>
+  <g id="mattress" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="10" y="28" width="280" height="46" rx="18" fill="#5f8a70"/>
+    <path d="M26 51 L46 34 L66 51 L86 34 L106 51 L126 34 L146 51 L166 34 L186 51 L206 34 L226 51 L246 34 L266 51 M26 51 L46 68 L66 51 L86 68 L106 51 L126 68 L146 51 L166 68 L186 51 L206 68 L226 51 L246 68 L266 51" stroke="#4f7a62" stroke-width="2" fill="none"/>
+    <g fill="#d4a85a" stroke="none">
+      <circle cx="46" cy="51" r="3"/><circle cx="86" cy="51" r="3"/><circle cx="126" cy="51" r="3"/><circle cx="166" cy="51" r="3"/><circle cx="206" cy="51" r="3"/><circle cx="246" cy="51" r="3"/>
+    </g>
+    <path d="M24 33 C 60 30 240 30 276 33" stroke="#8fb39a" stroke-width="3" fill="none"/>
+    <!-- gối -->
+    <rect x="16" y="8" width="90" height="28" rx="13" fill="#fffaf3"/>
+    <path d="M24 22 H98" stroke="#d4a85a" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+    <!-- khăn gấp + hoa -->
+    <rect x="164" y="24" width="96" height="12" rx="5" fill="#fffaf3" stroke-width="3"/>
+    <rect x="170" y="14" width="84" height="12" rx="5" fill="#fffaf3" stroke-width="3"/>
+    <path d="M170 20 H254" stroke="#d4a85a" stroke-width="2" fill="none"/>
+    <path d="M224 14 C 232 4 244 6 246 13" stroke="#4f7a62" stroke-width="2" fill="#8fb39a"/>
+    <circle cx="211" cy="11" r="6" fill="#e7b4a6" stroke-width="2"/>
+    <circle cx="219" cy="6" r="6" fill="#e7b4a6" stroke-width="2"/>
+    <circle cx="219" cy="15" r="6" fill="#e7b4a6" stroke-width="2"/>
+    <circle cx="227" cy="11" r="6" fill="#e7b4a6" stroke-width="2"/>
+    <circle cx="219" cy="11" r="3.5" fill="#d4a85a" stroke="none"/>
+  </g>
+</svg>

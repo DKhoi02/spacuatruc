@@ -1,0 +1,26 @@
+{
+  "_note": "Bảng màu cho nhân vật. Các khóa trong skin/hair ánh xạ tới biến CSS: skin→--skin, skinShade→--skin-shade, blush→--blush, hair→--hair, hairShade→--hair-shade, brow→--brow.",
+  "skin": {
+    "sang":  { "label": "Da sáng",     "skin": "#f8e0d0", "skinShade": "#f2d0bc", "blush": "#eeaaa0" },
+    "trung": { "label": "Da trung bình (mặc định, như mẫu)", "skin": "#f3d2bd", "skinShade": "#efc7b0", "blush": "#e9a99b" },
+    "ngam":  { "label": "Da ngăm",     "skin": "#e2b694", "skinShade": "#d6a682", "blush": "#d98a83" },
+    "dam":   { "label": "Da nâu đậm",  "skin": "#c48d68", "skinShade": "#b47d59", "blush": "#c7746c" }
+  },
+  "hair": {
+    "den":      { "label": "Đen",          "hair": "#2f2420", "hairShade": "#4a3830", "brow": "#2f2420" },
+    "nau-den":  { "label": "Nâu đen",      "hair": "#3b2a24", "hairShade": "#55403a", "brow": "#3b2a24" },
+    "nau":      { "label": "Nâu",          "hair": "#6b4434", "hairShade": "#4e3126", "brow": "#4e3126" },
+    "hat-de":   { "label": "Nâu hạt dẻ",   "hair": "#8a5a3c", "hairShade": "#6b4434", "brow": "#5a3a2a" },
+    "muoi-tieu":{ "label": "Muối tiêu",    "hair": "#8d8580", "hairShade": "#6e6661", "brow": "#5e5550" },
+    "bac":      { "label": "Bạc",          "hair": "#cbc3bd", "hairShade": "#a59c96", "brow": "#8d8580" },
+    "do-ruou":  { "label": "Nhuộm đỏ rượu", "hair": "#6e3a3a", "hairShade": "#512828", "brow": "#3b2a24" }
+  },
+  "cloth": {
+    "sage": "#8fb39a", "sage-light": "#a9c9b3", "sage-dark": "#4f7a62", "sage-shade": "#7ea58a", "sage-dark-shade": "#3f6651",
+    "rose": "#e7b4a6", "rose-light": "#f0c6b8", "rose-shade": "#c98f80",
+    "cream": "#fffaf3", "white": "#ffffff", "wall": "#f4e6d6", "counter": "#e8d2b8",
+    "water": "#cfe3e6", "water-blue": "#b9d4da", "amber": "#e8b46a", "amber-shade": "#c49a70",
+    "denim": "#7d9cc0", "denim-shade": "#5f7fa6", "lavender": "#c4b5d6", "lavender-shade": "#a493bb",
+    "mustard": "#e3c27a", "terracotta": "#d0896c", "wine": "#a35d68", "navy": "#4c5f80", "olive": "#a3a36b"
+  }
+}

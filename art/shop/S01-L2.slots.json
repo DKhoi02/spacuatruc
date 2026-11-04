@@ -1,0 +1,217 @@
+{
+  "scene": "S01-L2",
+  "title": "Sảnh tiệm (cấp 2 – thêm phòng trị liệu thứ 2)",
+  "svg": "S01-L2.svg",
+  "frame": {
+    "width": 1000,
+    "height": 1000
+  },
+  "coords": "x, y, width, height normalized 0–1 (svg units / 1000). Box top-left = (x, y). Equipment slots are exactly the equipment viewBox size, so equipment is drawn 1:1 (scale = 1) at translate(x*1000, y*1000). fit \"contain\" = scale down into the box keeping aspect, aligned bottom-center (preserveAspectRatio=\"xMidYMax meet\").",
+  "layers": [
+    {
+      "id": "bg",
+      "role": "tường, sàn, cửa sổ, đèn"
+    },
+    {
+      "id": "decor-wall",
+      "role": "cửa, tranh, biển hiệu, cây"
+    },
+    {
+      "id": "actors-behind-counter",
+      "role": "trống – code chèn lễ tân"
+    },
+    {
+      "id": "counter",
+      "role": "quầy lễ tân (che nửa dưới lễ tân)"
+    },
+    {
+      "id": "slots-back",
+      "role": "chỗ đặt đồ hàng sau"
+    },
+    {
+      "id": "actors",
+      "role": "trống – code chèn khách/nhân viên"
+    },
+    {
+      "id": "slots-front",
+      "role": "chỗ đặt đồ hàng trước"
+    },
+    {
+      "id": "fg",
+      "role": "tiền cảnh: chậu cây góc trái"
+    }
+  ],
+  "floorY": 0.7,
+  "rows": {
+    "back": 0.72,
+    "front": 0.94
+  },
+  "text": [
+    {
+      "id": "shop-name",
+      "default": "Tên tiệm",
+      "x": 0.5,
+      "y": 0.126,
+      "baseline": true,
+      "maxWidth": 0.3,
+      "fontSize": 34,
+      "note": "Biển xanh đậm, chữ kem"
+    }
+  ],
+  "slots": [
+    {
+      "id": "chair-1",
+      "group": "slot-chair-1",
+      "layer": "slots-back",
+      "x": 0.625,
+      "y": 0.604,
+      "width": 0.13,
+      "height": 0.116,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E02"
+      ],
+      "default": "E02"
+    },
+    {
+      "id": "chair-2",
+      "group": "slot-chair-2",
+      "layer": "slots-back",
+      "x": 0.76,
+      "y": 0.604,
+      "width": 0.13,
+      "height": 0.116,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E02"
+      ],
+      "default": "E02"
+    },
+    {
+      "id": "chair-3",
+      "group": "slot-chair-3",
+      "layer": "slots-front",
+      "x": 0.19,
+      "y": 0.824,
+      "width": 0.13,
+      "height": 0.116,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E02"
+      ]
+    },
+    {
+      "id": "chair-4",
+      "group": "slot-chair-4",
+      "layer": "slots-front",
+      "x": 0.322,
+      "y": 0.824,
+      "width": 0.13,
+      "height": 0.116,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E02"
+      ]
+    },
+    {
+      "id": "chair-5",
+      "group": "slot-chair-5",
+      "layer": "slots-front",
+      "x": 0.454,
+      "y": 0.824,
+      "width": 0.13,
+      "height": 0.116,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E02"
+      ]
+    },
+    {
+      "id": "chair-6",
+      "group": "slot-chair-6",
+      "layer": "slots-front",
+      "x": 0.586,
+      "y": 0.824,
+      "width": 0.13,
+      "height": 0.116,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E02"
+      ]
+    },
+    {
+      "id": "chair-7",
+      "group": "slot-chair-7",
+      "layer": "slots-front",
+      "x": 0.718,
+      "y": 0.824,
+      "width": 0.13,
+      "height": 0.116,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E02"
+      ]
+    },
+    {
+      "id": "chair-8",
+      "group": "slot-chair-8",
+      "layer": "slots-front",
+      "x": 0.85,
+      "y": 0.824,
+      "width": 0.13,
+      "height": 0.116,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E02"
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "id": "receptionist",
+      "x": 0.475,
+      "y": 0.7,
+      "note": "Sau quầy"
+    },
+    {
+      "id": "entrance",
+      "x": 0.1,
+      "y": 0.72,
+      "note": "Cửa chính (khách mới đứng ở cửa)"
+    },
+    {
+      "id": "room-door-1",
+      "x": 0.949,
+      "y": 0.72,
+      "note": "Cửa phòng trị liệu 1 (vòm phải, dấu I)"
+    },
+    {
+      "id": "room-door-2",
+      "x": 0.263,
+      "y": 0.72,
+      "note": "Cửa phòng trị liệu 2 (vòm trái, dấu II)"
+    },
+    {
+      "id": "counter-front",
+      "x": 0.475,
+      "y": 0.94,
+      "note": "Trước quầy"
+    }
+  ]
+}

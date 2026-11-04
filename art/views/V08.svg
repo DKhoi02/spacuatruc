@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400">
+  <title>V08 – Lòng bàn tay và cổ tay (phải)</title>
+  <defs>
+    <path id="v08-little" transform="translate(318 522) rotate(-7)" d="M -37.0 60 C -37.0 -25.8 -34.0 -171.6 -32.0 -254.0 A 32.0 33.6 0 0 1 32.0 -254.0 C 34.0 -171.6 37.0 -25.8 37.0 60 Z"/>
+    <path id="v08-ring" transform="translate(399 460) rotate(-2)" d="M -41.0 60 C -41.0 -45.0 -38.0 -210.0 -36.0 -314.0 A 36.0 37.8 0 0 1 36.0 -314.0 C 38.0 -210.0 41.0 -45.0 41.0 60 Z"/>
+    <path id="v08-middle" transform="translate(486 444) rotate(0)" d="M -44.0 60 C -44.0 -55.2 -40.0 -230.4 -38.0 -346.0 A 38.0 39.9 0 0 1 38.0 -346.0 C 40.0 -230.4 44.0 -55.2 44.0 60 Z"/>
+    <path id="v08-index" transform="translate(576 466) rotate(4)" d="M -44.0 60 C -44.0 -39.0 -39.0 -198.0 -37.0 -293.0 A 37.0 38.9 0 0 1 37.0 -293.0 C 39.0 -198.0 44.0 -39.0 44.0 60 Z"/>
+    <path id="v08-palm" d="M 282 545 C 282 505 300 492 330 492 L 600 470 C 614 472 620 490 620 512 L 650 700 L 622 960 C 640 1100 652 1300 655 1420 L 300 1420 C 308 1300 322 1150 334 1010 C 336 965 322 920 300 880 C 266 815 262 650 282 545 Z"/>
+    <path id="v08-thumb" d="M 618 962 C 700 890 752 800 764 712 C 776 650 806 600 810 548 C 814 482 728 466 714 520 C 704 560 690 600 668 640 Q 646 600 620 512 L 560 600 L 560 960 Z"/>
+  </defs>
+  <g id="bg"><rect width="1000" height="1400" fill="#fbf6f0"/></g>
+  <g id="base" stroke-linejoin="round" stroke-linecap="round">
+    <g fill="none" stroke="#9a6a52" stroke-width="8"><use href="#v08-palm"/><use href="#v08-thumb"/><use href="#v08-little"/><use href="#v08-ring"/><use href="#v08-middle"/><use href="#v08-index"/></g>
+    <g fill="var(--skin, #f3d2bd)"><use href="#v08-palm"/><use href="#v08-thumb"/><use href="#v08-little"/><use href="#v08-ring"/><use href="#v08-middle"/><use href="#v08-index"/></g>
+  </g>
+  <g id="skin-detail" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 624 512 C 572 600 540 740 548 900 C 580 930 610 950 622 960 C 650 900 690 830 700 760 C 690 690 660 600 624 512 Z" fill="var(--skin-shade, #efc7b0)" opacity="0.55"/>
+    <path d="M 282 600 C 270 700 272 800 300 880 C 318 900 330 905 345 905 C 320 820 310 700 300 610 Z" fill="var(--skin-shade, #efc7b0)" opacity="0.45"/>
+    <path d="M 714 520 C 704 560 690 600 668 640 C 700 610 718 570 726 530 Z" fill="var(--skin-shade, #efc7b0)"/>
+    <ellipse cx="770" cy="540" rx="24" ry="32" transform="rotate(20 770 540)" fill="#e9a99b" fill-opacity="0.18"/>
+    <g fill="none" stroke="#c9967c" stroke-width="3">
+      <path id="crease-distal-transverse" d="M 284 592 C 350 578 440 566 535 512"/>
+      <path id="crease-proximal-transverse" d="M 624 545 C 590 585 520 612 420 650 C 390 662 365 676 350 690"/>
+      <path id="crease-thenar" d="M 622 540 C 570 610 538 750 552 905"/>
+      <path d="M 726 712 C 704 722 684 722 668 716" stroke-width="2.5"/>
+      <path d="M 774 610 C 760 622 740 624 724 618 M 770 624 C 758 632 744 634 732 630" stroke-width="2.5"/>
+      <path id="crease-wrist" d="M 342 932 Q 480 946 618 930"/>
+      <path d="M 380 910 Q 480 920 590 908" stroke-width="2.5" opacity="0.8"/>
+      <path d="M 350 968 Q 480 978 610 966" stroke-width="2" opacity="0.6"/>
+    </g>
+    <g transform="translate(318 522) rotate(-7)" fill="none" stroke="#c9967c" stroke-width="2.5" stroke-linecap="round"><path d="M -29.6 6 Q 0 12 29.6 6 M -22.2 16 Q 0 21 22.2 16"/><path d="M -27.2 -120.1 Q 0 -114.1 27.2 -120.1 M -19.2 -110.1 Q 0 -105.1 19.2 -110.1"/><path d="M -24.0 -200.2 Q 0 -194.2 24.0 -200.2"/><ellipse cx="0" cy="-246.0" rx="17.6" ry="24.0" fill="#e9a99b" fill-opacity="0.18" stroke="none"/></g><g transform="translate(399 460) rotate(-2)" fill="none" stroke="#c9967c" stroke-width="2.5" stroke-linecap="round"><path d="M -32.8 6 Q 0 12 32.8 6 M -24.6 16 Q 0 21 24.6 16"/><path d="M -30.6 -147.0 Q 0 -141.0 30.6 -147.0 M -21.6 -137.0 Q 0 -132.0 21.6 -137.0"/><path d="M -27.0 -245.0 Q 0 -239.0 27.0 -245.0"/><ellipse cx="0" cy="-305.0" rx="19.8" ry="27.0" fill="#e9a99b" fill-opacity="0.18" stroke="none"/></g><g transform="translate(486 444) rotate(0)" fill="none" stroke="#c9967c" stroke-width="2.5" stroke-linecap="round"><path d="M -35.2 6 Q 0 12 35.2 6 M -26.4 16 Q 0 21 26.4 16"/><path d="M -32.3 -161.3 Q 0 -155.3 32.3 -161.3 M -22.8 -151.3 Q 0 -146.3 22.8 -151.3"/><path d="M -28.5 -268.8 Q 0 -262.8 28.5 -268.8"/><ellipse cx="0" cy="-336.5" rx="20.9" ry="28.5" fill="#e9a99b" fill-opacity="0.18" stroke="none"/></g><g transform="translate(576 466) rotate(4)" fill="none" stroke="#c9967c" stroke-width="2.5" stroke-linecap="round"><path d="M -35.2 6 Q 0 12 35.2 6 M -26.4 16 Q 0 21 26.4 16"/><path d="M -31.4 -138.6 Q 0 -132.6 31.4 -138.6 M -22.2 -128.6 Q 0 -123.6 22.2 -128.6"/><path d="M -27.8 -231.0 Q 0 -225.0 27.8 -231.0"/><ellipse cx="0" cy="-283.8" rx="20.4" ry="27.8" fill="#e9a99b" fill-opacity="0.18" stroke="none"/></g>
+  </g>
+  <g id="landmarks" fill="none" stroke="#c9967c" stroke-width="3" stroke-linecap="round" opacity="0.75">
+    <path id="lm-metacarpal-2" d="M 572 880 C 576 760 579 640 578 530" stroke-dasharray="2 9"/>
+    <path id="lm-metacarpal-3" d="M 500 890 C 496 760 492 640 489 525" stroke-dasharray="2 9"/>
+    <path id="lm-palmaris-longus" d="M 486 940 C 486 1100 484 1250 482 1400 M 500 940 C 500 1100 498 1250 496 1400" opacity="0.8"/>
+    <path id="lm-flexor-carpi-radialis" d="M 548 936 C 542 1100 532 1250 524 1400 M 564 934 C 558 1100 548 1250 540 1400" opacity="0.8"/>
+    <path id="lm-flexor-carpi-ulnaris" d="M 366 914 C 364 1100 356 1250 350 1400 M 382 922 C 380 1100 372 1250 366 1400" opacity="0.8"/>
+    <circle id="lm-pisiform" cx="372" cy="904" r="15" opacity="0.8"/>
+  </g>
+  <g id="guides" fill="none" stroke="#4f86c6" stroke-width="2.5" stroke-dasharray="10 8" opacity="0.8">
+    <line x1="232" y1="934" x2="660" y2="934"/>
+    <line x1="247" y1="934" x2="247" y2="1318"/>
+    <line x1="232" y1="934" x2="262" y2="934" stroke-dasharray="none"/><line x1="232" y1="1030" x2="262" y2="1030" stroke-dasharray="none"/><line x1="232" y1="1126" x2="262" y2="1126" stroke-dasharray="none"/><line x1="232" y1="1222" x2="262" y2="1222" stroke-dasharray="none"/><line x1="232" y1="1318" x2="262" y2="1318" stroke-dasharray="none"/>
+    <line x1="262" y1="1126" x2="600" y2="1126" opacity="0.6"/>
+  </g>
+</svg>

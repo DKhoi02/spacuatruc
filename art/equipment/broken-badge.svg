@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Đồ hỏng</title>
+  <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="32" cy="32" r="28" fill="#e04f4f"/>
+    <g transform="rotate(-45 32 32)" fill="#fffaf3" stroke="none">
+      <rect x="28" y="24" width="8" height="30" rx="4"/>
+      <path d="M22 16 A 10 10 0 1 0 42 16 L 42 8 L 36 8 L 36 16 L 28 16 L 28 8 L 22 8 Z"/>
+    </g>
+  </g>
+</svg>

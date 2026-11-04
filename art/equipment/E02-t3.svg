@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 116">
+  <title>E02 Ghế chờ – Cao cấp (sofa nhung)</title>
+  <g id="chair" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M22 92 C 20 102 14 106 12 112 M108 92 C 110 102 116 106 118 112" fill="none" stroke="#9a6a4b" stroke-width="7"/>
+    <circle cx="12" cy="111" r="3.5" fill="#d4a85a" stroke-width="2"/>
+    <circle cx="118" cy="111" r="3.5" fill="#d4a85a" stroke-width="2"/>
+    <path d="M14 32 C 14 10 34 4 50 8 C 56 3 74 3 80 8 C 96 4 116 10 116 32 V78 H14 Z" fill="#c98a7c"/>
+    <path d="M37 16 V60 M65 10 V60 M93 16 V60" stroke="#b47467" stroke-width="3" fill="none"/>
+    <rect x="20" y="58" width="90" height="22" rx="10" fill="#e7b4a6"/>
+    <rect x="44" y="34" width="42" height="26" rx="10" fill="#fffaf3" stroke-width="3" transform="rotate(-6 65 47)"/>
+    <path d="M52 47 H78" stroke="#d4a85a" stroke-width="2" fill="none" transform="rotate(-6 65 47)"/>
+    <path d="M4 52 C 4 40 24 38 26 50 V92 H6 C 4 80 4 64 4 52 Z" fill="#c98a7c"/>
+    <path d="M126 52 C 126 40 106 38 104 50 V92 H124 C 126 80 126 64 126 52 Z" fill="#c98a7c"/>
+    <circle cx="15" cy="51" r="5" fill="none" stroke="#b47467" stroke-width="3"/>
+    <circle cx="115" cy="51" r="5" fill="none" stroke="#b47467" stroke-width="3"/>
+    <rect x="8" y="80" width="114" height="14" rx="6" fill="#9a6a4b"/>
+    <path d="M14 86 H116" stroke="#d4a85a" stroke-width="2" fill="none"/>
+  </g>
+</svg>

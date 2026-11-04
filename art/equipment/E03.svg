@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 240">
+  <title>E03 Máy xông mặt</title>
+  <g id="steam" fill="none" stroke="#b9cfd6" stroke-width="5" stroke-linecap="round">
+    <path class="steam-1" d="M38 56 C 28 40 48 34 42 14"/>
+    <path class="steam-2" d="M60 56 C 50 40 70 32 64 8"/>
+  </g>
+  <g id="steamer" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M50 112 V222" fill="none"/>
+    <path d="M18 222 H82" fill="none"/>
+    <circle cx="22" cy="230" r="6" fill="#fffaf3" stroke-width="3"/>
+    <circle cx="78" cy="230" r="6" fill="#fffaf3" stroke-width="3"/>
+    <rect x="32" y="146" width="36" height="28" rx="6" fill="#a9c9b3" stroke-width="3"/>
+    <circle cx="44" cy="160" r="3" fill="#4f7a62" stroke="none"/>
+    <path d="M52 160 H60" stroke-width="3" fill="none"/>
+    <path d="M14 72 H86 L76 112 H24 Z" fill="#fffaf3"/>
+    <path d="M24 86 H76" stroke="#cfe3e6" stroke-width="3" fill="none"/>
+    <circle cx="50" cy="62" r="11" fill="#cfe3e6" stroke-width="3"/>
+  </g>
+</svg>

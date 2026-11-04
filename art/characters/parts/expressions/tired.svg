@@ -1,0 +1,11 @@
+<!-- Nét mặt: mệt (nhân viên hài lòng thấp) -->
+<g data-layer="face">
+<g class="brows" fill="none" stroke="var(--brow, #3d2c25)" stroke-width="var(--brow-w, 5.5)" stroke-linecap="round"><path d="M147 140 C 158 135 172 131 185 131"/><path d="M215 131 C 228 131 242 135 253 140"/></g>
+<g class="eyes"><path d="M157 165 H175 C 175 174 157 174 157 165 Z" fill="#2a1d18"/><path d="M225 165 H243 C 243 174 225 174 225 165 Z" fill="#2a1d18"/><path d="M153 165 C 160 161 170 161 179 164 M221 164 C 230 161 240 161 247 165" fill="none" stroke="#2a1d18" stroke-width="5" stroke-linecap="round"/></g>
+<g class="eyebags" fill="none" stroke="#c9967c" stroke-width="3.5" stroke-linecap="round"><path d="M157 182 C 163 186 170 186 176 182 M224 182 C 230 186 237 186 243 182"/></g>
+<g class="mouth" fill="none" stroke="#3d2c25" stroke-width="5.5" stroke-linecap="round"><path d="M186 223 C 192 219 197 225 202 222 C 207 219 211 222 214 223"/></g>
+</g>
+<g data-layer="fx">
+<path d="M298 112 C 305 122 308 128 308 133 C 308 139 304 142 299 142 C 294 142 290 139 290 133 C 290 128 293 122 298 112 Z" fill="#cfe3e6" stroke="#7fa7b3" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M300 72 C 306 66 314 66 318 72 M310 56 C 314 52 320 52 323 56" fill="none" stroke="#8a5f4b" stroke-width="3.5" stroke-linecap="round" opacity="0.7"/>
+</g>

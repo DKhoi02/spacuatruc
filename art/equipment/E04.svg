@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 70">
+  <title>E04 Nệm giường êm (nâng cấp)</title>
+  <g id="mattress" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="6" y="20" width="278" height="44" rx="16" fill="#fffaf3"/>
+    <path d="M64 26 V58 M124 26 V58 M184 26 V58 M244 26 V58" stroke="#e8d2b8" stroke-width="3" fill="none"/>
+    <path d="M18 42 H272" stroke="#f0c6b8" stroke-width="3" fill="none" stroke-dasharray="2 10"/>
+    <rect x="14" y="4" width="82" height="26" rx="12" fill="#f0c6b8"/>
+    <path d="M28 17 H82" stroke="#e7b4a6" stroke-width="3" fill="none"/>
+  </g>
+</svg>

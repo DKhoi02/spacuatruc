@@ -1,0 +1,4 @@
+<!-- Dáng mặt: tròn -->
+<g data-layer="neck"><rect x="179" y="222" width="42" height="68" fill="var(--skin-shade, #efc7b0)"/><path d="M179 222 V286 M221 222 V286" class="ol"/></g>
+<g data-layer="ears"><ellipse cx="111" cy="166" rx="13" ry="21" fill="var(--skin-shade, #efc7b0)" class="ol"/><ellipse cx="289" cy="166" rx="13" ry="21" fill="var(--skin-shade, #efc7b0)" class="ol"/></g>
+<g data-layer="head"><path d="M200 56 C 252 56 291 96 291 158 C 291 214 254 254 200 254 C 146 254 109 214 109 158 C 109 96 148 56 200 56 Z" fill="var(--skin, #f3d2bd)" class="ol"/></g>

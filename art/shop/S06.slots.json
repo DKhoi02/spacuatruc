@@ -1,0 +1,144 @@
+{
+  "scene": "S06",
+  "title": "Phòng trị liệu 2 (cấp 2)",
+  "svg": "S06.svg",
+  "frame": {
+    "width": 1000,
+    "height": 1000
+  },
+  "coords": "x, y, width, height normalized 0–1 (svg units / 1000). Box top-left = (x, y). Equipment slots are exactly the equipment viewBox size, so equipment is drawn 1:1 (scale = 1) at translate(x*1000, y*1000). fit \"contain\" = scale down into the box keeping aspect, aligned bottom-center (preserveAspectRatio=\"xMidYMax meet\").",
+  "layers": [
+    {
+      "id": "bg",
+      "role": "tường, sàn, cửa sổ, đèn"
+    },
+    {
+      "id": "decor-wall",
+      "role": "kệ, tranh, cây, trang trí"
+    },
+    {
+      "id": "slots-back",
+      "role": "giường 5–6 (phòng 2)"
+    },
+    {
+      "id": "actors",
+      "role": "trống – code chèn KTV/khách"
+    },
+    {
+      "id": "slots-front",
+      "role": "giường 7–8"
+    },
+    {
+      "id": "fg",
+      "role": "tiền cảnh: cây / nến góc phòng"
+    },
+    {
+      "id": "ambient",
+      "role": "ánh sáng ấm khi có E05 (mặc định ẩn)"
+    }
+  ],
+  "floorY": 0.7,
+  "rows": {
+    "back": 0.72,
+    "front": 0.94
+  },
+  "slots": [
+    {
+      "id": "bed-5",
+      "group": "slot-bed-5",
+      "layer": "slots-back",
+      "x": 0.17,
+      "y": 0.58,
+      "width": 0.3,
+      "height": 0.14,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E01",
+        "E01-upgraded"
+      ],
+      "note": "Phòng 2 = giường bed-5..8 (GAME_DESIGN §12.1)"
+    },
+    {
+      "id": "bed-6",
+      "group": "slot-bed-6",
+      "layer": "slots-back",
+      "x": 0.52,
+      "y": 0.58,
+      "width": 0.3,
+      "height": 0.14,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E01",
+        "E01-upgraded"
+      ]
+    },
+    {
+      "id": "bed-7",
+      "group": "slot-bed-7",
+      "layer": "slots-front",
+      "x": 0.12,
+      "y": 0.8,
+      "width": 0.3,
+      "height": 0.14,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E01",
+        "E01-upgraded"
+      ]
+    },
+    {
+      "id": "bed-8",
+      "group": "slot-bed-8",
+      "layer": "slots-front",
+      "x": 0.52,
+      "y": 0.8,
+      "width": 0.3,
+      "height": 0.14,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E01",
+        "E01-upgraded"
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "id": "bed-5-staff",
+      "x": 0.32,
+      "y": 0.72,
+      "note": "KTV ở giường 5"
+    },
+    {
+      "id": "bed-6-staff",
+      "x": 0.67,
+      "y": 0.72,
+      "note": "KTV ở giường 6"
+    },
+    {
+      "id": "bed-7-staff",
+      "x": 0.27,
+      "y": 0.94,
+      "note": "KTV ở giường 7"
+    },
+    {
+      "id": "bed-8-staff",
+      "x": 0.67,
+      "y": 0.94,
+      "note": "KTV ở giường 8"
+    }
+  ],
+  "toggles": [
+    {
+      "group": "ambient",
+      "showWhen": "E05 ở phòng 1 (phòng 2 dùng chung)"
+    }
+  ]
+}

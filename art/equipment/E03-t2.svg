@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 240">
+  <title>E03 Máy xông mặt – Tốt (xông ozone)</title>
+  <g id="steam" fill="none" stroke="#b9cfd6" stroke-width="5" stroke-linecap="round">
+    <path class="steam-1" d="M38 52 C 28 36 48 30 42 12"/>
+    <path class="steam-2" d="M60 52 C 50 36 70 28 64 6"/>
+  </g>
+  <g id="steamer" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M50 186 V218" fill="none" stroke-width="6"/>
+    <path d="M50 218 L14 226 M50 218 L86 226 M50 218 L50 228" fill="none"/>
+    <circle cx="14" cy="230" r="6" fill="#d8b48c" stroke-width="3"/>
+    <circle cx="86" cy="230" r="6" fill="#d8b48c" stroke-width="3"/>
+    <circle cx="50" cy="232" r="5" fill="#d8b48c" stroke-width="3"/>
+    <!-- bình nước thuỷ tinh -->
+    <rect x="30" y="138" width="40" height="50" rx="10" fill="#fffaf3"/>
+    <rect x="35" y="156" width="30" height="27" rx="5" fill="#cfe3e6" stroke="none"/>
+    <path d="M40 146 V176" stroke="#ffffff" stroke-width="3" fill="none"/>
+    <rect x="34" y="128" width="32" height="12" rx="4" fill="#8fb39a" stroke-width="3"/>
+    <!-- cần cong -->
+    <path d="M50 128 C 50 118 48 114 50 108" fill="none" stroke-width="6"/>
+    <path d="M50 128 C 50 118 48 114 50 108" fill="none" stroke="#a9c9b3" stroke-width="2"/>
+    <!-- đầu xông -->
+    <path d="M12 70 H88 C 86 92 72 110 50 110 C 28 110 14 92 12 70 Z" fill="#a9c9b3"/>
+    <path d="M18 82 H82" stroke="#fffaf3" stroke-width="3" fill="none"/>
+    <circle cx="35" cy="96" r="3.5" fill="#cfe3e6" stroke-width="2"/>
+    <circle cx="50" cy="98" r="3.5" fill="#e8b46a" stroke-width="2"/>
+    <circle cx="65" cy="96" r="3.5" fill="#fffaf3" stroke-width="2"/>
+    <rect x="38" y="56" width="24" height="14" rx="6" fill="#fffaf3" stroke-width="3"/>
+    <ellipse cx="50" cy="56" rx="9" ry="3" fill="#cfe3e6" stroke-width="2"/>
+  </g>
+</svg>

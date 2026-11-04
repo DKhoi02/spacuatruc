@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 210">
+  <title>E08 Bình nước nóng</title>
+  <g id="water-heater" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M44 160 V204 M76 160 V204" fill="none" stroke-width="5"/>
+    <path d="M38 204 H50 M70 204 H82" fill="none"/>
+    <circle cx="44" cy="182" r="5" fill="#cfe3e6" stroke-width="3"/>
+    <circle cx="76" cy="182" r="5" fill="#e7b4a6" stroke-width="3"/>
+    <rect x="50" y="4" width="20" height="10" rx="3" fill="#c49a70" stroke-width="3"/>
+    <rect x="14" y="12" width="92" height="152" rx="40" fill="#fffaf3"/>
+    <path d="M16 112 H104" stroke="#8fb39a" stroke-width="10" fill="none" stroke-linecap="butt"/>
+    <rect x="34" y="44" width="52" height="34" rx="8" fill="#cfe3e6" stroke-width="3"/>
+    <circle cx="50" cy="61" r="7" fill="#fffaf3" stroke-width="3"/>
+    <path d="M50 61 L54 56" stroke-width="2" fill="none"/>
+    <circle cx="73" cy="56" r="3" fill="#e8b46a" stroke="none"/>
+    <circle cx="73" cy="67" r="3" fill="#8fb39a" stroke="none"/>
+  </g>
+</svg>

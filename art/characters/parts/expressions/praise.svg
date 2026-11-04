@@ -1,0 +1,12 @@
+<!-- Nét mặt: khen (Anh Khôi) – mắt cười, miệng cười tươi, lấp lánh -->
+<g data-layer="face">
+<g class="blush"><circle cx="146" cy="192" r="14" fill="var(--blush, #e9a99b)" opacity="0.7"/><circle cx="254" cy="192" r="14" fill="var(--blush, #e9a99b)" opacity="0.7"/></g>
+<g class="brows" fill="none" stroke="var(--brow, #3d2c25)" stroke-width="var(--brow-w, 5.5)" stroke-linecap="round"><path d="M147 128 C 157 119 174 118 185 124"/><path d="M215 124 C 226 118 243 119 253 128"/></g>
+<g class="eyes" fill="none" stroke="#2a1d18" stroke-width="5.5" stroke-linecap="round"><path d="M154 168 C 159 156 173 156 178 168"/><path d="M222 168 C 227 156 241 156 246 168"/></g>
+<g class="mouth"><path d="M174 207 C 190 212 210 212 226 207 C 222 236 178 236 174 207 Z" fill="#b8605a" stroke="#3d2c25" stroke-width="5" stroke-linejoin="round"/><path d="M180 210 C 193 214 207 214 220 210 L 218 216 C 206 219 194 219 182 216 Z" fill="#fffaf3"/><path d="M188 226 C 195 221 205 221 212 226 C 205 230 195 230 188 226 Z" fill="#e39a92"/></g>
+</g>
+<g data-layer="fx" fill="#e8b46a" stroke="#c49a70" stroke-width="2.5" stroke-linejoin="round">
+<path d="M318 70 L323 84 L337 89 L323 94 L318 108 L313 94 L299 89 L313 84 Z"/>
+<path d="M82 92 L85 101 L94 104 L85 107 L82 116 L79 107 L70 104 L79 101 Z"/>
+<path d="M340 130 L342 136 L348 138 L342 140 L340 146 L338 140 L332 138 L338 136 Z"/>
+</g>

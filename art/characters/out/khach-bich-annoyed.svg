@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Cô Bích – Khó chịu" data-character="khach-bich" data-expression="annoyed">
+<title>Cô Bích – Khó chịu</title>
+<g class="layer-outfit-body">
+<g data-part="outfits/casual-cardigan"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#fffaf3" style="fill:var(--top2, #fffaf3)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-under">
+<g data-part="outfits/casual-cardigan"><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/round"><rect x="179" y="222" width="42" height="68" fill="#f2d0bc" style="fill:var(--skin-shade, #f2d0bc)"/><path d="M179 222 V286 M221 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/casual-cardigan"><defs><clipPath id="khach-bich-annoyed-neck"><rect x="172" y="240" width="56" height="72"/></clipPath></defs><g clip-path="url(#khach-bich-annoyed-neck)"><path d="M168 278 C 180 298 220 298 232 278 L 232 296 L 168 296 Z" fill="#fffaf3" style="fill:var(--top2, #fffaf3)"/><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g><path d="M60 392 C 74 306 130 278 166 278 C 172 310 178 350 182 392 Z" fill="#c4b5d6" style="fill:var(--top, #c4b5d6)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M340 392 C 326 306 270 278 234 278 C 228 310 222 350 218 392 Z" fill="#c4b5d6" style="fill:var(--top, #c4b5d6)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><g fill="#fffaf3" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><circle cx="174" cy="336" r="4.5"/><circle cx="178" cy="370" r="4.5"/></g></g>
+</g>
+<g class="layer-head-ears">
+<g data-part="heads/round"><ellipse cx="111" cy="166" rx="13" ry="21" fill="#f2d0bc" style="fill:var(--skin-shade, #f2d0bc)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="289" cy="166" rx="13" ry="21" fill="#f2d0bc" style="fill:var(--skin-shade, #f2d0bc)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-ears">
+<g data-part="accessories/earrings-pearl"><path d="M112 184 V194 M288 184 V194" stroke="#c49a70" stroke-width="2.5" stroke-linecap="round"/><g fill="#fffaf3" stroke="#c49a70" stroke-width="2.5"><circle cx="112" cy="200" r="7"/><circle cx="288" cy="200" r="7"/></g></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/round"><path d="M200 56 C 252 56 291 96 291 158 C 291 214 254 254 200 254 C 146 254 109 214 109 158 C 109 96 148 56 200 56 Z" fill="#f8e0d0" style="fill:var(--skin, #f8e0d0)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-face">
+<g data-part="accessories/age-lines" fill="none" stroke="#c9967c" stroke-width="3" stroke-linecap="round" opacity="0.85"><path d="M170 202 C 166 210 168 220 174 226 M230 202 C 234 210 232 220 226 226 M140 158 C 136 162 136 168 138 172 M260 158 C 264 162 264 168 262 172 M178 108 C 192 104 208 104 222 108"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/annoyed">
+<g class="blush"><circle cx="146" cy="196" r="12" fill="#eeaaa0" style="fill:var(--blush, #eeaaa0)" opacity="0.25"/><circle cx="254" cy="196" r="12" fill="#eeaaa0" style="fill:var(--blush, #eeaaa0)" opacity="0.25"/></g>
+<g class="brows" fill="none" stroke="#8d8580" style="stroke:var(--brow, #8d8580)" stroke-width="5.5" stroke-linecap="round"><path d="M148 134 C 160 135 174 139 186 145"/><path d="M214 145 C 226 139 240 135 252 134"/></g>
+<g class="eyes"><path d="M157 162 H175 C 175 172 157 172 157 162 Z" fill="#2a1d18"/><path d="M225 162 H243 C 243 172 225 172 225 162 Z" fill="#2a1d18"/><path d="M153 160 H179 M221 160 H247" stroke="#2a1d18" stroke-width="5" stroke-linecap="round"/></g>
+<g class="mouth" fill="none" stroke="#3d2c25" stroke-width="5.5" stroke-linecap="round"><path d="M186 225 C 192 218 202 217 208 220 C 211 221 213 223 215 225"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/curly-short" fill="#cbc3bd" style="fill:var(--hair, #cbc3bd)">
+<circle cx="200" cy="74" r="40"/><circle cx="122" cy="150" r="20"/><circle cx="116" cy="124" r="22"/><circle cx="126" cy="98" r="24"/><circle cx="150" cy="76" r="26"/><circle cx="178" cy="66" r="26"/><circle cx="210" cy="64" r="26"/><circle cx="240" cy="72" r="26"/><circle cx="266" cy="92" r="24"/><circle cx="284" cy="120" r="22"/><circle cx="280" cy="148" r="20"/><circle cx="166" cy="92" r="14"/><circle cx="198" cy="88" r="14"/><circle cx="230" cy="92" r="14"/>
+<path d="M136 88 C 142 80 152 80 156 88 M190 56 C 196 50 206 50 210 56 M246 82 C 252 76 262 78 264 86 M110 128 C 112 120 120 118 124 124 M276 120 C 280 114 288 116 290 124" fill="none" stroke="#a59c96" style="stroke:var(--hair-shade, #a59c96)" stroke-width="3.5" stroke-linecap="round"/>
+</g>
+</g>
+<g class="layer-acc-top">
+<g data-part="accessories/glasses-rect" fill="none" stroke="#8a5f4b" style="stroke:var(--frame, #8a5f4b)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="141" y="149" width="50" height="34" rx="11"/><rect x="209" y="149" width="50" height="34" rx="11"/><path d="M191 162 C 196 158 204 158 209 162 M141 158 L118 154 M259 158 L282 154"/></g>
+</g>
+<g class="layer-expr-fx">
+<g data-part="expressions/annoyed" fill="none" stroke="#d98a83" stroke-width="4.5" stroke-linecap="round"><path d="M296 96 C 302 100 302 106 298 110 M306 88 C 310 94 316 94 322 90 M326 100 C 320 104 320 110 324 116 M304 122 C 310 118 316 118 320 124"/></g>
+</g>
+</svg>

@@ -1,0 +1,214 @@
+{
+  "scene": "S03",
+  "title": "Phòng VIP",
+  "svg": "S03.svg",
+  "frame": {
+    "width": 1000,
+    "height": 1000
+  },
+  "coords": "x, y, width, height normalized 0–1 (svg units / 1000). Box top-left = (x, y). Equipment slots are exactly the equipment viewBox size, so equipment is drawn 1:1 (scale = 1) at translate(x*1000, y*1000). fit \"contain\" = scale down into the box keeping aspect, aligned bottom-center (preserveAspectRatio=\"xMidYMax meet\").",
+  "layers": [
+    {
+      "id": "bg",
+      "role": "tường giấy dán hoa sen, ốp gỗ, sàn, đèn chùm"
+    },
+    {
+      "id": "decor-wall",
+      "role": "tranh lớn, hốc tường, cây, nến"
+    },
+    {
+      "id": "slots-shelf",
+      "role": "hốc tường: dụng cụ và vật tư"
+    },
+    {
+      "id": "slots-back",
+      "role": "giường VIP, máy xông, tủ + đá nóng, đèn & tinh dầu"
+    },
+    {
+      "id": "decor-back",
+      "role": "tủ gỗ (vẽ sau slot đá nóng để không che)"
+    },
+    {
+      "id": "actors",
+      "role": "trống – code chèn KTV/khách"
+    },
+    {
+      "id": "slots-front",
+      "role": "(không có)"
+    },
+    {
+      "id": "fg",
+      "role": "tiền cảnh (trống)"
+    },
+    {
+      "id": "ambient",
+      "role": "ánh sáng ấm khi có E05 (mặc định ẩn)"
+    }
+  ],
+  "floorY": 0.7,
+  "rows": {
+    "back": 0.72,
+    "front": 0.94
+  },
+  "slots": [
+    {
+      "id": "shelf-tool",
+      "group": "slot-shelf-tool",
+      "layer": "slots-shelf",
+      "x": 0.725,
+      "y": 0.346,
+      "width": 0.15,
+      "height": 0.084,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E07"
+      ]
+    },
+    {
+      "id": "shelf-1",
+      "group": "slot-shelf-1",
+      "layer": "slots-shelf",
+      "x": 0.715,
+      "y": 0.28,
+      "width": 0.06,
+      "height": 0.06,
+      "anchor": "bottom-center",
+      "fit": "contain",
+      "kind": "supply",
+      "accepts": [
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08"
+      ]
+    },
+    {
+      "id": "shelf-2",
+      "group": "slot-shelf-2",
+      "layer": "slots-shelf",
+      "x": 0.77,
+      "y": 0.28,
+      "width": 0.06,
+      "height": 0.06,
+      "anchor": "bottom-center",
+      "fit": "contain",
+      "kind": "supply",
+      "accepts": [
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08"
+      ]
+    },
+    {
+      "id": "shelf-3",
+      "group": "slot-shelf-3",
+      "layer": "slots-shelf",
+      "x": 0.825,
+      "y": 0.28,
+      "width": 0.06,
+      "height": 0.06,
+      "anchor": "bottom-center",
+      "fit": "contain",
+      "kind": "supply",
+      "accepts": [
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08"
+      ]
+    },
+    {
+      "id": "steamer",
+      "group": "slot-steamer",
+      "layer": "slots-back",
+      "x": 0.175,
+      "y": 0.48,
+      "width": 0.1,
+      "height": 0.24,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E03"
+      ]
+    },
+    {
+      "id": "bed-1",
+      "group": "slot-bed-1",
+      "layer": "slots-back",
+      "x": 0.285,
+      "y": 0.58,
+      "width": 0.3,
+      "height": 0.14,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E01",
+        "E01-upgraded"
+      ],
+      "default": "E01-upgraded",
+      "note": "Phòng VIP nên dùng giường có nệm êm"
+    },
+    {
+      "id": "hot-stone",
+      "group": "slot-hot-stone",
+      "layer": "slots-back",
+      "x": 0.635,
+      "y": 0.47,
+      "width": 0.19,
+      "height": 0.13,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E09"
+      ],
+      "note": "Đặt trên mặt tủ (tủ là decor của cảnh)"
+    },
+    {
+      "id": "aroma",
+      "group": "slot-aroma",
+      "layer": "slots-back",
+      "x": 0.85,
+      "y": 0.49,
+      "width": 0.14,
+      "height": 0.23,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E05"
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "id": "bed-1-staff",
+      "x": 0.435,
+      "y": 0.72,
+      "note": "KTV ở giường VIP"
+    }
+  ],
+  "toggles": [
+    {
+      "group": "ambient",
+      "showWhen": "E05 đặt ở slot aroma"
+    }
+  ]
+}

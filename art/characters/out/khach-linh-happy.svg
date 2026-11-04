@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Linh – Vui" data-character="khach-linh" data-expression="happy">
+<title>Linh – Vui</title>
+<g class="layer-hair-behind">
+<g data-part="hair/ponytail"><path d="M246 64 C 302 58 334 110 322 180 C 314 226 304 262 318 304 C 282 296 268 246 272 196 C 276 146 270 104 246 88 Z" fill="#8a5a3c" style="fill:var(--hair, #8a5a3c)"/><path d="M300 110 C 308 150 302 200 296 240" fill="none" stroke="#6b4434" style="stroke:var(--hair-shade, #6b4434)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-body">
+<g data-part="outfits/casual-hoodie"><path d="M136 306 C 124 262 160 250 200 252 C 240 250 276 262 264 306 Z" fill="#a493bb" style="fill:var(--top-shade, #a493bb)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#c4b5d6" style="fill:var(--top, #c4b5d6)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M140 392 V372 C 170 364 230 364 260 372 V392" fill="none" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-under">
+<g data-part="outfits/casual-hoodie"><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/oval"><rect x="179" y="222" width="42" height="68" fill="#f2d0bc" style="fill:var(--skin-shade, #f2d0bc)"/><path d="M179 222 V286 M221 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/casual-hoodie"><defs><clipPath id="khach-linh-happy-neck"><rect x="172" y="240" width="56" height="72"/></clipPath></defs><g clip-path="url(#khach-linh-happy-neck)"><path d="M168 278 C 180 298 220 298 232 278 L 232 300 L 168 300 Z" fill="#c4b5d6" style="fill:var(--top, #c4b5d6)"/><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M186 296 V336 M214 296 V336" stroke="#fffaf3" stroke-width="5" stroke-linecap="round"/><circle cx="186" cy="338" r="4" fill="#fffaf3"/><circle cx="214" cy="338" r="4" fill="#fffaf3"/></g></g>
+</g>
+<g class="layer-head-ears">
+<g data-part="heads/oval"><ellipse cx="114" cy="164" rx="13" ry="21" fill="#f2d0bc" style="fill:var(--skin-shade, #f2d0bc)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="286" cy="164" rx="13" ry="21" fill="#f2d0bc" style="fill:var(--skin-shade, #f2d0bc)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/oval"><ellipse cx="200" cy="154" rx="86" ry="102" fill="#f8e0d0" style="fill:var(--skin, #f8e0d0)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/happy">
+<g class="blush"><circle cx="146" cy="192" r="14" fill="#eeaaa0" style="fill:var(--blush, #eeaaa0)" opacity="0.7"/><circle cx="254" cy="192" r="14" fill="#eeaaa0" style="fill:var(--blush, #eeaaa0)" opacity="0.7"/></g>
+<g class="brows" fill="none" stroke="#5a3a2a" style="stroke:var(--brow, #5a3a2a)" stroke-width="5.5" stroke-linecap="round"><path d="M147 131 C 157 122 174 121 185 127"/><path d="M215 127 C 226 121 243 122 253 131"/></g>
+<g class="eyes" fill="#2a1d18"><ellipse cx="166" cy="163" rx="8.5" ry="11.5"/><ellipse cx="234" cy="163" rx="8.5" ry="11.5"/><circle cx="169" cy="159" r="2.6" fill="#fffaf3"/><circle cx="237" cy="159" r="2.6" fill="#fffaf3"/></g>
+<g class="mouth"><path d="M176 209 C 190 213 210 213 224 209 C 220 232 180 232 176 209 Z" fill="#b8605a" stroke="#3d2c25" stroke-width="5" stroke-linejoin="round"/><path d="M186 224 C 194 219 206 219 214 224 C 206 229 194 229 186 224 Z" fill="#e39a92"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/ponytail"><path d="M114 154 C 104 74 150 49 200 51 C 250 49 296 74 286 154 C 278 118 262 104 244 98 C 216 112 172 116 140 106 C 128 118 118 134 114 154 Z" fill="#8a5a3c" style="fill:var(--hair, #8a5a3c)"/><path d="M164 64 C 196 58 230 64 256 78 M246 52 L260 70" fill="none" stroke="#6b4434" style="stroke:var(--hair-shade, #6b4434)" stroke-width="3.5" stroke-linecap="round"/><rect x="246" y="56" width="16" height="22" rx="6" transform="rotate(-30 254 67)" fill="#e7b4a6" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+</svg>

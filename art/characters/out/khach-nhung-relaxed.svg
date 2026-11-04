@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Chị Nhung – Thư giãn" data-character="khach-nhung" data-expression="relaxed">
+<title>Chị Nhung – Thư giãn</title>
+<g class="layer-hair-behind">
+<g data-part="hair/bob"><path d="M108 150 C 100 200 104 236 112 258 L 288 258 C 296 236 300 200 292 150 Z" fill="#8a5a3c" style="fill:var(--hair, #8a5a3c)"/></g>
+</g>
+<g class="layer-outfit-body">
+<g data-part="outfits/casual-vneck"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#e3c27a" style="fill:var(--top, #e3c27a)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/oval"><rect x="179" y="222" width="42" height="68" fill="#b47d59" style="fill:var(--skin-shade, #b47d59)"/><path d="M179 222 V286 M221 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/casual-vneck"><path d="M168 279 L200 318 L232 279 Z" fill="#b47d59" style="fill:var(--skin-shade, #b47d59)"/><path d="M168 279 L200 318 L232 279" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/oval"><ellipse cx="200" cy="154" rx="86" ry="102" fill="#c48d68" style="fill:var(--skin, #c48d68)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/relaxed">
+<g class="blush"><circle cx="146" cy="193" r="14" fill="#c7746c" style="fill:var(--blush, #c7746c)" opacity="0.6"/><circle cx="254" cy="193" r="14" fill="#c7746c" style="fill:var(--blush, #c7746c)" opacity="0.6"/></g>
+<g class="brows" fill="none" stroke="#5a3a2a" style="stroke:var(--brow, #5a3a2a)" stroke-width="5.5" stroke-linecap="round"><path d="M147 134 C 157 129 174 129 185 134"/><path d="M215 134 C 226 129 243 129 253 134"/></g>
+<g class="eyes" fill="none" stroke="#2a1d18" stroke-width="5.5" stroke-linecap="round"><path d="M154 166 C 159 157 173 157 178 166"/><path d="M222 166 C 227 157 241 157 246 166"/></g>
+<g class="mouth" fill="none" stroke="#3d2c25" stroke-width="5.5" stroke-linecap="round"><path d="M183 214 C 192 226 208 226 217 214"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/bob" data-hides-ears="true"><path d="M112 158 C 100 76 150 46 200 48 C 250 46 300 76 288 158 C 290 200 294 232 300 256 C 284 264 266 262 256 252 C 266 218 268 176 266 142 C 264 128 260 120 252 116 L 148 116 C 140 120 136 128 134 142 C 132 176 134 218 144 252 C 134 262 116 264 100 256 C 106 232 110 200 112 158 Z" fill="#8a5a3c" style="fill:var(--hair, #8a5a3c)"/><path d="M160 116 L164 100 M188 116 L190 98 M214 116 L212 98 M240 116 L236 100" fill="none" stroke="#6b4434" style="stroke:var(--hair-shade, #6b4434)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-top">
+<g data-part="accessories/glasses-rect" fill="none" stroke="#8a5f4b" style="stroke:var(--frame, #8a5f4b)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="141" y="149" width="50" height="34" rx="11"/><rect x="209" y="149" width="50" height="34" rx="11"/><path d="M191 162 C 196 158 204 158 209 162 M141 158 L118 154 M259 158 L282 154"/></g>
+</g>
+</svg>

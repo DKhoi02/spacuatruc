@@ -1,0 +1,204 @@
+{
+  "scene": "S05-L3",
+  "title": "Khu ngâm chân (cấp 3 – cao cấp)",
+  "svg": "S05-L3.svg",
+  "frame": {
+    "width": 1000,
+    "height": 1000
+  },
+  "coords": "x, y, width, height normalized 0–1 (svg units / 1000). Box top-left = (x, y). Equipment slots are exactly the equipment viewBox size, so equipment is drawn 1:1 (scale = 1) at translate(x*1000, y*1000). fit \"contain\" = scale down into the box keeping aspect, aligned bottom-center (preserveAspectRatio=\"xMidYMax meet\").",
+  "layers": [
+    {
+      "id": "bg",
+      "role": "tường ốp gỗ, sỏi, sàn, cửa sổ, đèn"
+    },
+    {
+      "id": "decor-wall",
+      "role": "trúc, kệ, tranh"
+    },
+    {
+      "id": "slots-shelf",
+      "role": "kệ: khăn, tinh dầu"
+    },
+    {
+      "id": "slots-back",
+      "role": "ghế ngâm chân 1–2, đèn & tinh dầu"
+    },
+    {
+      "id": "actors",
+      "role": "trống – code chèn KTV/khách"
+    },
+    {
+      "id": "slots-front",
+      "role": "ghế ngâm chân 3"
+    },
+    {
+      "id": "fg",
+      "role": "tiền cảnh: cây / nến"
+    },
+    {
+      "id": "ambient",
+      "role": "ánh sáng ấm khi có E05 (mặc định ẩn)"
+    }
+  ],
+  "floorY": 0.7,
+  "rows": {
+    "back": 0.72,
+    "front": 0.94
+  },
+  "slots": [
+    {
+      "id": "shelf-1",
+      "group": "slot-shelf-1",
+      "layer": "slots-shelf",
+      "x": 0.1,
+      "y": 0.26,
+      "width": 0.07,
+      "height": 0.07,
+      "anchor": "bottom-center",
+      "fit": "contain",
+      "kind": "supply",
+      "accepts": [
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08"
+      ]
+    },
+    {
+      "id": "shelf-2",
+      "group": "slot-shelf-2",
+      "layer": "slots-shelf",
+      "x": 0.18,
+      "y": 0.26,
+      "width": 0.07,
+      "height": 0.07,
+      "anchor": "bottom-center",
+      "fit": "contain",
+      "kind": "supply",
+      "accepts": [
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08"
+      ]
+    },
+    {
+      "id": "shelf-3",
+      "group": "slot-shelf-3",
+      "layer": "slots-shelf",
+      "x": 0.26,
+      "y": 0.26,
+      "width": 0.07,
+      "height": 0.07,
+      "anchor": "bottom-center",
+      "fit": "contain",
+      "kind": "supply",
+      "accepts": [
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08"
+      ]
+    },
+    {
+      "id": "footbath-chair-1",
+      "group": "slot-footbath-chair-1",
+      "layer": "slots-back",
+      "x": 0.06,
+      "y": 0.49,
+      "width": 0.3,
+      "height": 0.23,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E10"
+      ],
+      "default": "E10"
+    },
+    {
+      "id": "footbath-chair-2",
+      "group": "slot-footbath-chair-2",
+      "layer": "slots-back",
+      "x": 0.4,
+      "y": 0.49,
+      "width": 0.3,
+      "height": 0.23,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E10"
+      ]
+    },
+    {
+      "id": "aroma",
+      "group": "slot-aroma",
+      "layer": "slots-back",
+      "x": 0.71,
+      "y": 0.49,
+      "width": 0.14,
+      "height": 0.23,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E05"
+      ]
+    },
+    {
+      "id": "footbath-chair-3",
+      "group": "slot-footbath-chair-3",
+      "layer": "slots-front",
+      "x": 0.24,
+      "y": 0.71,
+      "width": 0.3,
+      "height": 0.23,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E10"
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "id": "footbath-chair-1-staff",
+      "x": 0.38,
+      "y": 0.72,
+      "note": "KTV ngồi/quỳ cạnh chậu ngâm ghế 1"
+    },
+    {
+      "id": "footbath-chair-2-staff",
+      "x": 0.72,
+      "y": 0.72,
+      "note": "KTV ở ghế 2"
+    },
+    {
+      "id": "footbath-chair-3-staff",
+      "x": 0.56,
+      "y": 0.94,
+      "note": "KTV ở ghế 3"
+    }
+  ],
+  "toggles": [
+    {
+      "group": "ambient",
+      "showWhen": "E05 đặt ở slot aroma"
+    }
+  ]
+}

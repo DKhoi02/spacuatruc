@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 230">
+  <title>E05 Đèn và tinh dầu thơm phòng – Cao cấp (bộ khuếch tán + cây xanh)</title>
+  <defs>
+    <radialGradient id="e05t3-glow-grad">
+      <stop offset="0" stop-color="#ffe9a8" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#ffe9a8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="glow">
+    <circle cx="40" cy="74" r="48" fill="url(#e05t3-glow-grad)"/>
+  </g>
+  <g id="mist" fill="none" stroke="#cfe3e6" stroke-width="4" stroke-linecap="round">
+    <path class="mist-1" d="M100 62 C 92 50 108 44 100 28"/>
+    <path class="mist-2" d="M112 58 C 106 46 120 38 114 22"/>
+  </g>
+  <g id="stand" stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- bàn gỗ sẫm chân cong -->
+    <path d="M22 136 C 24 170 14 200 12 224 M118 136 C 116 170 126 200 128 224" fill="none" stroke="#9a6a4b" stroke-width="8"/>
+    <path d="M22 136 C 24 170 14 200 12 224 M118 136 C 116 170 126 200 128 224" fill="none" stroke-width="2"/>
+    <circle cx="12" cy="224" r="3.5" fill="#d4a85a" stroke-width="2"/>
+    <circle cx="128" cy="224" r="3.5" fill="#d4a85a" stroke-width="2"/>
+    <rect x="16" y="184" width="108" height="10" rx="4" fill="#9a6a4b" stroke-width="3"/>
+    <!-- chậu cây trên kệ dưới -->
+    <path d="M42 164 C 34 156 34 148 38 142 C 44 148 46 156 44 164 Z" fill="#8fb39a" stroke-width="2"/>
+    <path d="M46 164 C 46 152 52 144 60 142 C 60 152 54 160 48 166 Z" fill="#a9c9b3" stroke-width="2"/>
+    <path d="M42 166 C 34 162 26 158 24 150 C 32 150 38 156 44 164 Z" fill="#4f7a62" stroke-width="2"/>
+    <path d="M32 164 H58 L54 184 H36 Z" fill="#fffaf3" stroke-width="3"/>
+    <path d="M34 171 H56" stroke="#d4a85a" stroke-width="2" fill="none"/>
+    <!-- lọ tinh dầu trên kệ dưới -->
+    <rect x="76" y="166" width="12" height="18" rx="3" fill="#e8b46a" stroke-width="3"/>
+    <rect x="78" y="160" width="8" height="7" rx="2" fill="#d4a85a" stroke-width="2"/>
+    <rect x="92" y="170" width="12" height="14" rx="3" fill="#c98a7c" stroke-width="3"/>
+    <rect x="94" y="164" width="8" height="7" rx="2" fill="#d4a85a" stroke-width="2"/>
+    <!-- mặt bàn -->
+    <rect x="6" y="122" width="128" height="16" rx="6" fill="#9a6a4b"/>
+    <path d="M10 127 H130" stroke="#d4a85a" stroke-width="2" fill="none"/>
+    <!-- đèn chân vàng -->
+    <path d="M28 122 H52 L48 116 H32 Z" fill="#d4a85a" stroke-width="3"/>
+    <path d="M40 116 C 34 108 46 104 40 96" fill="none" stroke="#d4a85a" stroke-width="5"/>
+    <path d="M40 116 C 34 108 46 104 40 96" fill="none" stroke-width="2"/>
+    <path d="M16 98 C 18 76 24 60 30 54 H50 C 56 60 62 76 64 98 Z" fill="#fffaf3"/>
+    <path d="M17 92 H63" stroke="#d4a85a" stroke-width="3" fill="none"/>
+    <!-- máy khuếch tán chân gỗ -->
+    <path d="M80 122 L84 104 H124 L128 122 Z" fill="#9a6a4b"/>
+    <path d="M88 110 H120 M86 116 H122" stroke="#7d5239" stroke-width="2" fill="none"/>
+    <path d="M84 104 C 84 84 94 72 104 70 C 114 72 124 84 124 104 Z" fill="#fffaf3"/>
+    <path d="M88 92 C 98 96 110 96 120 92" stroke="#e7b4a6" stroke-width="3" fill="none"/>
+    <circle cx="104" cy="70" r="4" fill="#d4a85a" stroke-width="2"/>
+    <!-- nến trong ly -->
+    <rect x="64" y="104" width="14" height="18" rx="3" fill="#f0c6b8" stroke-width="3"/>
+    <path d="M71 101 C 67 97 71 93 71 90 C 71 93 75 97 71 101 Z" fill="#e8b46a" stroke-width="2"/>
+  </g>
+</svg>

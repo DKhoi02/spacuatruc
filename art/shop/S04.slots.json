@@ -1,0 +1,178 @@
+{
+  "scene": "S04",
+  "title": "Khu gội đầu",
+  "svg": "S04.svg",
+  "frame": {
+    "width": 1000,
+    "height": 1000
+  },
+  "coords": "x, y, width, height normalized 0–1 (svg units / 1000). Box top-left = (x, y). Equipment slots are exactly the equipment viewBox size, so equipment is drawn 1:1 (scale = 1) at translate(x*1000, y*1000). fit \"contain\" = scale down into the box keeping aspect, aligned bottom-center (preserveAspectRatio=\"xMidYMax meet\").",
+  "layers": [
+    {
+      "id": "bg",
+      "role": "tường, gạch ốp, sàn, đèn"
+    },
+    {
+      "id": "decor-wall",
+      "role": "gương, kệ, tủ khăn, cây"
+    },
+    {
+      "id": "slots-shelf",
+      "role": "kệ: dầu gội, dầu xả, khăn"
+    },
+    {
+      "id": "slots-wall",
+      "role": "bình nước nóng treo tường"
+    },
+    {
+      "id": "slots-back",
+      "role": "ghế gội 1"
+    },
+    {
+      "id": "actors",
+      "role": "trống – code chèn KTV/khách"
+    },
+    {
+      "id": "slots-front",
+      "role": "ghế gội 2"
+    },
+    {
+      "id": "fg",
+      "role": "tiền cảnh (trống)"
+    }
+  ],
+  "floorY": 0.7,
+  "rows": {
+    "back": 0.72,
+    "front": 0.94
+  },
+  "slots": [
+    {
+      "id": "shelf-1",
+      "group": "slot-shelf-1",
+      "layer": "slots-shelf",
+      "x": 0.66,
+      "y": 0.26,
+      "width": 0.07,
+      "height": 0.07,
+      "anchor": "bottom-center",
+      "fit": "contain",
+      "kind": "supply",
+      "accepts": [
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08"
+      ]
+    },
+    {
+      "id": "shelf-2",
+      "group": "slot-shelf-2",
+      "layer": "slots-shelf",
+      "x": 0.74,
+      "y": 0.26,
+      "width": 0.07,
+      "height": 0.07,
+      "anchor": "bottom-center",
+      "fit": "contain",
+      "kind": "supply",
+      "accepts": [
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08"
+      ]
+    },
+    {
+      "id": "shelf-3",
+      "group": "slot-shelf-3",
+      "layer": "slots-shelf",
+      "x": 0.82,
+      "y": 0.26,
+      "width": 0.07,
+      "height": 0.07,
+      "anchor": "bottom-center",
+      "fit": "contain",
+      "kind": "supply",
+      "accepts": [
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08"
+      ]
+    },
+    {
+      "id": "water-heater",
+      "group": "slot-water-heater",
+      "layer": "slots-wall",
+      "x": 0.04,
+      "y": 0.22,
+      "width": 0.12,
+      "height": 0.21,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E08"
+      ],
+      "note": "Chương 4; treo tường phía trên bồn gội ghế 1"
+    },
+    {
+      "id": "shampoo-chair-1",
+      "group": "slot-shampoo-chair-1",
+      "layer": "slots-back",
+      "x": 0.09,
+      "y": 0.5,
+      "width": 0.32,
+      "height": 0.22,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E06"
+      ],
+      "default": "E06"
+    },
+    {
+      "id": "shampoo-chair-2",
+      "group": "slot-shampoo-chair-2",
+      "layer": "slots-front",
+      "x": 0.44,
+      "y": 0.72,
+      "width": 0.32,
+      "height": 0.22,
+      "anchor": "bottom-center",
+      "fit": "native",
+      "kind": "equipment",
+      "accepts": [
+        "E06"
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "id": "shampoo-chair-1-staff",
+      "x": 0.06,
+      "y": 0.72,
+      "note": "KTV đứng sau bồn gội (bên trái ghế 1)"
+    },
+    {
+      "id": "shampoo-chair-2-staff",
+      "x": 0.41,
+      "y": 0.94,
+      "note": "KTV ở ghế gội 2"
+    }
+  ]
+}

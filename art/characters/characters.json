@@ -1,0 +1,767 @@
+{
+  "_doc": "Danh sách nhân vật ghép bộ phận. Chạy: node build.mjs → out/<id>-<nétmặt>.svg. skin/hairColor = khóa trong palette.json; colors = biến CSS (--top, --top2, --top-shade, --collar, --scarf, --scarf-shade, --tag-line, --lanyard, --band) nhận tên màu trong palette.cloth hoặc mã hex.",
+  "frame": {
+    "viewBox": "0 0 400 400",
+    "note": "Chân dung bán thân. Tâm đầu (200,154); mắt (166,164)/(234,164); cằm y≈256; vai tới y=392."
+  },
+  "layerOrder": [
+    "hair:behind",
+    "outfit:body",
+    "outfit:under",
+    "hair:back",
+    "head:neck",
+    "outfit:over",
+    "head:ears",
+    "acc:ears",
+    "head:head",
+    "acc:face",
+    "expr:face",
+    "hair:front",
+    "acc:top",
+    "expr:fx"
+  ],
+  "expressionSets": {
+    "customer": [
+      "neutral",
+      "happy",
+      "relaxed",
+      "annoyed",
+      "pain"
+    ],
+    "staff": [
+      "neutral",
+      "happy",
+      "tired"
+    ],
+    "lead": [
+      "neutral",
+      "happy",
+      "praise",
+      "critique"
+    ]
+  },
+  "expressionLabels": {
+    "neutral": "Bình thường",
+    "happy": "Vui",
+    "relaxed": "Thư giãn",
+    "annoyed": "Khó chịu",
+    "pain": "Đau (quá lực)",
+    "tired": "Mệt",
+    "praise": "Khen",
+    "critique": "Nhận xét"
+  },
+  "characters": [
+    {
+      "id": "anh-khoi",
+      "name": "Anh Khôi",
+      "gender": "nam",
+      "age": 35,
+      "head": "soft-square",
+      "hair": "short-male",
+      "outfit": "uniform-lead",
+      "accessories": [
+        "glasses-round",
+        "name-tag-lead"
+      ],
+      "skin": "trung",
+      "hairColor": "den",
+      "colors": {
+        "top": "sage-dark",
+        "top-shade": "sage-dark-shade"
+      },
+      "browWidth": 6.5,
+      "note": "Giám khảo cuối chương. Đồng phục xanh đậm, kính tròn, bảng tên.",
+      "group": "lead",
+      "role": "truong-ktv",
+      "roleLabel": "Trưởng KTV",
+      "expressionSet": "lead",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "ktv-lan",
+      "name": "Lan",
+      "gender": "nữ",
+      "age": 24,
+      "head": "oval",
+      "hair": "bun",
+      "outfit": "uniform-ktv",
+      "accessories": [
+        "earrings-stud",
+        "name-tag"
+      ],
+      "skin": "trung",
+      "hairColor": "nau-den",
+      "colors": {
+        "top": "sage-light",
+        "top-shade": "sage-shade"
+      },
+      "group": "ktv",
+      "role": "ktv",
+      "roleLabel": "KTV (ứng viên)",
+      "expressionSet": "staff",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "ktv-minh",
+      "name": "Minh",
+      "gender": "nam",
+      "age": 27,
+      "head": "soft-square",
+      "hair": "side-part-male",
+      "outfit": "uniform-ktv",
+      "accessories": [
+        "name-tag"
+      ],
+      "skin": "ngam",
+      "hairColor": "den",
+      "colors": {
+        "top": "sage-light",
+        "top-shade": "sage-shade"
+      },
+      "browWidth": 6.5,
+      "group": "ktv",
+      "role": "ktv",
+      "roleLabel": "KTV (ứng viên)",
+      "expressionSet": "staff",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "ktv-thao",
+      "name": "Thảo",
+      "gender": "nữ",
+      "age": 29,
+      "head": "round",
+      "hair": "ponytail",
+      "outfit": "uniform-ktv",
+      "accessories": [
+        "name-tag"
+      ],
+      "skin": "sang",
+      "hairColor": "nau",
+      "colors": {
+        "top": "sage-light",
+        "top-shade": "sage-shade"
+      },
+      "group": "ktv",
+      "role": "ktv",
+      "roleLabel": "KTV (ứng viên)",
+      "expressionSet": "staff",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "ktv-hung",
+      "name": "Hùng",
+      "gender": "nam",
+      "age": 40,
+      "head": "soft-square",
+      "hair": "buzz-male",
+      "outfit": "uniform-ktv",
+      "accessories": [
+        "stubble",
+        "name-tag"
+      ],
+      "skin": "dam",
+      "hairColor": "den",
+      "colors": {
+        "top": "sage-light",
+        "top-shade": "sage-shade"
+      },
+      "browWidth": 6.5,
+      "group": "ktv",
+      "role": "ktv",
+      "roleLabel": "KTV (ứng viên)",
+      "expressionSet": "staff",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "ktv-lien",
+      "name": "Cô Liên",
+      "gender": "nữ",
+      "age": 50,
+      "head": "round",
+      "hair": "curly-short",
+      "outfit": "uniform-ktv",
+      "accessories": [
+        "age-lines",
+        "earrings-pearl",
+        "name-tag"
+      ],
+      "skin": "trung",
+      "hairColor": "muoi-tieu",
+      "colors": {
+        "top": "sage-light",
+        "top-shade": "sage-shade"
+      },
+      "group": "ktv",
+      "role": "ktv",
+      "roleLabel": "KTV (ứng viên)",
+      "expressionSet": "staff",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "ktv-vy",
+      "name": "Vy",
+      "gender": "nữ",
+      "age": 21,
+      "head": "oval",
+      "hair": "pixie",
+      "outfit": "uniform-ktv",
+      "accessories": [
+        "earrings-hoop",
+        "name-tag"
+      ],
+      "skin": "sang",
+      "hairColor": "hat-de",
+      "colors": {
+        "top": "sage-light",
+        "top-shade": "sage-shade"
+      },
+      "group": "ktv",
+      "role": "ktv",
+      "roleLabel": "KTV (ứng viên)",
+      "expressionSet": "staff",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "letan-ngoc",
+      "name": "Ngọc",
+      "gender": "nữ",
+      "age": 23,
+      "head": "oval",
+      "hair": "long-wavy",
+      "outfit": "uniform-reception",
+      "accessories": [
+        "name-tag"
+      ],
+      "skin": "sang",
+      "hairColor": "nau",
+      "colors": {
+        "scarf": "rose",
+        "scarf-shade": "rose-shade",
+        "tag-line": "rose"
+      },
+      "group": "le-tan",
+      "role": "le-tan",
+      "roleLabel": "Lễ tân",
+      "expressionSet": "staff",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "letan-tram",
+      "name": "Trâm",
+      "gender": "nữ",
+      "age": 26,
+      "head": "round",
+      "hair": "bob",
+      "outfit": "uniform-reception",
+      "accessories": [
+        "glasses-rect",
+        "name-tag"
+      ],
+      "skin": "trung",
+      "hairColor": "nau-den",
+      "colors": {
+        "scarf": "sage",
+        "scarf-shade": "sage-shade",
+        "tag-line": "rose"
+      },
+      "group": "le-tan",
+      "role": "le-tan",
+      "roleLabel": "Lễ tân",
+      "expressionSet": "staff",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "tapvu-co-sau",
+      "name": "Cô Sáu",
+      "gender": "nữ",
+      "age": 55,
+      "head": "round",
+      "hair": "headscarf",
+      "outfit": "uniform-cleaner",
+      "accessories": [
+        "age-lines",
+        "name-tag"
+      ],
+      "skin": "ngam",
+      "hairColor": "muoi-tieu",
+      "colors": {
+        "scarf": "sage",
+        "scarf-shade": "sage-shade"
+      },
+      "group": "tap-vu",
+      "role": "tap-vu",
+      "roleLabel": "Tạp vụ",
+      "expressionSet": "staff",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "tapvu-chu-tu",
+      "name": "Chú Tư",
+      "gender": "nam",
+      "age": 58,
+      "head": "soft-square",
+      "hair": "receding-male",
+      "outfit": "uniform-cleaner",
+      "accessories": [
+        "age-lines",
+        "mustache",
+        "name-tag"
+      ],
+      "skin": "ngam",
+      "hairColor": "bac",
+      "colors": {},
+      "browWidth": 6.5,
+      "group": "tap-vu",
+      "role": "tap-vu",
+      "roleLabel": "Tạp vụ",
+      "expressionSet": "staff",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-mai",
+      "name": "Chị Mai",
+      "gender": "nữ",
+      "age": 32,
+      "head": "oval",
+      "hair": "long-straight",
+      "outfit": "casual-tee",
+      "accessories": [],
+      "skin": "trung",
+      "hairColor": "nau",
+      "colors": {
+        "top": "rose"
+      },
+      "note": "Giống khách trong bản mẫu.",
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-hoa",
+      "name": "Chị Hoa",
+      "gender": "nữ",
+      "age": 28,
+      "head": "round",
+      "hair": "bob",
+      "outfit": "casual-cardigan",
+      "accessories": [
+        "hair-clip"
+      ],
+      "skin": "trung",
+      "hairColor": "nau-den",
+      "colors": {
+        "top": "sage",
+        "top2": "cream"
+      },
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-bich",
+      "name": "Cô Bích",
+      "gender": "nữ",
+      "age": 60,
+      "head": "round",
+      "hair": "curly-short",
+      "outfit": "casual-cardigan",
+      "accessories": [
+        "age-lines",
+        "earrings-pearl",
+        "glasses-rect"
+      ],
+      "skin": "sang",
+      "hairColor": "bac",
+      "colors": {
+        "top": "lavender",
+        "top2": "cream"
+      },
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-tuan",
+      "name": "Anh Tuấn",
+      "gender": "nam",
+      "age": 34,
+      "head": "soft-square",
+      "hair": "side-part-male",
+      "outfit": "casual-polo",
+      "accessories": [],
+      "skin": "ngam",
+      "hairColor": "den",
+      "colors": {
+        "top": "navy",
+        "collar": "navy"
+      },
+      "browWidth": 6.5,
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-linh",
+      "name": "Linh",
+      "gender": "nữ",
+      "age": 19,
+      "head": "oval",
+      "hair": "ponytail",
+      "outfit": "casual-hoodie",
+      "accessories": [],
+      "skin": "sang",
+      "hairColor": "hat-de",
+      "colors": {
+        "top": "lavender",
+        "top-shade": "lavender-shade"
+      },
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-phuong",
+      "name": "Chị Phương",
+      "gender": "nữ",
+      "age": 38,
+      "head": "oval",
+      "hair": "long-wavy",
+      "outfit": "casual-vneck",
+      "accessories": [],
+      "skin": "trung",
+      "hairColor": "do-ruou",
+      "colors": {
+        "top": "terracotta"
+      },
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-chu-bay",
+      "name": "Chú Bảy",
+      "gender": "nam",
+      "age": 62,
+      "head": "soft-square",
+      "hair": "receding-male",
+      "outfit": "casual-polo",
+      "accessories": [
+        "age-lines",
+        "mustache"
+      ],
+      "skin": "dam",
+      "hairColor": "muoi-tieu",
+      "colors": {
+        "top": "olive",
+        "collar": "olive"
+      },
+      "browWidth": 6.5,
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-hang",
+      "name": "Chị Hằng",
+      "gender": "nữ",
+      "age": 45,
+      "head": "round",
+      "hair": "pixie",
+      "outfit": "casual-stripe",
+      "accessories": [
+        "earrings-stud",
+        "hair-clip"
+      ],
+      "skin": "ngam",
+      "hairColor": "nau",
+      "colors": {
+        "top": "cream",
+        "top2": "denim"
+      },
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-dung",
+      "name": "Anh Dũng",
+      "gender": "nam",
+      "age": 27,
+      "head": "soft-square",
+      "hair": "buzz-male",
+      "outfit": "casual-tee",
+      "accessories": [
+        "stubble"
+      ],
+      "skin": "ngam",
+      "hairColor": "den",
+      "colors": {
+        "top": "denim"
+      },
+      "browWidth": 6.5,
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-yen",
+      "name": "Chị Yến",
+      "gender": "nữ",
+      "age": 30,
+      "head": "oval",
+      "hair": "long-straight",
+      "outfit": "casual-stripe",
+      "accessories": [
+        "headband"
+      ],
+      "skin": "sang",
+      "hairColor": "den",
+      "colors": {
+        "top": "cream",
+        "top2": "rose",
+        "band": "sage"
+      },
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-ba-tam",
+      "name": "Bà Tám",
+      "gender": "nữ",
+      "age": 70,
+      "head": "round",
+      "hair": "headscarf",
+      "outfit": "casual-cardigan",
+      "accessories": [
+        "age-lines"
+      ],
+      "skin": "trung",
+      "hairColor": "bac",
+      "colors": {
+        "top": "rose-shade",
+        "top2": "cream",
+        "scarf": "water",
+        "scarf-shade": "water-blue"
+      },
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-nhung",
+      "name": "Chị Nhung",
+      "gender": "nữ",
+      "age": 35,
+      "head": "oval",
+      "hair": "bob",
+      "outfit": "casual-vneck",
+      "accessories": [
+        "glasses-rect"
+      ],
+      "skin": "dam",
+      "hairColor": "hat-de",
+      "colors": {
+        "top": "mustard"
+      },
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "quen-thu",
+      "name": "Cô Thu",
+      "gender": "nữ",
+      "age": 52,
+      "head": "round",
+      "hair": "bun",
+      "outfit": "casual-cardigan",
+      "accessories": [
+        "age-lines",
+        "earrings-pearl"
+      ],
+      "skin": "trung",
+      "hairColor": "muoi-tieu",
+      "colors": {
+        "top": "wine",
+        "top2": "cream"
+      },
+      "group": "khach-quen",
+      "role": "khach-quen",
+      "roleLabel": "Khách quen",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "quen-huong",
+      "name": "Chị Hương",
+      "gender": "nữ",
+      "age": 33,
+      "head": "oval",
+      "hair": "long-wavy",
+      "outfit": "casual-tee",
+      "accessories": [],
+      "skin": "ngam",
+      "hairColor": "nau-den",
+      "colors": {
+        "top": "mustard"
+      },
+      "group": "khach-quen",
+      "role": "khach-quen",
+      "roleLabel": "Khách quen",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "quen-phat",
+      "name": "Anh Phát",
+      "gender": "nam",
+      "age": 42,
+      "head": "soft-square",
+      "hair": "short-male",
+      "outfit": "casual-polo",
+      "accessories": [
+        "glasses-rect"
+      ],
+      "skin": "trung",
+      "hairColor": "den",
+      "colors": {
+        "top": "terracotta",
+        "collar": "terracotta"
+      },
+      "browWidth": 6.5,
+      "group": "khach-quen",
+      "role": "khach-quen",
+      "roleLabel": "Khách quen",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "quen-diem",
+      "name": "Chị Diễm",
+      "gender": "nữ",
+      "age": 26,
+      "head": "oval",
+      "hair": "pixie",
+      "outfit": "casual-hoodie",
+      "accessories": [
+        "earrings-hoop"
+      ],
+      "skin": "dam",
+      "hairColor": "den",
+      "colors": {
+        "top": "sage",
+        "top-shade": "sage-shade"
+      },
+      "group": "khach-quen",
+      "role": "khach-quen",
+      "roleLabel": "Khách quen",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "dacbiet-mang-thai",
+      "name": "Chị Thủy",
+      "gender": "nữ",
+      "age": 30,
+      "head": "round",
+      "hair": "long-straight",
+      "outfit": "maternity-dress",
+      "accessories": [
+        "hair-clip"
+      ],
+      "skin": "trung",
+      "hairColor": "nau",
+      "colors": {
+        "top": "rose-light",
+        "top-shade": "rose",
+        "top2": "cream"
+      },
+      "tag": "mang-thai",
+      "note": "Khách mang thai: tránh huyệt chống chỉ định (Hợp Cốc, Kiên Tỉnh...).",
+      "group": "khach-dac-biet",
+      "role": "khach-dac-biet",
+      "roleLabel": "Khách đặc biệt",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "dacbiet-vip",
+      "name": "Bà Kim Ngân",
+      "gender": "nữ",
+      "age": 50,
+      "head": "oval",
+      "hair": "bun",
+      "outfit": "vip-elegant",
+      "accessories": [
+        "earrings-pearl"
+      ],
+      "skin": "sang",
+      "hairColor": "nau-den",
+      "colors": {
+        "top": "wine",
+        "collar": "cream"
+      },
+      "tag": "vip",
+      "group": "khach-dac-biet",
+      "role": "khach-dac-biet",
+      "roleLabel": "Khách đặc biệt",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "dacbiet-van-phong",
+      "name": "Anh Khang",
+      "gender": "nam",
+      "age": 30,
+      "head": "soft-square",
+      "hair": "side-part-male",
+      "outfit": "office-shirt",
+      "accessories": [
+        "glasses-rect"
+      ],
+      "skin": "trung",
+      "hairColor": "den",
+      "colors": {
+        "top": "white",
+        "top-shade": "water",
+        "collar": "white",
+        "lanyard": "denim"
+      },
+      "tag": "van-phong",
+      "browWidth": 6.5,
+      "note": "Đại diện khách đoàn văn phòng.",
+      "group": "khach-dac-biet",
+      "role": "khach-dac-biet",
+      "roleLabel": "Khách đặc biệt",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    }
+  ],
+  "layerNote": "Tóc có data-hides-ears=\"true\" (tóc dài, bob, khăn trùm) sẽ ẩn tai và bông tai."
+}
