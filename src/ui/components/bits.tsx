@@ -1,5 +1,6 @@
 import type { ComponentChildren } from "preact";
 import { Star, X } from "lucide-preact";
+import { createPortal } from "preact/compat";
 
 export const stars = (n: number) => "★".repeat(n) + "☆".repeat(Math.max(0, 3 - n));
 
@@ -29,7 +30,9 @@ export function Btn(props: { onClick?: () => void; kind?: "primary" | "secondary
 }
 
 export function Modal({ children, onClose, title, class: cls }: { children: ComponentChildren; onClose?: () => void; title?: ComponentChildren; class?: string }) {
-  return (
+  // Portal to <body>: inside the scrolling .app-main, iOS Safari layers the modal under the fixed tab bar
+  // (its bottom gets covered and it can't be scrolled).
+  const node = (
     <div class="modal-backdrop" onClick={(e) => e.target === e.currentTarget && onClose?.()}>
       <div class={`modal card ${cls ?? ""}`} role="dialog">
         {(title || onClose) && (
@@ -44,6 +47,7 @@ export function Modal({ children, onClose, title, class: cls }: { children: Comp
       </div>
     </div>
   );
+  return typeof document !== "undefined" ? createPortal(node, document.body) : node;
 }
 
 export function Bar({ value, max, tone }: { value: number; max: number; tone?: "ok" | "warn" | "danger" }) {
