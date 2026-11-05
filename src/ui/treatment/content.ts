@@ -77,7 +77,7 @@ export function sideLabel(side: Side | "left" | "right"): string {
 }
 
 export interface PointInfo {
-  id: string; name: string; altName?: string; location: string; force: Force; seconds: number; technique: string;
+  id: string; name: string; altName?: string; location: string; force: Force; seconds: number; technique: string; effects?: string;
   safetyNote?: string; sensitive: boolean; pregnancy?: "contraindicated" | "caution"; views: ViewId[]; variant?: string;
   def?: AcupointDef;
 }
@@ -87,7 +87,7 @@ export function pointInfo(id: string, all: ViewData[]): PointInfo {
   const vp: ViewPoint | undefined = all.flatMap((v) => v.points).find((p) => p.id === id);
   if (def) {
     return { id, name: def.name, altName: def.altName, location: def.location, force: def.force, seconds: def.seconds,
-      technique: def.technique, safetyNote: def.safetyNote, sensitive: def.sensitive, pregnancy: def.pregnancy,
+      technique: def.technique, effects: def.effects, safetyNote: def.safetyNote, sensitive: def.sensitive, pregnancy: def.pregnancy,
       views: def.views, variant: def.variant, def };
   }
   const row = POINTS_FALLBACK[id] ?? ["medium", 4, false];

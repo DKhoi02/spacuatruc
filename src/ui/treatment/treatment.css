@@ -98,6 +98,8 @@
 .tx-force .zo { background: #e98d84; border-radius: 0 10px 10px 0; color: #fff; }
 .tx-force .req { outline: 3px solid var(--outline, #8a5f4b); outline-offset: -3px; position: relative; z-index: 1; }
 .tx-needle { position: absolute; top: -7px; bottom: -7px; width: 6px; margin-left: -3px; border-radius: 3px; background: var(--text, #3d2c25); box-shadow: 0 0 0 2px #fff; z-index: 2; }
+.tx-effect { font-size: 13px; line-height: 1.35; text-align: center; color: var(--text, #3d2c25); background: var(--sage-light, #e3efe6); border-radius: 10px; padding: 5px 10px; }
+.tx-effect .muted { color: var(--text-2, #8a5f4b); font-size: 12px; }
 .tx-forcerow { display: flex; justify-content: space-between; font-size: 12.5px; color: var(--text-2, #8a5f4b); }
 
 /* Sheets / cards */

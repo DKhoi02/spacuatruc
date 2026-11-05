@@ -229,6 +229,9 @@ export function PointTask({ ctx }: { ctx: TaskCtx }) {
       </div>
       <div class="tx-bottom">
         <div class="tx-instr">{instr}</div>
+        {(phase === "hold" || phase === "done") && info.effects && (
+          <div class="tx-effect"><b>Tác dụng:</b> {info.effects} <span class="muted">(tham khảo)</span></div>
+        )}
         {phase === "hold" && useForce && <ForceBar value={s.force} required={reqForce} />}
         {phase === "hold" && (
           <div class="tx-forcerow">
@@ -247,6 +250,7 @@ export function PointTask({ ctx }: { ctx: TaskCtx }) {
             <dt>Vị trí</dt><dd>{info.location || t.note}</dd>
             <dt>Lực</dt><dd>{FORCE_LABEL[info.force]}{caution ? ` → thai phụ: ${FORCE_LABEL[reqForce]}` : ""}</dd>
             <dt>Giữ</dt><dd>{seconds} giây · {info.technique}</dd>
+            {info.effects && <><dt>Tác dụng</dt><dd>{info.effects} <span class="muted">(tham khảo)</span></dd></>}
           </dl>
           {info.safetyNote && <div class="warn">⚠ {info.safetyNote}</div>}
           <div class="row"><button class="tx-btn primary" onClick={() => setPhase("locate")}>Bắt đầu</button></div>
