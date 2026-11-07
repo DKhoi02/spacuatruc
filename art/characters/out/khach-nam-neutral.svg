@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Em Nam – Bình thường" data-character="khach-nam" data-expression="neutral">
+<title>Em Nam – Bình thường</title>
+<g class="layer-outfit-body">
+<g data-part="outfits/casual-hoodie"><path d="M136 306 C 124 262 160 250 200 252 C 240 250 276 262 264 306 Z" fill="#7ea58a" style="fill:var(--top-shade, #7ea58a)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#8fb39a" style="fill:var(--top, #8fb39a)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M140 392 V372 C 170 364 230 364 260 372 V392" fill="none" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-under">
+<g data-part="outfits/casual-hoodie"><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/oval"><rect x="179" y="222" width="42" height="68" fill="#f2d0bc" style="fill:var(--skin-shade, #f2d0bc)"/><path d="M179 222 V286 M221 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/casual-hoodie"><defs><clipPath id="khach-nam-neutral-neck"><rect x="172" y="240" width="56" height="72"/></clipPath></defs><g clip-path="url(#khach-nam-neutral-neck)"><path d="M168 278 C 180 298 220 298 232 278 L 232 300 L 168 300 Z" fill="#8fb39a" style="fill:var(--top, #8fb39a)"/><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M186 296 V336 M214 296 V336" stroke="#fffaf3" stroke-width="5" stroke-linecap="round"/><circle cx="186" cy="338" r="4" fill="#fffaf3"/><circle cx="214" cy="338" r="4" fill="#fffaf3"/></g></g>
+</g>
+<g class="layer-head-ears">
+<g data-part="heads/oval"><ellipse cx="114" cy="164" rx="13" ry="21" fill="#f2d0bc" style="fill:var(--skin-shade, #f2d0bc)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="286" cy="164" rx="13" ry="21" fill="#f2d0bc" style="fill:var(--skin-shade, #f2d0bc)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/oval"><ellipse cx="200" cy="154" rx="86" ry="102" fill="#f8e0d0" style="fill:var(--skin, #f8e0d0)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/neutral">
+<g class="blush"><circle cx="146" cy="194" r="13" fill="#eeaaa0" style="fill:var(--blush, #eeaaa0)" opacity="0.45"/><circle cx="254" cy="194" r="13" fill="#eeaaa0" style="fill:var(--blush, #eeaaa0)" opacity="0.45"/></g>
+<g class="brows" fill="none" stroke="#3b2a24" style="stroke:var(--brow, #3b2a24)" stroke-width="6.5" stroke-linecap="round"><path d="M147 136 C 157 129 174 128 185 133"/><path d="M215 133 C 226 128 243 129 253 136"/></g>
+<g class="eyes" fill="#2a1d18"><ellipse cx="166" cy="164" rx="8.5" ry="11.5"/><ellipse cx="234" cy="164" rx="8.5" ry="11.5"/></g>
+<g class="mouth" fill="none" stroke="#3d2c25" stroke-width="5.5" stroke-linecap="round"><path d="M185 218 C 194 224 206 224 215 218"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/side-part-male"><path d="M112 148 C 98 62 150 32 204 34 C 258 32 304 62 288 148 C 284 118 274 100 258 92 C 234 106 196 104 174 88 C 162 100 150 104 138 106 C 124 114 116 128 112 148 Z" fill="#3b2a24" style="fill:var(--hair, #3b2a24)"/><path d="M170 46 C 168 62 170 76 174 88" fill="none" stroke="#55403a" style="stroke:var(--hair-shade, #55403a)" stroke-width="3.5" stroke-linecap="round"/><path d="M190 52 C 220 50 250 60 268 78" fill="none" stroke="#55403a" style="stroke:var(--hair-shade, #55403a)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+</svg>

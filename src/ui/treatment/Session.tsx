@@ -14,6 +14,7 @@ import { ZoneTask } from "./ZoneTask";
 import { StepTask } from "./StepTask";
 import { autoZoomFor, itemScore, hash01, needsPrecision, patienceLeft } from "./scoring";
 import { playSound, unlockAudio } from "./sound";
+import { faceOverlaySvg, faceSvg, lookFor, warpViewData, type CharacterLike } from "./faces";
 
 // Character palette (copied from art/characters/palette.json keys → CSS variables used by the view SVGs).
 const SKIN: Record<string, [string, string]> = {
@@ -75,12 +76,14 @@ export function SessionShell({ config, onFinish, onAbort, initialProgress, onPro
   const pressRef = useRef<((down: boolean) => void) | null>(null);
   const downIds = useRef(new Set<number>());
   const cssVars = useMemo(() => cssVarsFor(customer.characterId), [customer.characterId]);
+  /** This customer's own face (shape, build, hair, age) for the frontal face view V01. */
+  const look = useMemo(() => lookFor(characterById(customer.characterId) as CharacterLike | undefined, customer.characterId), [customer.characterId]);
 
   useEffect(() => {
     let alive = true;
     loadAllViews().then((v) => {
       if (!alive) return;
-      setAll(v);
+      setAll(v.map((d) => (d.view === "V01" ? warpViewData(d, look) : d)));
       // Resumed sessions skip the health profile card (already read before the reload).
       setPhase(initDone ? "summary" : init && init.results.some(Boolean) ? "work" : customer.health ? "profile" : "work");
     });
@@ -225,7 +228,11 @@ export function SessionShell({ config, onFinish, onAbort, initialProgress, onPro
     if (!plan) return;
     let alive = true;
     const ov = plan.kind === "step" && plan.overlay ? overlaySvg(plan.overlay) : Promise.resolve(null);
-    Promise.all([viewSvg(plan.view), ov]).then(([s, o]) => { if (alive) setSvgs({ key: planKey, svg: s, overlay: o }); });
+    const face = plan.view === "V01";
+    Promise.all([viewSvg(plan.view), ov]).then(([s, o]) => {
+      if (!alive) return;
+      setSvgs({ key: planKey, svg: face ? faceSvg(s, look) : s, overlay: o && face ? faceOverlaySvg(o, look) : o });
+    });
     return () => { alive = false; };
   }, [planKey]);
 
@@ -268,7 +275,7 @@ export function SessionShell({ config, onFinish, onAbort, initialProgress, onPro
       item, itemKey: itemKeyOf(item), plan, hint: hintOf(item), svg: svgs.key === planKey ? svgs.svg : null,
       overlaySvg: svgs.key === planKey ? svgs.overlay : null, config, pregnant, all, cssVars, expr, setExpr, toast: showToast,
       pressRef, setPaused: (p) => { paused.current = p; }, onDone: finishItem, zoom, tools, care, setCare,
-      setZoom, reportTol: setTolPx, precise,
+      setZoom, reportTol: setTolPx, precise, zoomAssist: !!config.zoomAssist,
     };
     const k = `${cur}`;
     task = plan.kind === "point" ? <PointTask key={k} ctx={ctx} />

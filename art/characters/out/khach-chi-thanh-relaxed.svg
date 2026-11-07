@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Chị Thanh – Thư giãn" data-character="khach-chi-thanh" data-expression="relaxed">
+<title>Chị Thanh – Thư giãn</title>
+<g class="layer-hair-behind">
+<g data-part="hair/long-straight"><path d="M200 58 C 130 58 98 110 104 170 C 96 240 100 300 112 340 L 288 340 C 300 300 304 240 296 170 C 302 110 270 58 200 58 Z" fill="#3b2a24" style="fill:var(--hair, #3b2a24)"/></g>
+</g>
+<g class="layer-outfit-body">
+<g data-part="outfits/casual-vneck"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#c4b5d6" style="fill:var(--top, #c4b5d6)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-hair-back">
+<g data-part="hair/long-straight"><path d="M108 150 C 92 250 98 320 140 356 C 156 358 166 352 170 344 C 152 310 146 260 146 200 C 140 180 130 160 108 150 Z" fill="#3b2a24" style="fill:var(--hair, #3b2a24)"/><path d="M292 150 C 308 250 302 320 260 356 C 244 358 234 352 230 344 C 248 310 254 260 254 200 C 260 180 270 160 292 150 Z" fill="#3b2a24" style="fill:var(--hair, #3b2a24)"/><path d="M118 240 C 116 280 124 316 142 340 M282 240 C 284 280 276 316 258 340" fill="none" stroke="#55403a" style="stroke:var(--hair-shade, #55403a)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/oval"><rect x="179" y="222" width="42" height="68" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)"/><path d="M179 222 V286 M221 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/casual-vneck"><path d="M168 279 L200 318 L232 279 Z" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)"/><path d="M168 279 L200 318 L232 279" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/oval"><ellipse cx="200" cy="154" rx="86" ry="102" fill="#f3d2bd" style="fill:var(--skin, #f3d2bd)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/relaxed">
+<g class="blush"><circle cx="146" cy="193" r="14" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.6"/><circle cx="254" cy="193" r="14" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.6"/></g>
+<g class="brows" fill="none" stroke="#3b2a24" style="stroke:var(--brow, #3b2a24)" stroke-width="5.5" stroke-linecap="round"><path d="M147 134 C 157 129 174 129 185 134"/><path d="M215 134 C 226 129 243 129 253 134"/></g>
+<g class="eyes" fill="none" stroke="#2a1d18" stroke-width="5.5" stroke-linecap="round"><path d="M154 166 C 159 157 173 157 178 166"/><path d="M222 166 C 227 157 241 157 246 166"/></g>
+<g class="mouth" fill="none" stroke="#3d2c25" stroke-width="5.5" stroke-linecap="round"><path d="M183 214 C 192 226 208 226 217 214"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/long-straight" data-hides-ears="true"><path d="M116 196 C 91 73 144 45 200 48 C 256 45 309 73 284 196 C 279 132 246 102 216 101 C 194 118 158 118 132 118 C 124 138 119 164 116 196 Z" fill="#3b2a24" style="fill:var(--hair, #3b2a24)"/><path d="M216 101 C 236 108 262 126 274 160 M196 60 C 224 58 254 66 272 86" fill="none" stroke="#55403a" style="stroke:var(--hair-shade, #55403a)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+</svg>

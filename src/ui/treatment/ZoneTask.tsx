@@ -6,7 +6,7 @@ import type { ZonePlan } from "./plan";
 import { Stage } from "./Stage";
 import { autoZoomFor, FINGER_TOL_PX, pointInPolygon, polygonDistance, type Grade, type Pt } from "./scoring";
 import {
-  badgesFor, baseLayers, gradeColor, gradeText, HintBlob, HoldRing, Ripple, Sheet, startLoop, tapRecord, toScreen, toView,
+  badgesFor, baseLayers, FREE_FOCUS, gradeColor, gradeText, HintBlob, HoldRing, Ripple, Sheet, startLoop, tapRecord, toScreen, toView,
   type TaskCtx,
 } from "./common";
 import { playSound } from "./sound";
@@ -47,7 +47,7 @@ export function ZoneTask({ ctx }: { ctx: TaskCtx }) {
     ctx.reportTol(tolPx);
     if (phase === "locate" && !autoZoomed.current) {
       autoZoomed.current = true;
-      if (FINGER_TOL_PX / tolPx > 2 && ctx.zoom < autoZoomFor(tolPx)) ctx.setZoom(autoZoomFor(tolPx));
+      if (ctx.zoomAssist && FINGER_TOL_PX / tolPx > 2 && ctx.zoom < autoZoomFor(tolPx)) ctx.setZoom(autoZoomFor(tolPx));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stageW, tolPx, phase]);
@@ -109,10 +109,10 @@ export function ZoneTask({ ctx }: { ctx: TaskCtx }) {
   return (
     <>
       <div class="tx-canvaswrap">
-        <Stage svg={ctx.svg} mirrored={plan.mirrored} layers={layers} cssVars={ctx.cssVars} zoom={ctx.zoom} focus={center}
+        <Stage svg={ctx.svg} mirrored={plan.mirrored} layers={layers} cssVars={ctx.cssVars} zoom={ctx.zoom} focus={ctx.zoomAssist ? center : FREE_FOCUS}
           panMode="drag" onTap={onTap} badges={badgesFor(plan)}
           precise={ctx.precise && (phase === "locate" || phase === "retry")}
-          focusSeed={ctx.itemKey + "|zoom"} onMetrics={(m) => setStageW(m.W)}
+          focusSeed={ctx.zoomAssist ? ctx.itemKey + "|zoom" : undefined} onMetrics={(m) => setStageW(m.W)}
           qa={import.meta.env.DEV ? { kind: "zone", phase, zoom: ctx.zoom, precise: ctx.precise, tolPx, polys: plan.polys.map((poly) => poly.map((q) => toScreen(plan, q))) } : undefined}>
           {phase === "locate" && <HintBlob at={center} r={rEq / 3} hint={hint} seed={ctx.itemKey + foot} />}
           {(phase === "hold" || phase === "done") && <HoldRing at={tap?.p ?? center} frac={phase === "done" ? 1 : sim.current.held / HOLD_S} />}

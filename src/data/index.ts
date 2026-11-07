@@ -149,6 +149,7 @@ export const CONFIG = {
 export const CUSTOMER_CHARACTER_IDS: string[] = [
   "khach-mai", "khach-hoa", "khach-bich", "khach-tuan", "khach-linh", "khach-phuong",
   "khach-chu-bay", "khach-hang", "khach-dung", "khach-yen", "khach-ba-tam", "khach-nhung",
+  "khach-ong-lam", "khach-anh-hai", "khach-co-loan", "khach-nam", "khach-chi-thanh", "khach-chu-hoa",
 ];
 export const REGULAR_CHARACTER_IDS: string[] = ["quen-thu", "quen-huong", "quen-phat", "quen-diem"];
 export const SPECIAL_CHARACTER_IDS: { pregnant: string; vip: string; office: string } = {

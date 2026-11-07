@@ -1,6 +1,6 @@
 import { useRef, useState } from "preact/hooks";
 import type { GameState } from "@/core/types";
-import { Download, Music, Pencil, RotateCcw, Upload, Volume2 } from "lucide-preact";
+import { Download, Music, Pencil, RotateCcw, Upload, Volume2, ZoomIn } from "lucide-preact";
 import { api } from "../api";
 import { Btn, Modal, Section } from "../components/bits";
 import { dateVi, vnd } from "../format";
@@ -46,6 +46,12 @@ export function Settings({ s }: { s: GameState }) {
         <div class="card">
           <Toggle icon={<Volume2 size={18} />} label="Hiệu ứng âm thanh" on={s.settings.sound} onChange={(v) => dispatch((g) => ({ ...g, settings: { ...g.settings, sound: v } }))} />
           <Toggle icon={<Music size={18} />} label="Nhạc nền" on={s.settings.music} onChange={(v) => dispatch((g) => ({ ...g, settings: { ...g.settings, music: v } }))} />
+        </div>
+      </Section>
+      <Section title="Trợ giúp khi làm khách">
+        <div class="card">
+          <Toggle icon={<ZoomIn size={18} />} label="Tự phóng to tới vị trí huyệt" on={!!s.settings.zoomAssist} onChange={(v) => dispatch((g) => ({ ...g, settings: { ...g.settings, zoomAssist: v } }))} />
+          <p class="muted small">Tắt (mặc định): màn hình giữ nguyên cỡ để bạn tự nhận định vị trí như khi làm thật. Nút phóng to vẫn dùng được, nhưng chỉ phóng vào giữa ảnh, bạn tự kéo tới chỗ cần ấn.</p>
         </div>
       </Section>
       <Section title="Sao lưu dữ liệu">

@@ -32,6 +32,8 @@ export interface TaskCtx {
   setPaused: (p: boolean) => void;
   onDone: (r: ItemResult) => void;
   zoom: number;
+  /** Zoom help on: auto-zoom small targets and center the zoom near the target. Off: manual zoom around the view center. */
+  zoomAssist: boolean;
   /** Set the stage zoom (tasks use it to auto-zoom small targets). */
   setZoom: (z: number) => void;
   /** Tap tasks report their on-screen tolerance at 1× (CSS px) so the zoom button / precision default can adapt. */
@@ -47,8 +49,12 @@ export const toScreen = (plan: Plan, p: Pt): Pt => (plan.mirrored ? [1 - p[0], p
 export const toView = toScreen; // mirroring is an involution
 
 /** Serializable record of a tap given in VIEW coords (already un-mirrored). */
+/** Manual zoom without the zoom help: centered on the view (does not hint where the target is). */
+export const FREE_FOCUS: Pt = [0.5, 0.5];
+
 export function tapRecord(plan: Plan, v: Pt): TapRecord {
-  const r: TapRecord = { view: plan.view, x: Math.round(v[0] * 10000) / 10000, y: Math.round(v[1] * 10000) / 10000 };
+  const c = plan.data.unwarp ? plan.data.unwarp(v) : v; // record in canonical art coords (exam review / notebook)
+  const r: TapRecord = { view: plan.view, x: Math.round(c[0] * 10000) / 10000, y: Math.round(c[1] * 10000) / 10000 };
   if (plan.mirrored) r.mirrored = true;
   return r;
 }

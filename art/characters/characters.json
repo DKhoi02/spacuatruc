@@ -594,6 +594,147 @@
       "defaultExpression": "neutral"
     },
     {
+      "id": "khach-ong-lam",
+      "name": "Ông Lâm",
+      "gender": "nam",
+      "age": 72,
+      "head": "soft-square",
+      "hair": "receding-male",
+      "outfit": "casual-cardigan",
+      "accessories": [
+        "age-lines"
+      ],
+      "skin": "trung",
+      "hairColor": "bac",
+      "colors": {
+        "top": "olive",
+        "top2": "cream"
+      },
+      "browWidth": 6.5,
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-anh-hai",
+      "name": "Anh Hải",
+      "gender": "nam",
+      "age": 46,
+      "head": "round",
+      "hair": "short-male",
+      "outfit": "casual-polo",
+      "accessories": [
+        "stubble"
+      ],
+      "skin": "dam",
+      "hairColor": "den",
+      "colors": {
+        "top": "denim",
+        "collar": "denim"
+      },
+      "browWidth": 6.5,
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-co-loan",
+      "name": "Cô Loan",
+      "gender": "nữ",
+      "age": 56,
+      "head": "round",
+      "hair": "bun",
+      "outfit": "casual-stripe",
+      "accessories": [
+        "age-lines",
+        "earrings-pearl"
+      ],
+      "skin": "ngam",
+      "hairColor": "muoi-tieu",
+      "colors": {
+        "top": "cream",
+        "top2": "terracotta"
+      },
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-nam",
+      "name": "Em Nam",
+      "gender": "nam",
+      "age": 20,
+      "head": "oval",
+      "hair": "side-part-male",
+      "outfit": "casual-hoodie",
+      "accessories": [],
+      "skin": "sang",
+      "hairColor": "nau-den",
+      "colors": {
+        "top": "sage",
+        "top-shade": "sage-shade"
+      },
+      "browWidth": 6.5,
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-chi-thanh",
+      "name": "Chị Thanh",
+      "gender": "nữ",
+      "age": 44,
+      "head": "oval",
+      "hair": "long-straight",
+      "outfit": "casual-vneck",
+      "accessories": [
+        "earrings-stud"
+      ],
+      "skin": "trung",
+      "hairColor": "nau-den",
+      "colors": {
+        "top": "lavender"
+      },
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
+      "id": "khach-chu-hoa",
+      "name": "Chú Hòa",
+      "gender": "nam",
+      "age": 55,
+      "head": "soft-square",
+      "hair": "buzz-male",
+      "outfit": "casual-tee",
+      "accessories": [
+        "age-lines",
+        "mustache",
+        "stubble"
+      ],
+      "skin": "ngam",
+      "hairColor": "muoi-tieu",
+      "colors": {
+        "top": "navy"
+      },
+      "browWidth": 6.5,
+      "group": "khach",
+      "role": "khach",
+      "roleLabel": "Khách",
+      "expressionSet": "customer",
+      "defaultExpression": "neutral"
+    },
+    {
       "id": "quen-thu",
       "name": "Cô Thu",
       "gender": "nữ",

@@ -5,7 +5,7 @@ import { muscleInfo, sideLabel } from "./content";
 import type { MusclePlan } from "./plan";
 import { Stage, type StrokePhase } from "./Stage";
 import { average, evaluateSwipe, inShape, normDist, type Pt, type ShapeLike, type StrokeLike } from "./scoring";
-import { badgesFor, baseLayers, Sheet, toScreen, toView, X, Y, type TaskCtx } from "./common";
+import { badgesFor, baseLayers, FREE_FOCUS, Sheet, toScreen, toView, X, Y, type TaskCtx } from "./common";
 import { playSound } from "./sound";
 
 type Phase = "intro" | "swipe" | "done";
@@ -72,7 +72,8 @@ export function MuscleTask({ ctx }: { ctx: TaskCtx }) {
     const ev = evaluateSwipe(pts, m as unknown as Parameters<typeof evaluateSwipe>[1]);
     // Keep the first faulty swipe (what the review points out), or the very first swipe while none failed.
     if (!res.current.swipeFailed && (!ev.ok || !res.current.firstSwipe)) {
-      const a = pts[0], b = pts[pts.length - 1];
+      const u = plan.data.unwarp ?? ((p: Pt) => p); // canonical art coords for the review
+      const a = u(pts[0]), b = u(pts[pts.length - 1]);
       const rec: SwipeRecord = { view: plan.view, from: { x: r4(a[0]), y: r4(a[1]) }, to: { x: r4(b[0]), y: r4(b[1]) } };
       if (plan.mirrored) rec.mirrored = true;
       if (!ev.ok) { rec.issue = ev.reason === "outside" ? "outside" : ev.reason === "direction" ? "direction" : "short"; res.current.swipeFailed = true; }
@@ -118,7 +119,7 @@ export function MuscleTask({ ctx }: { ctx: TaskCtx }) {
   return (
     <>
       <div class="tx-canvaswrap">
-        <Stage svg={ctx.svg} mirrored={plan.mirrored} layers={layers} cssVars={ctx.cssVars} zoom={ctx.zoom} focus={centroid}
+        <Stage svg={ctx.svg} mirrored={plan.mirrored} layers={layers} cssVars={ctx.cssVars} zoom={ctx.zoom} focus={ctx.zoomAssist ? centroid : FREE_FOCUS}
           panMode="twofinger" onStroke={onStroke} badges={badgesFor(plan)}
           qa={import.meta.env.DEV ? { kind: "muscle", phase, count, need, strokes: m.strokes.map((st) => [toScreen(plan, st.from), toScreen(plan, st.to)]) } : undefined}>
           {hint === 0 && phase !== "done" && m.strokes.map((s, i) => <Arrow key={i} s={s} plan={plan} color="guide" dashed width={8} />)}

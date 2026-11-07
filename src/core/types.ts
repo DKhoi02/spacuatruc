@@ -377,7 +377,8 @@ export interface GameState {
   challenge: { lastDay: number; streak: number };
   today: DayState;
   history: DaySummary[];      // keep last 30
-  settings: { sound: boolean; music: boolean };
+  /** zoomAssist: treatment auto-zooms toward the target (help option, default off = player finds the point at 1×). */
+  settings: { sound: boolean; music: boolean; zoomAssist?: boolean };
   /** Latest chapter exam (any outcome), kept so anh Khôi's review can be reopened later (optional, additive). */
   lastExamReview?: LastExamReview;
 }
@@ -451,4 +452,6 @@ export interface TreatmentConfig {
   examMode: boolean;
   /** "Luyện lại" practice session (wording only: summary/exit dialog). */
   practice?: boolean;
+  /** Help option (Cài đặt): auto-zoom toward the target and center manual zoom near it. Off = zoom only around the view center. */
+  zoomAssist?: boolean;
 }

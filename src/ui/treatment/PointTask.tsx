@@ -10,7 +10,7 @@ import {
   type Grade, type Pt, type ShapeLike,
 } from "./scoring";
 import {
-  badgesFor, baseLayers, gradeColor, gradeText, HintBlob, HoldRing, Ripple, Sheet, startLoop, TargetDot,
+  badgesFor, baseLayers, FREE_FOCUS, gradeColor, gradeText, HintBlob, HoldRing, Ripple, Sheet, startLoop, TargetDot,
   tapRecord, toScreen, toView, type TaskCtx,
 } from "./common";
 import { playSound } from "./sound";
@@ -49,7 +49,7 @@ export function PointTask({ ctx }: { ctx: TaskCtx }) {
     ctx.reportTol(tolPx);
     if (phase === "locate" && !autoZoomed.current) {
       autoZoomed.current = true;
-      if (FINGER_TOL_PX / tolPx > 2 && ctx.zoom < autoZoomFor(tolPx)) ctx.setZoom(autoZoomFor(tolPx));
+      if (ctx.zoomAssist && FINGER_TOL_PX / tolPx > 2 && ctx.zoom < autoZoomFor(tolPx)) ctx.setZoom(autoZoomFor(tolPx));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stageW, tolPx, phase]);
@@ -211,10 +211,10 @@ export function PointTask({ ctx }: { ctx: TaskCtx }) {
     <>
       <div class="tx-canvaswrap">
         <Stage
-          svg={ctx.svg} mirrored={plan.mirrored} layers={layers} cssVars={ctx.cssVars} zoom={ctx.zoom} focus={tgt}
+          svg={ctx.svg} mirrored={plan.mirrored} layers={layers} cssVars={ctx.cssVars} zoom={ctx.zoom} focus={ctx.zoomAssist ? tgt : FREE_FOCUS}
           panMode="drag" onTap={onTap} badges={badgesFor(plan)}
           precise={ctx.precise && (phase === "locate" || phase === "retry")}
-          focusSeed={ctx.itemKey + "|zoom"} onMetrics={(m) => setStageW(m.W)}
+          focusSeed={ctx.zoomAssist ? ctx.itemKey + "|zoom" : undefined} onMetrics={(m) => setStageW(m.W)}
           qa={import.meta.env.DEV ? { kind: "point", phase, tgt, safety: res.current.safetyErrors, zoom: ctx.zoom, precise: ctx.precise, tolPx, r: t.r, useForce, force: s.force, req: FORCE_ZONES[reqForce], contra, other: plan.otherSide ? toScreen(plan, [plan.otherSide.x, plan.otherSide.y]) : null } : undefined}
         >
           {(phase === "locate") && <HintBlob at={tgt} r={t.r} hint={hint} seed={ctx.itemKey + t.side} />}

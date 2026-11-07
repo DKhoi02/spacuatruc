@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Cô Loan – Bình thường" data-character="khach-co-loan" data-expression="neutral">
+<title>Cô Loan – Bình thường</title>
+<g class="layer-hair-behind">
+<g data-part="hair/bun"><ellipse cx="200" cy="46" rx="52" ry="40" fill="#8d8580" style="fill:var(--hair, #8d8580)"/><path d="M172 30 C 186 20 210 20 224 28" fill="none" stroke="#6e6661" style="stroke:var(--hair-shade, #6e6661)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-body">
+<g data-part="outfits/casual-stripe"><defs><clipPath id="khach-co-loan-neutral-clip-stripe-body"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z"/></clipPath></defs><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#fffaf3" style="fill:var(--top, #fffaf3)"/><g clip-path="url(#khach-co-loan-neutral-clip-stripe-body)" fill="#d0896c" style="fill:var(--top2, #d0896c)"><rect x="40" y="304" width="320" height="12"/><rect x="40" y="332" width="320" height="12"/><rect x="40" y="360" width="320" height="12"/><rect x="40" y="388" width="320" height="12"/></g><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-under">
+<g data-part="outfits/casual-stripe"><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/round"><rect x="179" y="222" width="42" height="68" fill="#d6a682" style="fill:var(--skin-shade, #d6a682)"/><path d="M179 222 V286 M221 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/casual-stripe"><defs><clipPath id="khach-co-loan-neutral-neck"><rect x="172" y="240" width="56" height="72"/></clipPath></defs><g clip-path="url(#khach-co-loan-neutral-neck)"><path d="M168 278 C 180 298 220 298 232 278 L 232 302 L 168 302 Z" fill="#fffaf3" style="fill:var(--top, #fffaf3)"/><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+</g>
+<g class="layer-head-ears">
+<g data-part="heads/round"><ellipse cx="111" cy="166" rx="13" ry="21" fill="#d6a682" style="fill:var(--skin-shade, #d6a682)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="289" cy="166" rx="13" ry="21" fill="#d6a682" style="fill:var(--skin-shade, #d6a682)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-ears">
+<g data-part="accessories/earrings-pearl"><path d="M112 184 V194 M288 184 V194" stroke="#c49a70" stroke-width="2.5" stroke-linecap="round"/><g fill="#fffaf3" stroke="#c49a70" stroke-width="2.5"><circle cx="112" cy="200" r="7"/><circle cx="288" cy="200" r="7"/></g></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/round"><path d="M200 56 C 252 56 291 96 291 158 C 291 214 254 254 200 254 C 146 254 109 214 109 158 C 109 96 148 56 200 56 Z" fill="#e2b694" style="fill:var(--skin, #e2b694)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-face">
+<g data-part="accessories/age-lines" fill="none" stroke="#c9967c" stroke-width="3" stroke-linecap="round" opacity="0.85"><path d="M170 202 C 166 210 168 220 174 226 M230 202 C 234 210 232 220 226 226 M140 158 C 136 162 136 168 138 172 M260 158 C 264 162 264 168 262 172 M178 108 C 192 104 208 104 222 108"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/neutral">
+<g class="blush"><circle cx="146" cy="194" r="13" fill="#d98a83" style="fill:var(--blush, #d98a83)" opacity="0.45"/><circle cx="254" cy="194" r="13" fill="#d98a83" style="fill:var(--blush, #d98a83)" opacity="0.45"/></g>
+<g class="brows" fill="none" stroke="#5e5550" style="stroke:var(--brow, #5e5550)" stroke-width="5.5" stroke-linecap="round"><path d="M147 136 C 157 129 174 128 185 133"/><path d="M215 133 C 226 128 243 129 253 136"/></g>
+<g class="eyes" fill="#2a1d18"><ellipse cx="166" cy="164" rx="8.5" ry="11.5"/><ellipse cx="234" cy="164" rx="8.5" ry="11.5"/></g>
+<g class="mouth" fill="none" stroke="#3d2c25" stroke-width="5.5" stroke-linecap="round"><path d="M185 218 C 194 224 206 224 215 218"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/bun"><path d="M116 152 C 105 73 151 50 200 53 C 249 50 295 73 284 152 C 273 112 242 101 200 104 C 158 101 127 112 116 152 Z" fill="#8d8580" style="fill:var(--hair, #8d8580)"/><path d="M200 56 C 196 70 197 86 200 102 M156 70 C 140 82 130 98 126 116 M244 70 C 260 82 270 98 274 116" fill="none" stroke="#6e6661" style="stroke:var(--hair-shade, #6e6661)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+</svg>

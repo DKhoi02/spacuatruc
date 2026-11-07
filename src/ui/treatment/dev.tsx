@@ -50,6 +50,7 @@ function buildConfig(o: { ch: number; hint: number; force: boolean; patience: bo
   return {
     customer, service, chapter: o.ch as ChapterNo, useForceBar: o.force, usePatience: o.patience,
     hintLevel: () => Math.max(0, Math.min(4, o.hint)) as 0 | 1 | 2 | 3 | 4, examMode: o.exam,
+    zoomAssist: qs.get("zoom") === "1",
   };
 }
 

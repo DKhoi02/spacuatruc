@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Ông Lâm – Đau (quá lực)" data-character="khach-ong-lam" data-expression="pain">
+<title>Ông Lâm – Đau (quá lực)</title>
+<g class="layer-outfit-body">
+<g data-part="outfits/casual-cardigan"><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#fffaf3" style="fill:var(--top2, #fffaf3)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-under">
+<g data-part="outfits/casual-cardigan"><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/soft-square"><rect x="177" y="222" width="46" height="68" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)"/><path d="M177 222 V286 M223 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/casual-cardigan"><defs><clipPath id="khach-ong-lam-pain-neck"><rect x="172" y="240" width="56" height="72"/></clipPath></defs><g clip-path="url(#khach-ong-lam-pain-neck)"><path d="M168 278 C 180 298 220 298 232 278 L 232 296 L 168 296 Z" fill="#fffaf3" style="fill:var(--top2, #fffaf3)"/><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g><path d="M60 392 C 74 306 130 278 166 278 C 172 310 178 350 182 392 Z" fill="#a3a36b" style="fill:var(--top, #a3a36b)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M340 392 C 326 306 270 278 234 278 C 228 310 222 350 218 392 Z" fill="#a3a36b" style="fill:var(--top, #a3a36b)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><g fill="#fffaf3" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><circle cx="174" cy="336" r="4.5"/><circle cx="178" cy="370" r="4.5"/></g></g>
+</g>
+<g class="layer-head-ears">
+<g data-part="heads/soft-square"><ellipse cx="114" cy="164" rx="13" ry="21" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="286" cy="164" rx="13" ry="21" fill="#efc7b0" style="fill:var(--skin-shade, #efc7b0)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/soft-square"><path d="M200 52 C 250 52 287 90 287 148 C 287 196 276 226 248 246 C 230 258 170 258 152 246 C 124 226 113 196 113 148 C 113 90 150 52 200 52 Z" fill="#f3d2bd" style="fill:var(--skin, #f3d2bd)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-acc-face">
+<g data-part="accessories/age-lines" fill="none" stroke="#c9967c" stroke-width="3" stroke-linecap="round" opacity="0.85"><path d="M170 202 C 166 210 168 220 174 226 M230 202 C 234 210 232 220 226 226 M140 158 C 136 162 136 168 138 172 M260 158 C 264 162 264 168 262 172 M178 108 C 192 104 208 104 222 108"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/pain">
+<g class="blush"><circle cx="146" cy="195" r="12" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.35"/><circle cx="254" cy="195" r="12" fill="#e9a99b" style="fill:var(--blush, #e9a99b)" opacity="0.35"/></g>
+<g class="brows" fill="none" stroke="#8d8580" style="stroke:var(--brow, #8d8580)" stroke-width="6.5" stroke-linecap="round"><path d="M148 140 C 160 139 174 134 185 126"/><path d="M215 126 C 226 134 240 139 252 140"/></g>
+<g class="eyes" fill="none" stroke="#2a1d18" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"><path d="M155 154 L176 164 L155 174"/><path d="M245 154 L224 164 L245 174"/></g>
+<g class="mouth"><path d="M182 226 C 186 214 194 212 200 216 C 206 212 214 214 218 226 C 206 222 194 222 182 226 Z" fill="#b8605a" stroke="#3d2c25" stroke-width="5" stroke-linejoin="round"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/receding-male"><path d="M113 150 C 104 82 150 44 200 44 C 250 44 296 82 287 150 C 283 124 275 104 262 92 C 246 76 230 74 214 78 C 204 74 196 74 186 78 C 170 74 154 76 138 92 C 125 104 117 124 113 150 Z" fill="#cbc3bd" style="fill:var(--hair, #cbc3bd)"/><path d="M150 66 C 170 58 186 56 200 58 M222 60 C 240 62 256 70 266 80" fill="none" stroke="#a59c96" style="stroke:var(--hair-shade, #a59c96)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-fx">
+<g data-part="expressions/pain">
+<path d="M296 104 C 304 116 308 124 308 130 C 308 137 303 141 297 141 C 291 141 286 137 286 130 C 286 124 290 116 296 104 Z" fill="#cfe3e6" stroke="#7fa7b3" stroke-width="3.5" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -102,7 +102,8 @@ Sau khi chạm đúng vị trí, huyệt được **khóa**. Người chơi ph�
 | Chạm sai vị trí | **Hiện chỗ đúng kèm mốc giải phẫu, người chơi phải tự chạm lại đúng chỗ** mới đi tiếp. Mục đó bị tính điểm vị trí thấp. Vuốt sai cơ hoặc sai hướng cũng xử lý như vậy (hiện mũi tên đúng, vuốt lại) |
 | Áp lực thời gian | **Chương 1 không đếm giờ.** Từ chương 2 có thanh kiên nhẫn, **chỉ ảnh hưởng tiền tip**. Hết kiên nhẫn thì mất tip, **khách không bỏ đi** |
 | Phiếu liệu trình | **Ghi thẳng tên huyệt/cơ** cần làm (kèm "2 bên", "trái", "phải" nếu cần). **Sau này** thêm kiểu khách chỉ nói triệu chứng, người chơi tự chọn huyệt (cần phần tác dụng đã được duyệt) |
-| Góc nhìn | **Game tự chuyển** sang góc nhìn phù hợp với từng huyệt/cơ. Người chơi phóng to được vùng đang làm |
+| Góc nhìn | **Game tự chuyển** sang góc nhìn phù hợp với từng huyệt/cơ. Mặc định **không tự phóng to**: người chơi tự nhận định vị trí; nút phóng to chỉ phóng vào giữa ảnh rồi tự kéo. Bật "Tự phóng to tới vị trí huyệt" trong Cài đặt (trợ giúp) để game tự phóng tới gần huyệt như trước |
+| Khuôn mặt khách | Mỗi khách có **khuôn mặt riêng** ở góc nhìn mặt chính diện: nam/nữ, trẻ/già (nếp nhăn theo tuổi), dáng mặt (trái xoan, tròn, vuông, dài, trái tim), vóc (bình thường, mập, ốm, hóp má), mặt to/nhỏ, kiểu tóc và màu tóc riêng, râu/ria cho nam. Huyệt và cơ dịch theo đúng giải phẫu của khuôn mặt đó (src/ui/treatment/faces.ts); bài kiểm tra và Sổ tay vẫn dùng mặt chuẩn |
 
 ### Phiếu liệu trình (ví dụ)
 Dịch vụ "Ấn huyệt mặt – thư giãn mắt":

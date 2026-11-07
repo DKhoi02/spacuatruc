@@ -301,6 +301,90 @@
     }
   },
   {
+    "id": "khach-ong-lam",
+    "name": "Ông Lâm",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-ong-lam-neutral.svg",
+      "happy": "khach-ong-lam-happy.svg",
+      "relaxed": "khach-ong-lam-relaxed.svg",
+      "annoyed": "khach-ong-lam-annoyed.svg",
+      "pain": "khach-ong-lam-pain.svg"
+    }
+  },
+  {
+    "id": "khach-anh-hai",
+    "name": "Anh Hải",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-anh-hai-neutral.svg",
+      "happy": "khach-anh-hai-happy.svg",
+      "relaxed": "khach-anh-hai-relaxed.svg",
+      "annoyed": "khach-anh-hai-annoyed.svg",
+      "pain": "khach-anh-hai-pain.svg"
+    }
+  },
+  {
+    "id": "khach-co-loan",
+    "name": "Cô Loan",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-co-loan-neutral.svg",
+      "happy": "khach-co-loan-happy.svg",
+      "relaxed": "khach-co-loan-relaxed.svg",
+      "annoyed": "khach-co-loan-annoyed.svg",
+      "pain": "khach-co-loan-pain.svg"
+    }
+  },
+  {
+    "id": "khach-nam",
+    "name": "Em Nam",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-nam-neutral.svg",
+      "happy": "khach-nam-happy.svg",
+      "relaxed": "khach-nam-relaxed.svg",
+      "annoyed": "khach-nam-annoyed.svg",
+      "pain": "khach-nam-pain.svg"
+    }
+  },
+  {
+    "id": "khach-chi-thanh",
+    "name": "Chị Thanh",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-chi-thanh-neutral.svg",
+      "happy": "khach-chi-thanh-happy.svg",
+      "relaxed": "khach-chi-thanh-relaxed.svg",
+      "annoyed": "khach-chi-thanh-annoyed.svg",
+      "pain": "khach-chi-thanh-pain.svg"
+    }
+  },
+  {
+    "id": "khach-chu-hoa",
+    "name": "Chú Hòa",
+    "group": "khach",
+    "roleLabel": "Khách",
+    "defaultExpression": "neutral",
+    "files": {
+      "neutral": "khach-chu-hoa-neutral.svg",
+      "happy": "khach-chu-hoa-happy.svg",
+      "relaxed": "khach-chu-hoa-relaxed.svg",
+      "annoyed": "khach-chu-hoa-annoyed.svg",
+      "pain": "khach-chu-hoa-pain.svg"
+    }
+  },
+  {
     "id": "quen-thu",
     "name": "Cô Thu",
     "group": "khach-quen",

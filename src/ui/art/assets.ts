@@ -33,6 +33,9 @@ export interface ViewData {
   mirrorable?: boolean; drawnSide?: string; screenLeftIs?: "customer-left" | "customer-right";
   points: ViewPoint[]; muscles: ViewMuscle[]; forbidden: ViewForbidden[]; zones?: ViewZone[];
   vertebrae?: { id: string; x: number; y: number }[];
+  /** Per-customer warped face (treatment/faces.ts): maps warped normalized view coords back to the canonical art. */
+  unwarp?: (p: [number, number]) => [number, number];
+  faceKey?: string;
   [k: string]: unknown;
 }
 export interface SceneSlot { id: string; group: string; layer: string; x: number; y: number; width: number; height: number; anchor?: string; fit: "native" | "contain"; kind: string; accepts: string[]; default?: string | null; note?: string }

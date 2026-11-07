@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Em Nam – Đau (quá lực)" data-character="khach-nam" data-expression="pain">
+<title>Em Nam – Đau (quá lực)</title>
+<g class="layer-outfit-body">
+<g data-part="outfits/casual-hoodie"><path d="M136 306 C 124 262 160 250 200 252 C 240 250 276 262 264 306 Z" fill="#7ea58a" style="fill:var(--top-shade, #7ea58a)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M60 392 C 74 306 130 276 200 276 C 270 276 326 306 340 392 Z" fill="#8fb39a" style="fill:var(--top, #8fb39a)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M140 392 V372 C 170 364 230 364 260 372 V392" fill="none" stroke="#8a5f4b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-under">
+<g data-part="outfits/casual-hoodie"><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-neck">
+<g data-part="heads/oval"><rect x="179" y="222" width="42" height="68" fill="#f2d0bc" style="fill:var(--skin-shade, #f2d0bc)"/><path d="M179 222 V286 M221 222 V286" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-outfit-over">
+<g data-part="outfits/casual-hoodie"><defs><clipPath id="khach-nam-pain-neck"><rect x="172" y="240" width="56" height="72"/></clipPath></defs><g clip-path="url(#khach-nam-pain-neck)"><path d="M168 278 C 180 298 220 298 232 278 L 232 300 L 168 300 Z" fill="#8fb39a" style="fill:var(--top, #8fb39a)"/><path d="M168 278 C 180 298 220 298 232 278" fill="none" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M186 296 V336 M214 296 V336" stroke="#fffaf3" stroke-width="5" stroke-linecap="round"/><circle cx="186" cy="338" r="4" fill="#fffaf3"/><circle cx="214" cy="338" r="4" fill="#fffaf3"/></g></g>
+</g>
+<g class="layer-head-ears">
+<g data-part="heads/oval"><ellipse cx="114" cy="164" rx="13" ry="21" fill="#f2d0bc" style="fill:var(--skin-shade, #f2d0bc)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="286" cy="164" rx="13" ry="21" fill="#f2d0bc" style="fill:var(--skin-shade, #f2d0bc)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-head-head">
+<g data-part="heads/oval"><ellipse cx="200" cy="154" rx="86" ry="102" fill="#f8e0d0" style="fill:var(--skin, #f8e0d0)" stroke="#8a5f4b" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-face">
+<g data-part="expressions/pain">
+<g class="blush"><circle cx="146" cy="195" r="12" fill="#eeaaa0" style="fill:var(--blush, #eeaaa0)" opacity="0.35"/><circle cx="254" cy="195" r="12" fill="#eeaaa0" style="fill:var(--blush, #eeaaa0)" opacity="0.35"/></g>
+<g class="brows" fill="none" stroke="#3b2a24" style="stroke:var(--brow, #3b2a24)" stroke-width="6.5" stroke-linecap="round"><path d="M148 140 C 160 139 174 134 185 126"/><path d="M215 126 C 226 134 240 139 252 140"/></g>
+<g class="eyes" fill="none" stroke="#2a1d18" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"><path d="M155 154 L176 164 L155 174"/><path d="M245 154 L224 164 L245 174"/></g>
+<g class="mouth"><path d="M182 226 C 186 214 194 212 200 216 C 206 212 214 214 218 226 C 206 222 194 222 182 226 Z" fill="#b8605a" stroke="#3d2c25" stroke-width="5" stroke-linejoin="round"/></g>
+</g>
+</g>
+<g class="layer-hair-front">
+<g data-part="hair/side-part-male"><path d="M112 148 C 98 62 150 32 204 34 C 258 32 304 62 288 148 C 284 118 274 100 258 92 C 234 106 196 104 174 88 C 162 100 150 104 138 106 C 124 114 116 128 112 148 Z" fill="#3b2a24" style="fill:var(--hair, #3b2a24)"/><path d="M170 46 C 168 62 170 76 174 88" fill="none" stroke="#55403a" style="stroke:var(--hair-shade, #55403a)" stroke-width="3.5" stroke-linecap="round"/><path d="M190 52 C 220 50 250 60 268 78" fill="none" stroke="#55403a" style="stroke:var(--hair-shade, #55403a)" stroke-width="3.5" stroke-linecap="round"/></g>
+</g>
+<g class="layer-expr-fx">
+<g data-part="expressions/pain">
+<path d="M296 104 C 304 116 308 124 308 130 C 308 137 303 141 297 141 C 291 141 286 137 286 130 C 286 124 290 116 296 104 Z" fill="#cfe3e6" stroke="#7fa7b3" stroke-width="3.5" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

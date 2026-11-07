@@ -113,7 +113,7 @@ export function buildTreatmentConfig(s: GameState, customer: Customer): Treatmen
   const usePatience = !examMode && (s.chapter >= 2 || hasFeature(s, "patience"));
   const mastery = { ...s.mastery };
   return {
-    customer, service, chapter: s.chapter, useForceBar, usePatience, examMode,
+    customer, service, chapter: s.chapter, useForceBar, usePatience, examMode, zoomAssist: !!s.settings?.zoomAssist,
     hintLevel: (key) => (examMode ? 3 : (mastery[key]?.level ?? 0)),
   };
 }
