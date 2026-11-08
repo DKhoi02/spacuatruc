@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110">
+  <title>D11 Thác nước mini</title>
+  <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M6 82 C 6 100 24 108 50 108 C 76 108 94 100 94 82 Z" fill="#c98a6a"/>
+  <ellipse cx="50" cy="82" rx="44" ry="10" fill="#9ccfd8"/>
+  <path d="M60 84 C 66 86 74 86 80 84 M20 86 C 26 88 32 88 36 86" stroke="#ffffff" stroke-opacity="0.85" stroke-width="2.5" fill="none"/>
+  <path d="M16 96 C 30 102 70 102 84 96" stroke="#e3a6a0" stroke-width="3" fill="none" stroke-dasharray="2 7"/>
+  <ellipse cx="38" cy="74" rx="22" ry="12" fill="#e8d2b8"/>
+  <ellipse cx="36" cy="54" rx="18" ry="11" fill="#d8b48c"/>
+  <ellipse cx="38" cy="36" rx="14" ry="9" fill="#e8d2b8"/>
+  <ellipse cx="36" cy="21" rx="10" ry="7" fill="#d8b48c"/>
+  <path d="M22 70 C 26 66 32 66 34 68 M26 50 C 30 47 34 47 36 49" stroke="#fffaf3" stroke-width="2" fill="none"/>
+  <path d="M24 64 C 22 60 24 58 26 58 M50 46 C 54 44 56 46 56 48" stroke="#8fb39a" stroke-width="4" fill="none"/>
+  <path d="M44 20 C 58 20 64 26 64 34 V82" stroke="#9ccfd8" stroke-width="8" fill="none"/>
+  <path d="M44 20 C 58 20 64 26 64 34 V82" stroke="#ffffff" stroke-opacity="0.7" stroke-width="2" fill="none" stroke-dasharray="6 6"/>
+  <path d="M38 12 L 52 18 L 50 24 L 36 18 Z" fill="#8fb39a" stroke-width="3"/>
+  <path d="M58 80 C 54 74 56 72 58 72 M70 80 C 74 74 72 72 70 72" stroke="#cfe3e6" stroke-width="2.5" fill="none"/>
+  </g>
+</svg>

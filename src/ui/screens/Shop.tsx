@@ -9,11 +9,12 @@ import { SceneView } from "../components/Scene";
 import { content, equipmentDef, serviceDef, serviceName } from "../content";
 import { vnd } from "../format";
 import { dispatch, query, toast } from "../store";
-import { areaLabel, areaScene, areasOf, artOf, durabilityState, placementsFor, roomOf, type Area } from "../sceneState";
+import { areaLabel, areaScene, areasOf, artOf, decorFor, durabilityState, placementsFor, roomOf, type Area } from "../sceneState";
+import { Decorate } from "./Decorate";
 import { useAsync } from "../useAsync";
 import { Hud } from "./Hud";
 
-type ShopTab = "supplies" | "equipment" | "prices" | "more";
+type ShopTab = "supplies" | "equipment" | "decor" | "prices" | "more";
 
 export function Shop({ s }: { s: GameState }) {
   const [tab, setTab] = useState<ShopTab>("supplies");
@@ -21,6 +22,7 @@ export function Shop({ s }: { s: GameState }) {
   const tabs: { id: ShopTab; label: string; show: boolean }[] = [
     { id: "supplies", label: "Vật tư", show: true },
     { id: "equipment", label: "Đồ dùng", show: true },
+    { id: "decor", label: "Trang trí", show: true },
     { id: "prices", label: "Giá", show: f.includes("pricing") },
     { id: "more", label: "Mở rộng", show: f.includes("expansion") || f.includes("ads") || f.includes("combo") },
   ];
@@ -35,6 +37,7 @@ export function Shop({ s }: { s: GameState }) {
       </div>
       {tab === "supplies" && <Supplies s={s} />}
       {tab === "equipment" && <Equipment s={s} />}
+      {tab === "decor" && <Decorate s={s} />}
       {tab === "prices" && <Prices s={s} />}
       {tab === "more" && <More s={s} />}
     </div>
@@ -144,7 +147,7 @@ function Equipment({ s }: { s: GameState }) {
     <>
       <Section title={title}>
         {tabbed && <AreaTabs areas={areas} area={area} setArea={setArea} />}
-        <SceneView scene={scene} placements={roomPlacements} actors={[]}
+        <SceneView scene={scene} placements={roomPlacements} actors={[]} decor={area === "room1" ? decorFor(s, "room1") : undefined}
           class={`room-scene card area-${area}${r === 2 ? " room-2" : ""}${front ? " front-row" : ""}`} />
       </Section>
       <Section title="Đồ đang có" right={tabbed ? <span class="muted small">{area === "room1" ? "Phòng 1 + đồ chung" : areaLabel[area]}</span> : undefined}>

@@ -66,6 +66,7 @@ export const CARE_STEPS: Record<CareStepId, { name: string; instruction: string 
   dry: { name: "Lau khô", instruction: "Quấn khăn thấm nhẹ cho khô tóc, sấy ấm nếu khách muốn." },
   soak: { name: "Ngâm chân", instruction: "Cho khách ngâm chân trong nước ấm vài phút để thư giãn trước khi bấm." },
   "place-stones": { name: "Đặt đá nóng", instruction: "Kéo từng viên đá đã hâm ấm đặt đúng lên vị trí huyệt trên lưng." },
+  "blend-oil": { name: "Pha dầu massage", instruction: "Hỏi nhu cầu của khách, chọn tinh dầu phù hợp rồi nhỏ vào chén dầu nền theo đúng tỉ lệ pha loãng." },
 };
 
 export interface ShopLevelDef { level: number; name: string; unlockChapter: number; cost: number; rent: number; maxBeds: number; chairSlots: number; freeChairs: number; customers: [number, number]; pricePct: number }

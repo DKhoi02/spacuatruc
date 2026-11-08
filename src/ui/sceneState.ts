@@ -1,7 +1,7 @@
 /** Maps GameState → scene placements/actors. */
 import type { GameState, OwnedEquipment, SupplyId } from "@/core/types";
 import { equipmentArt, type SceneSlots } from "@/ui/art/assets";
-import type { SceneActor, ScenePlacement } from "./components/Scene";
+import type { SceneActor, SceneDecor, ScenePlacement } from "./components/Scene";
 import { api } from "./api";
 import { content, equipmentDef } from "./content";
 
@@ -158,4 +158,9 @@ export function freeSlotFor(s: GameState, slots: SceneSlots | null, art: string,
   if (!slots) return undefined;
   const taken = new Set(placementsFor(s, slots, slots.scene).map((p) => p.slot));
   return slots.slots.find((x) => !taken.has(x.id) && (x.accepts.includes(art) || x.accepts.includes(id)))?.id;
+}
+
+/** Decorations placed in an area (lobby = Sảnh, room1 = Phòng 1). */
+export function decorFor(s: GameState, area: "lobby" | "room1"): SceneDecor[] {
+  return (s.decor?.placed ?? []).filter((p) => p.area === area).map((p) => ({ uid: p.uid, id: p.id, x: p.x, y: p.y, ...(p.flip ? { flip: true } : {}) }));
 }

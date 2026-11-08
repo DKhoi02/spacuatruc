@@ -12,6 +12,8 @@ import { PointTask } from "./PointTask";
 import { MuscleTask } from "./MuscleTask";
 import { ZoneTask } from "./ZoneTask";
 import { StepTask } from "./StepTask";
+import { MaskTask } from "./MaskTask";
+import { OilTask } from "./OilTask";
 import { autoZoomFor, itemScore, hash01, needsPrecision, patienceLeft } from "./scoring";
 import { playSound, unlockAudio } from "./sound";
 import { faceOverlaySvg, faceSvg, lookFor, warpViewData, type CharacterLike } from "./faces";
@@ -126,7 +128,7 @@ export function SessionShell({ config, onFinish, onAbort, initialProgress, onPro
     if (!all) return 0;
     return items.reduce((g, it) => g + (it.kind === "point" ? 4 + 1.4 * (pointInfo(it.id, all).seconds || 3)
       : it.kind === "muscle" ? 4 * (muscleInfo(it.id, all).strokesRequired || 3)
-      : it.kind === "zone" ? 6 : 3), 0);
+      : it.kind === "zone" ? 6 : it.id === "mask" ? 25 : it.id === "blend-oil" ? 18 : 3), 0);
   }, [all, items]);
   useEffect(() => {
     // Legacy progress (fraction only): invert the drain curve.
@@ -281,6 +283,8 @@ export function SessionShell({ config, onFinish, onAbort, initialProgress, onPro
     task = plan.kind === "point" ? <PointTask key={k} ctx={ctx} />
       : plan.kind === "muscle" ? <MuscleTask key={k} ctx={ctx} />
       : plan.kind === "zone" ? <ZoneTask key={k} ctx={ctx} />
+      : plan.kind === "step" && plan.step === "mask" ? <MaskTask key={k} ctx={ctx} />
+      : plan.kind === "step" && plan.step === "blend-oil" ? <OilTask key={k} ctx={ctx} />
       : <StepTask key={k} ctx={ctx} />;
   } else if (phase === "work" && item && all && !plan) {
     task = (

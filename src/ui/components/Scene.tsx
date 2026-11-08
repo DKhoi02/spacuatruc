@@ -3,13 +3,16 @@
  * sign, customers on waiting chairs, receptionist behind the counter, staff at beds.
  */
 import { useEffect, useState } from "preact/hooks";
-import { characterSvg, equipmentSvg, itemSvg, sceneSlots, sceneSvg, type SceneSlots } from "@/ui/art/assets";
+import { characterSvg, decorSvg, equipmentSvg, itemSvg, sceneSlots, sceneSvg, type SceneSlots } from "@/ui/art/assets";
+import { DECOR } from "@/data/decor";
 
 export interface ScenePlacement {
   slot: string; art: string; state?: "ok" | "warn" | "broken"; /** equipment tier 1–3: tier ≥2 gets a small gold star badge */ tier?: number;
   /** supply icon (art/items) on a shelf slot: `stock` 1–3 copies, `low` adds a small amber "!" badge */
   item?: boolean; stock?: number; low?: boolean;
 }
+/** A decoration drawn freely on the scene (x / y normalized: floor items bottom-center, wall items center). */
+export interface SceneDecor { uid: string; id: string; x: number; y: number; flip?: boolean; selected?: boolean }
 export interface SceneActor { characterId: string; expr?: string; at: { slot?: string; anchor?: string }; size?: number; kind?: "seated" | "standing" }
 
 const parser = typeof DOMParser !== "undefined" ? new DOMParser() : null;
@@ -89,7 +92,7 @@ function drawStock(doc: Document, g: SVGGElement, src: SVGSVGElement, w: number,
 
 export async function composeScene(
   scene: string,
-  opts: { shopName?: string; placements: ScenePlacement[]; actors: SceneActor[]; /** show only this vertical band of the frame [y0, y1] (0–1) */ crop?: [number, number] },
+  opts: { shopName?: string; placements: ScenePlacement[]; actors: SceneActor[]; decor?: SceneDecor[]; /** show only this vertical band of the frame [y0, y1] (0–1) */ crop?: [number, number] },
 ): Promise<string> {
   const [text, slots] = await Promise.all([sceneSvg(scene), sceneSlots(scene) as Promise<SceneSlots>]);
   const root = parseSvg(text);
@@ -146,6 +149,37 @@ export async function composeScene(
     if (st) ambient.setAttribute("style", st); else ambient.removeAttribute("style");
   }
 
+  // Decorations: wall items & rugs right after the painted wall decor (behind counter / furniture), floor and table
+  // items just before the actors layer (sorted by depth).
+  if (opts.decor?.length) {
+    const back = doc.createElementNS(SVGNS, "g"), front = doc.createElementNS(SVGNS, "g");
+    back.setAttribute("id", "user-decor-back"); front.setAttribute("id", "user-decor-front");
+    const items = [...opts.decor].sort((a, b) => a.y - b.y);
+    for (const it of items) {
+      const def = DECOR.find((d) => d.id === it.id);
+      const src = def && parseSvg(await decorSvg(it.id).catch(() => ""));
+      if (!def || !src) continue;
+      const vb = (src.getAttribute("viewBox") ?? "0 0 100 100").split(/[\s,]+/).map(Number);
+      const w = def.w * (W / 1000), h = w * (vb[3] / vb[2]);
+      const cx = it.x * W;
+      const top = def.kind === "wall" ? it.y * H - h / 2 : it.y * H - h;
+      const g = doc.createElementNS(SVGNS, "g");
+      g.setAttribute("data-decor", it.uid);
+      if (it.flip) g.setAttribute("transform", `translate(${2 * cx} 0) scale(-1 1)`);
+      g.appendChild(nested(src, doc, cx - w / 2, top, w, h));
+      if (it.selected) {
+        const r = doc.createElementNS(SVGNS, "rect");
+        for (const [k, v] of Object.entries({ x: cx - w / 2 - 6, y: top - 6, width: w + 12, height: h + 12, rx: 10, fill: "none", stroke: "#e8b46a", "stroke-width": 5, "stroke-dasharray": "14 9" })) r.setAttribute(k, String(v));
+        g.appendChild(r);
+      }
+      (def.kind === "wall" || def.kind === "rug" ? back : front).appendChild(g);
+    }
+    const wall = byId("decor-wall");
+    if (wall?.parentNode) wall.parentNode.insertBefore(back, wall.nextSibling); else root.insertBefore(back, root.firstChild?.nextSibling ?? null);
+    const actorsG = byId("actors");
+    if (actorsG?.parentNode) actorsG.parentNode.insertBefore(front, actorsG); else root.appendChild(front);
+  }
+
   // Actors.
   for (const a of opts.actors) {
     const src = parseSvg(await characterSvg(a.characterId, a.expr).catch(() => ""));
@@ -173,12 +207,12 @@ export async function composeScene(
   return new XMLSerializer().serializeToString(root);
 }
 
-export function SceneView({ scene, shopName, placements, actors, class: cls, crop }: { scene: string; shopName?: string; placements: ScenePlacement[]; actors: SceneActor[]; class?: string; crop?: [number, number] }) {
+export function SceneView({ scene, shopName, placements, actors, decor, class: cls, crop }: { scene: string; shopName?: string; placements: ScenePlacement[]; actors: SceneActor[]; decor?: SceneDecor[]; class?: string; crop?: [number, number] }) {
   const [html, setHtml] = useState("");
-  const key = JSON.stringify([scene, shopName, placements, actors, crop]);
+  const key = JSON.stringify([scene, shopName, placements, actors, decor, crop]);
   useEffect(() => {
     let alive = true;
-    composeScene(scene, { shopName, placements, actors, crop })
+    composeScene(scene, { shopName, placements, actors, decor, crop })
       .then((s) => alive && setHtml(s))
       .catch((e) => { console.error(e); });
     return () => { alive = false; };

@@ -8,7 +8,7 @@ import { Portrait } from "../components/Svg";
 import { SceneView } from "../components/Scene";
 import { chapterDayDef, chapterDef, content, equipmentDef, itemNameByKey, serviceDef, serviceName, supplyDef } from "../content";
 import * as flow from "../flow";
-import { areaLabel, areasOf, lobbyActors, lobbyScene, placementsFor, type Area } from "../sceneState";
+import { areaLabel, areasOf, lobbyActors, lobbyScene, placementsFor, type Area, decorFor } from "../sceneState";
 import { AreaTabs, areaOfItem } from "./Shop";
 import { query } from "../store";
 import { setUi } from "../ui";
@@ -31,7 +31,7 @@ export function Home({ s }: { s: GameState }) {
       <Hud s={s} />
       {/* While open, a compact lobby (floor, chairs, counter) keeps the clock card and the queue within reach. */}
       <div class="lobby-wrap">
-        <SceneView scene={scene} shopName={s.shopName} placements={placements} actors={actors} crop={open ? (big ? [0.42, 0.98] : [0.42, 0.8]) : undefined} class={`lobby-scene${big ? " front-row" : ""}${open ? " compact" : ""}`} />
+        <SceneView scene={scene} shopName={s.shopName} placements={placements} actors={actors} decor={decorFor(s, "lobby")} crop={open ? (big ? [0.42, 0.98] : [0.42, 0.8]) : undefined} class={`lobby-scene${big ? " front-row" : ""}${open ? " compact" : ""}`} />
         {extraChairs > 0 && <span class="chairs-more" title="Ghế chờ thêm ngoài khung hình">+{extraChairs} ghế</span>}
       </div>
       <div class="home-body">

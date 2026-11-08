@@ -4,6 +4,7 @@ import { currentDayDef, keyOf, learnedItems, todaysNewItems, itemChapter, chapte
 import { getMastery, weakness, dueItems } from "./mastery";
 import { rngDay, type Rng } from "./rng";
 import { activeEventEffect } from "./events";
+import { decorPatienceBonus } from "./decor";
 import { chairPatienceBonus, shopLevelDef } from "./equipment";
 
 export const PREGNANT: HealthCondition = { id: "pregnant", label: "Đang mang thai 4 tháng" };
@@ -96,7 +97,7 @@ function pickCharacters(rng: Rng): () => string {
 /** Waiting patience in game minutes for customers arriving today (receptionist on duty adds minutes). */
 export function basePatience(s: GameState): number {
   const p = C().CONFIG.patience;
-  return p.baseMin + (hasReceptionist(s) ? p.receptionistBonusMin : 0) + chairPatienceBonus(s);
+  return p.baseMin + (hasReceptionist(s) ? p.receptionistBonusMin : 0) + chairPatienceBonus(s) + decorPatienceBonus(s);
 }
 
 export const hasReceptionist = (s: GameState) => s.staff.some((x) => x.role === "receptionist" && !x.sickToday);

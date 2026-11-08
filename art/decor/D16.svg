@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 160">
+  <title>D16 Mành tre</title>
+  <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="14" y="14" width="122" height="104" fill="#e8c99a"/>
+  <path d="M16 22 H134 M16 28 H134 M16 34 H134 M16 40 H134 M16 46 H134 M16 52 H134 M16 58 H134 M16 64 H134 M16 70 H134 M16 76 H134 M16 82 H134 M16 88 H134 M16 94 H134 M16 100 H134 M16 106 H134" stroke="#c49a70" stroke-width="2" fill="none"/>
+  <path d="M30 16 V116 M75 16 V116 M120 16 V116" stroke="#a8784f" stroke-width="1.5" stroke-dasharray="2 4" fill="none"/>
+  <rect x="14" y="14" width="122" height="104" fill="none"/>
+  <rect x="10" y="108" width="130" height="22" rx="11" fill="#d8b48c"/>
+  <path d="M18 114 H132 M18 120 H132 M18 125 H132" stroke="#c49a70" stroke-width="2" fill="none"/>
+  <path d="M40 10 V108 C 46 116 46 124 40 130 V146 M110 10 V108 C 104 116 104 124 110 130 V146" stroke="#b8735a" stroke-width="3" fill="none"/>
+  <path d="M40 130 C 34 124 34 114 40 108 M110 130 C 116 124 116 114 110 108" stroke="#b8735a" stroke-width="3" fill="none" stroke-opacity="0.6"/>
+  <path d="M36 146 H44 L46 156 H34 Z M106 146 H114 L116 156 H104 Z" fill="#e3a6a0" stroke-width="3"/>
+  <rect x="4" y="4" width="142" height="12" rx="6" fill="#a8784f"/>
+  <circle cx="12" cy="10" r="2.5" fill="#8a5f4b" stroke="none"/><circle cx="138" cy="10" r="2.5" fill="#8a5f4b" stroke="none"/>
+  </g>
+</svg>

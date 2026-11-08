@@ -68,7 +68,7 @@ export const CHAPTERS: ChapterDef[] = [{
 export const CARE_STEPS: Record<CareStepId, { name: string; instruction: string }> = {
   cleanse: { name: "Rửa mặt", instruction: "" }, steam: { name: "Xông hơi", instruction: "" }, scrub: { name: "Tẩy tế bào chết", instruction: "" },
   mask: { name: "Đắp mặt nạ", instruction: "" }, wet: { name: "Làm ướt", instruction: "" }, shampoo: { name: "Gội", instruction: "" },
-  rinse: { name: "Xả", instruction: "" }, dry: { name: "Sấy", instruction: "" }, soak: { name: "Ngâm chân", instruction: "" }, "place-stones": { name: "Đặt đá", instruction: "" },
+  rinse: { name: "Xả", instruction: "" }, dry: { name: "Sấy", instruction: "" }, soak: { name: "Ngâm chân", instruction: "" }, "place-stones": { name: "Đặt đá", instruction: "" }, "blend-oil": { name: "Pha dầu", instruction: "" },
 };
 
 export const MOCK_CONFIG: typeof CONFIG = {

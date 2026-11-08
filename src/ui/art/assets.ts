@@ -10,6 +10,7 @@ const charSvgs = import.meta.glob("/art/characters/out/*.svg", { query: "?raw", 
 const shopSvgs = import.meta.glob("/art/shop/*.svg", { query: "?raw", import: "default" }) as Record<string, () => Promise<string>>;
 const shopSlots = import.meta.glob("/art/shop/*.slots.json", { import: "default" }) as Record<string, () => Promise<SceneSlots>>;
 const equipSvgs = import.meta.glob("/art/equipment/*.svg", { query: "?raw", import: "default" }) as Record<string, () => Promise<string>>;
+const decorSvgs = import.meta.glob("/art/decor/*.svg", { query: "?raw", import: "default" }) as Record<string, () => Promise<string>>;
 const itemSvgs = import.meta.glob("/art/items/*.svg", { query: "?raw", import: "default" }) as Record<string, () => Promise<string>>;
 const uiSvgs = import.meta.glob("/art/ui/*.svg", { query: "?raw", import: "default" }) as Record<string, () => Promise<string>>;
 const appSvgs = import.meta.glob("/art/app/*.svg", { query: "?raw", import: "default" }) as Record<string, () => Promise<string>>;
@@ -66,6 +67,7 @@ export function equipmentArt(id: string, tier = 1): string {
   return id;
 }
 export const itemSvg = (id: string) => load(itemSvgs, `/art/items/${id}.svg`);
+export const decorSvg = (id: string) => load(decorSvgs, `/art/decor/${id}.svg`);
 export const uiSvg = (name: string) => load(uiSvgs, `/art/ui/${name}.svg`);
 export const appSvg = (name: string) => load(appSvgs, `/art/app/${name}.svg`);
 

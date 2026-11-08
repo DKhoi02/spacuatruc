@@ -113,7 +113,16 @@ function positionScore(r: Rng, q: number, miss: number): number {
 }
 
 export function simulateItem(p: Profile, s: GameState, c: Customer, item: TaskItem, useForce: boolean, exam: boolean, r: Rng): ItemResult {
-  if (item.kind === "step") return { item, positionScore: 100, attempts: 1, safetyErrors: 0 };
+  if (item.kind === "step") {
+    // Choice mini-games (mask type, essential oil + drops): a normal player is usually right, sometimes picks a
+    // merely-OK option or misjudges the amount (mean ≈ 90). Plain care steps always complete at 100.
+    if (item.id !== "mask" && item.id !== "blend-oil") return { item, positionScore: 100, attempts: 1, safetyErrors: 0 };
+    // own hash (not `r`): keeps every other random stream of the simulation unchanged
+    let h = 2166136261;
+    for (const ch of `${c.id}|${item.id}`) { h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619); }
+    const x = ((h >>> 0) % 10000) / 10000;
+    return { item, positionScore: x < 0.6 ? 100 : x < 0.85 ? 85 : 60, attempts: 1, safetyErrors: 0 };
+  }
   const key = api.itemKey(item);
   const { q, miss } = quality(p, s, key, exam);
   const pregnant = c.health?.id === "pregnant";

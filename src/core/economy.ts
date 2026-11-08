@@ -6,6 +6,7 @@ import { clone, clamp, roundK, round2, vErr } from "./util";
 import { hasTiers, isStationId, maxShopLevel, maxUsesOf, newUid, requiredTools, shopLevelDef, slotsFor, tierName, tierOf, tierPricePct, tierTipPct, tierValue, toolFor, upgradeCost } from "./equipment";
 
 import type { Bill } from "./types";
+import { decorTipPct } from "./decor";
 export type { Bill };
 
 const TIP_PCT: Record<1 | 2 | 3, number> = { 1: 0, 2: 0.05, 3: 0.1 };
@@ -36,6 +37,7 @@ export function computeBill(s: GameState, customer: Customer, svc: ServiceDef, s
       if (!isStation) bonusPct += tierTipPct(e);
     }
   }
+  bonusPct += decorTipPct(s, room); // decorations in treatment room 1
   tip += price * bonusPct;
   tip = roundK(tip);
   return {

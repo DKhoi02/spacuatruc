@@ -62,6 +62,7 @@ const CARE_FALLBACK: Record<CareStepId, { name: string; instruction: string }> =
   dry: { name: "Lau khô", instruction: "Giữ ngón để lau và sấy khô tóc" },
   soak: { name: "Ngâm chân", instruction: "Giữ ngón để ngâm chân nước ấm" },
   "place-stones": { name: "Đặt đá nóng", instruction: "Kéo đá vào đúng vị trí trên lưng" },
+  "blend-oil": { name: "Pha dầu massage", instruction: "Chọn tinh dầu hợp với khách rồi nhỏ đúng số giọt" },
 };
 
 export const FORCE_LABEL: Record<Force, string> = { light: "Nhẹ", medium: "Vừa", strong: "Mạnh" };

@@ -399,3 +399,16 @@ blockquote { margin: 6px 0 0; padding: 8px 12px; background: #fbe3dc; border-rad
 .lv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 10px; color: var(--text-2); }
 .lv-grid span { display: inline-flex; align-items: center; gap: 4px; }
 .ledger tr.premium td { color: var(--sage-dark); }
+
+/* ── Decorate (Cửa hàng → Trang trí) ── */
+.decor-stage { position: relative; aspect-ratio: 1 / 1; padding: 0; overflow: hidden; touch-action: none; margin-top: 8px; }
+.decor-scene { position: absolute; inset: 0; pointer-events: none; }
+.decor-empty { position: absolute; left: 12px; right: 12px; bottom: 12px; text-align: center; background: rgba(255, 250, 243, 0.92); border-radius: 12px; padding: 8px; font-size: 13px; color: var(--text-2); pointer-events: none; }
+.decor-tools { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.decor-meter { margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
+.decor-meter .row-between { display: flex; justify-content: space-between; align-items: center; }
+.decor-meter .row-between span { display: inline-flex; gap: 6px; align-items: center; font-weight: 700; }
+.decor-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+.decor-card { display: flex; flex-direction: column; gap: 4px; align-items: stretch; text-align: center; padding: 10px; }
+.decor-thumb { height: 86px; display: flex; align-items: center; justify-content: center; }
+.decor-thumb svg { max-height: 86px; }

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 110">
+  <title>D15 Gương tròn mây</title>
+  <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <circle cx="55" cy="55" r="52" fill="#d8b48c"/>
+  <path d="M55 18 L55 5 M61.4 18.6 L63.7 5.8 M67.7 20.2 L72.1 8 M73.5 23 L80 11.7 M78.8 26.7 L87.1 16.7 M83.3 31.2 L93.3 22.9 M87 36.5 L98.3 30 M89.8 42.3 L102 37.9 M91.4 48.6 L104.2 46.3 M92 55 L105 55 M91.4 61.4 L104.2 63.7 M89.8 67.7 L102 72.1 M87 73.5 L98.3 80 M83.3 78.8 L93.3 87.1 M78.8 83.3 L87.1 93.3 M73.5 87 L80 98.3 M67.7 89.8 L72.1 102 M61.4 91.4 L63.7 104.2 M55 92 L55 105 M48.6 91.4 L46.3 104.2 M42.3 89.8 L37.9 102 M36.5 87 L30 98.3 M31.2 83.3 L22.9 93.3 M26.7 78.8 L16.7 87.1 M23 73.5 L11.7 80 M20.2 67.7 L8 72.1 M18.6 61.4 L5.8 63.7 M18 55 L5 55 M18.6 48.6 L5.8 46.3 M20.2 42.3 L8 37.9 M23 36.5 L11.7 30 M26.7 31.2 L16.7 22.9 M31.2 26.7 L22.9 16.7 M36.5 23 L30 11.7 M42.3 20.2 L37.9 8 M48.6 18.6 L46.3 5.8" stroke="#a8784f" stroke-width="2" fill="none"/>
+  <circle cx="55" cy="55" r="44" fill="none" stroke="#c49a70" stroke-width="5" stroke-dasharray="5 4" stroke-linecap="butt"/>
+  <circle cx="55" cy="55" r="36" fill="#e8d2b8" stroke-width="3"/>
+  <circle cx="55" cy="55" r="31" fill="#cfe3e6"/>
+  <path d="M36 50 L 52 34 M38 62 L 64 36" stroke="#ffffff" stroke-opacity="0.9" stroke-width="4" fill="none"/>
+  <path d="M60 80 C 70 78 78 70 80 60" stroke="#9ccfd8" stroke-width="3" fill="none"/>
+  </g>
+</svg>

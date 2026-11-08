@@ -8,9 +8,10 @@
  */
 import type {
   GameState, ChapterNo, Customer, ItemKey, MasteryRecord, ServiceId, SupplyId, EquipmentId,
-  TreatmentResult, TaskItem, DaySummary, ServiceRecord, TreatmentConfig, ServiceDef, ChapterDef, InService, Bill, LastExamReview,
+  TreatmentResult, TaskItem, DaySummary, ServiceRecord, TreatmentConfig, ServiceDef, ChapterDef, InService, Bill, LastExamReview, DecorArea,
 } from "./types";
 import * as St from "./state";
+import * as De from "./decor";
 import * as Day from "./day";
 import * as Sc from "./scoring";
 import * as Ma from "./mastery";
@@ -142,3 +143,14 @@ export { tierOf, tierName, hasTiers, maxUsesOf, tierValue, upgradeCost, tierPric
 export { repairCost, billPremium } from "./economy";
 /** The Customer object of someone currently being treated (DayState.inService only stores ids). */
 export const servingCustomer = Day.servingCustomer;
+
+// ── Decorations ──
+export function buyDecor(s: GameState, id: string): GameState { return De.buyDecor(s, id); }
+export function placeDecor(s: GameState, id: string, area: DecorArea, x: number, y: number): { state: GameState; uid: string } { return De.placeDecor(s, id, area, x, y); }
+export function moveDecor(s: GameState, uid: string, x: number, y: number): GameState { return De.moveDecor(s, uid, x, y); }
+export function flipDecor(s: GameState, uid: string): GameState { return De.flipDecor(s, uid); }
+export function storeDecor(s: GameState, uid: string): GameState { return De.storeDecor(s, uid); }
+export function ambience(s: GameState, area: DecorArea): number { return De.ambience(s, area); }
+export function decorInStorage(s: GameState, id: string): number { return De.decorInStorage(s, id); }
+export function decorPatienceBonus(s: GameState): number { return De.decorPatienceBonus(s); }
+export function decorTipPct(s: GameState, room: string): number { return De.decorTipPct(s, room); }

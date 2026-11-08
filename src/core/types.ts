@@ -70,7 +70,8 @@ export type CareStepId =
   | "cleanse" | "steam" | "scrub" | "mask"            // chăm sóc da mặt
   | "wet" | "shampoo" | "rinse" | "dry"               // gội đầu
   | "soak"                                            // ngâm chân
-  | "place-stones";                                   // đá nóng (drag stones onto back points)
+  | "place-stones"                                    // đá nóng (drag stones onto back points)
+  | "blend-oil";                                      // pha dầu massage (chọn tinh dầu + số giọt)
 
 export type TaskItem =
   | { kind: "point"; id: string; side: Side }
@@ -379,6 +380,8 @@ export interface GameState {
   history: DaySummary[];      // keep last 30
   /** zoomAssist: treatment auto-zooms toward the target (help option, default off = player finds the point at 1×). */
   settings: { sound: boolean; music: boolean; zoomAssist?: boolean };
+  /** Decorations (Cửa hàng → Trang trí). Optional: older saves have none. */
+  decor?: DecorState;
   /** Latest chapter exam (any outcome), kept so anh Khôi's review can be reopened later (optional, additive). */
   lastExamReview?: LastExamReview;
 }
@@ -455,3 +458,8 @@ export interface TreatmentConfig {
   /** Help option (Cài đặt): auto-zoom toward the target and center manual zoom near it. Off = zoom only around the view center. */
   zoomAssist?: boolean;
 }
+
+export type DecorArea = "lobby" | "room1";
+/** A placed decoration: x / y normalized on the scene frame (floor/table/rug: bottom-center; wall: center). */
+export interface DecorPlacement { uid: string; id: string; area: DecorArea; x: number; y: number; flip?: boolean }
+export interface DecorState { owned: Record<string, number>; placed: DecorPlacement[] }

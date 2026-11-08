@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 190">
+  <title>D02 Cây lưỡi hổ</title>
+  <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M20 122 C 14 80 6 40 14 30 C 22 40 30 80 36 122 Z" fill="#6f9a7d"/>
+  <path d="M28 116 C 24.4 84 14 52 14 48" stroke="#a9c9b3" stroke-width="3" stroke-dasharray="6 7" fill="none"/>
+  <path d="M54 122 C 60 80 70 40 78 26 C 86 40 76 80 70 122 Z" fill="#6f9a7d"/>
+  <path d="M62 116 C 65.6 84 78 52 78 44" stroke="#a9c9b3" stroke-width="3" stroke-dasharray="6 7" fill="none"/>
+  <path d="M27 122 C 27 80 26 40 34 6 C 42 40 45 80 45 122 Z" fill="#4f7a62"/>
+  <path d="M36 116 C 36 84 34 52 34 24" stroke="#a9c9b3" stroke-width="3" stroke-dasharray="6 7" fill="none"/>
+  <path d="M45 122 C 47 80 50 40 58 14 C 66 40 65 80 63 122 Z" fill="#8fb39a"/>
+  <path d="M54 116 C 55.2 84 58 52 58 32" stroke="#a9c9b3" stroke-width="3" stroke-dasharray="6 7" fill="none"/>
+  <path d="M38 122 C 38 80 38 40 46 46 C 54 40 52 80 52 122 Z" fill="#6f9a7d"/>
+  <path d="M45 116 C 45 84 46 52 46 64" stroke="#a9c9b3" stroke-width="3" stroke-dasharray="6 7" fill="none"/>
+  <path d="M18 124 H72 L66 188 H24 Z" fill="#fffaf3"/>
+  <rect x="13" y="114" width="64" height="13" rx="5" fill="#f3e6cf"/>
+  <path d="M20 146 H70" stroke="#a9c9b3" stroke-width="5" fill="none"/>
+  <path d="M22 158 H68" stroke="#e3a6a0" stroke-width="3" stroke-dasharray="2 6" fill="none"/>
+  <path d="M28 132 L32 178" stroke="#ffffff" stroke-opacity="0.8" stroke-width="3" fill="none"/>
+  </g>
+</svg>

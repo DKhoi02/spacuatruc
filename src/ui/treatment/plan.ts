@@ -118,6 +118,7 @@ export function planFor(item: TaskItem, all: ViewData[]): Plan | null {
     dry: { view: "V03", overlay: "V14", mode: "hold", amount: 3 },
     soak: { view: "V11", mode: "hold", amount: 4 },
     "place-stones": { view: "V06", overlay: "V15", mode: "stones", amount: 8 },
+    "blend-oil": { view: "V06", mode: "hold", amount: 1 },
   };
   const sv = stepView[item.id];
   const d = all.find((v) => v.view === sv.view);

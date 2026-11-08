@@ -64,12 +64,12 @@ export const SERVICES_DATA: ServiceDef[] = [
   // ── Chương 3 ──
   {
     id: "xa-co-mat", name: "Xả cơ mặt", chapter: 3, unlockChapterDay: 1, basePrice: 200_000,
-    kind: "muscle", pool: { muscles: FACE_MUSCLES }, itemCount: [3, 6],
+    kind: "muscle", pool: { steps: ["blend-oil"], muscles: FACE_MUSCLES }, itemCount: [3, 6],
     supplies: { I01: 2, I02: 4 }, requiresEquipment: [], electricityPerUse: 0, durationMin: 50, room: "S02",
   },
   {
     id: "gua-sha-mat", name: "Gua sha mặt", chapter: 3, unlockChapterDay: 4, basePrice: 180_000,
-    kind: "muscle", pool: { muscles: FACE_MUSCLES }, itemCount: [3, 6],
+    kind: "muscle", pool: { steps: ["blend-oil"], muscles: FACE_MUSCLES }, itemCount: [3, 6],
     supplies: { I01: 2, I02: 3 }, requiresEquipment: ["E07"], electricityPerUse: 0, durationMin: 45, room: "S02",
   },
 
@@ -84,7 +84,7 @@ export const SERVICES_DATA: ServiceDef[] = [
   {
     id: "massage-co-vai-gay", name: "Massage cổ vai gáy", chapter: 5, unlockChapterDay: 1, basePrice: 200_000,
     kind: "mixed",
-    pool: {
+    pool: { steps: ["blend-oil"],
       points: ["GB20", "BL10", "GV16", "GV14", "GB21"],
       muscles: ["trapezius", "levator-scapulae", "sternocleidomastoid", "platysma"],
     },
@@ -95,19 +95,19 @@ export const SERVICES_DATA: ServiceDef[] = [
   // ── Chương 6 ──
   {
     id: "massage-tay", name: "Massage tay", chapter: 6, unlockChapterDay: 1, basePrice: 100_000,
-    kind: "acupressure", pool: { points: CH6 }, itemCount: [2, 4],
+    kind: "acupressure", pool: { steps: ["blend-oil"], points: CH6 }, itemCount: [2, 4],
     supplies: { I01: 1, I02: 2 }, requiresEquipment: [], electricityPerUse: 0, durationMin: 30, room: "S02",
   },
 
   // ── Chương 7 ──
   {
     id: "massage-body", name: "Massage body", chapter: 7, unlockChapterDay: 1, basePrice: 300_000,
-    kind: "mixed", pool: { points: CH7, muscles: ["trapezius"] }, itemCount: [4, 8],
+    kind: "mixed", pool: { steps: ["blend-oil"], points: CH7, muscles: ["trapezius"] }, itemCount: [4, 8],
     supplies: { I01: 3, I02: 6 }, requiresEquipment: [], electricityPerUse: 0, durationMin: 75, room: "S02",
   },
   {
     id: "chuom-da-nong", name: "Chườm đá nóng", chapter: 7, unlockChapterDay: 3, basePrice: 250_000,
-    kind: "stone", pool: { steps: ["place-stones"], points: CH7 }, itemCount: [3, 6],
+    kind: "stone", pool: { steps: ["blend-oil", "place-stones"], points: CH7 }, itemCount: [3, 6],
     supplies: { I01: 3, I02: 4 }, requiresEquipment: ["E09"], electricityPerUse: 6_000, durationMin: 60, room: "S02",
   },
 

@@ -489,3 +489,22 @@ Mỗi thiết bị (giường, máy xông, ghế gội, bộ gua sha, bình nư�
 - Phần trả thêm cộng theo cấp của **giường + thiết bị chính tốt nhất** của dịch vụ, áp dụng cả khi KTV làm.
 - Nâng cấp **giữ nguyên % hao mòn**, không dùng để sửa rẻ được.
 - **Kết quả mô phỏng:** người chơi trung bình kết thúc khoảng 32 triệu (trước đây 55 triệu). Nâng cấp giường hoàn vốn 3–5 tuần, mặt bằng cấp 2 khoảng 16–28 ngày, cấp 3 khoảng 46 ngày.
+
+
+## 13. Hoạt động giải trí
+
+### 13.1 Mini-game chăm sóc
+- Đắp mặt nạ: soi da, chọn mặt nạ, rồi xé túi và đặt mặt nạ giấy, hoặc pha bột và quét.
+- Pha dầu massage: chọn tinh dầu theo nhu cầu của khách, rồi nhỏ đúng số giọt.
+- Nội dung: docs/CONTENT_MINIGAMES.md (cần duyệt).
+- Điểm mini-game là điểm của bước đó, tính vào số sao của ca như các bước khác.
+- Chọn sai không bị lỗi an toàn. Riêng pha tinh dầu cho thai phụ, hoặc nhỏ quá liều, bị tính lỗi an toàn.
+
+### 13.2 Trang trí (Cửa hàng → Trang trí)
+- Có 16 món: cây, tranh, đèn, nến, thác nước mini, bể cá, đồng hồ, thảm, gương, mành tre (art/decor).
+- Mua một lần. Bày tự do ở Sảnh chờ hoặc Phòng trị liệu 1: kéo thả, lật, cất kho.
+- Mỗi khu bày tối đa 14 món.
+- **Không khí** của một khu = tổng ♥ của các món khác nhau + 1 cho mỗi món trùng, tối đa 12.
+- Không khí Sảnh: khách chờ kiên nhẫn thêm 1,5 phút mỗi điểm (tối đa 18 phút).
+- Không khí Phòng 1: tip thêm 0,6% giá dịch vụ mỗi điểm (tối đa 7,2%), áp dụng cho dịch vụ trong phòng trị liệu.
+- Lưu trong save (`decor`). Save cũ không có trang trí vẫn chạy bình thường.

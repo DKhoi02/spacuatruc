@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 120">
+  <title>D07 Tranh núi sương</title>
+  <g stroke="#8a5f4b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="2" y="2" width="176" height="116" rx="6" fill="#c49a70"/>
+  <path d="M8 8 H172" stroke="#d8b48c" stroke-width="3" fill="none"/>
+  <rect x="14" y="14" width="152" height="92" rx="3" fill="#fffaf3"/>
+  <circle cx="128" cy="36" r="10" fill="#f0c6b8" stroke="none"/>
+  <path d="M16 70 L 46 34 L 62 50 L 84 26 L 116 62 L 136 46 L 164 72 V104 H16 Z" fill="#cfe3e6" stroke-width="2.5"/>
+  <path d="M16 62 H70 M100 66 H164" stroke="#ffffff" stroke-width="8" stroke-opacity="0.9" fill="none"/>
+  <path d="M16 84 L 38 58 L 56 74 L 80 50 L 108 80 L 130 64 L 164 88 V104 H16 Z" fill="#a9c9b3" stroke-width="2.5"/>
+  <path d="M20 82 H90 M110 86 H160" stroke="#ffffff" stroke-width="7" stroke-opacity="0.85" fill="none"/>
+  <path d="M16 96 C 40 84 60 86 80 94 C 100 84 130 82 164 94 V104 H16 Z" fill="#6f9a7d" stroke-width="2.5"/>
+  <path d="M28 46 C 34 43 38 43 42 46 M36 40 C 40 37 44 37 48 40" stroke="#8a5f4b" stroke-width="2" fill="none"/>
+  <rect x="14" y="14" width="152" height="92" rx="3" fill="none"/>
+  </g>
+</svg>

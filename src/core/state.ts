@@ -170,6 +170,14 @@ export function migrateSave(raw: unknown): GameState {
   out.today.cleaning ??= [];
   // optional exam review (added without a schema bump): older saves lack it, a malformed one is dropped
   if (!validLastExamReview(out.lastExamReview)) delete out.lastExamReview;
+  // optional decorations (added without a schema bump): drop a malformed one, keep only well-formed placements
+  if (out.decor !== undefined) {
+    const d = out.decor as unknown as Record<string, unknown>;
+    if (!isObj(d) || !isObj(d.owned) || !Array.isArray(d.placed)) delete out.decor;
+    else out.decor = { owned: { ...(d.owned as Record<string, number>) }, placed: (d.placed as unknown[]).filter((p): p is NonNullable<GameState["decor"]>["placed"][number] =>
+      isObj(p) && typeof (p as Record<string, unknown>).uid === "string" && typeof (p as Record<string, unknown>).id === "string" && ((p as Record<string, unknown>).area === "lobby" || (p as Record<string, unknown>).area === "room1")
+      && typeof (p as Record<string, unknown>).x === "number" && typeof (p as Record<string, unknown>).y === "number") };
+  }
   out.schemaVersion = CURRENT_SCHEMA_VERSION;
   syncUnlocks(out); // features moved/added by content updates (only ever adds)
   return out;
